@@ -1,0 +1,229 @@
+C:\Users\Gebruiker\Documents\Visual Studio 2015\Projects\DhuyvetterBeton.Beton\BL\bin\Debug\BL.dll
+C:\Users\Gebruiker\Documents\Visual Studio 2015\Projects\DhuyvetterBeton.Beton\BL\bin\Debug\BL.pdb
+C:\Users\Gebruiker\Documents\Visual Studio 2015\Projects\DhuyvetterBeton.Beton\BL\bin\Debug\DAL.dll
+C:\Users\Gebruiker\Documents\Visual Studio 2015\Projects\DhuyvetterBeton.Beton\BL\bin\Debug\DocumentFormat.OpenXml.dll
+C:\Users\Gebruiker\Documents\Visual Studio 2015\Projects\DhuyvetterBeton.Beton\BL\bin\Debug\RL.dll
+C:\Users\Gebruiker\Documents\Visual Studio 2015\Projects\DhuyvetterBeton.Beton\BL\bin\Debug\DAL.pdb
+C:\Users\Gebruiker\Documents\Visual Studio 2015\Projects\DhuyvetterBeton.Beton\BL\bin\Debug\RL.pdb
+C:\Users\Gebruiker\Documents\Visual Studio 2015\Projects\DhuyvetterBeton.Beton\BL\bin\Debug\DocumentFormat.OpenXml.xml
+C:\Users\Gebruiker\Documents\Visual Studio 2015\Projects\DhuyvetterBeton.Beton\BL\obj\Debug\BL.csprojResolveAssemblyReference.cache
+C:\Users\Gebruiker\Documents\Visual Studio 2015\Projects\DhuyvetterBeton.Beton\BL\obj\Debug\BL.dll
+C:\Users\Gebruiker\Documents\Visual Studio 2015\Projects\DhuyvetterBeton.Beton\BL\obj\Debug\BL.pdb
+C:\Users\Gebruiker\Documents\Visual Studio 2015\Projects\DhuyvetterBeton.Beton.Bestellingen\BL\bin\Debug\BL.dll
+C:\Users\Gebruiker\Documents\Visual Studio 2015\Projects\DhuyvetterBeton.Beton.Bestellingen\BL\bin\Debug\BL.pdb
+C:\Users\Gebruiker\Documents\Visual Studio 2015\Projects\DhuyvetterBeton.Beton.Bestellingen\BL\bin\Debug\DAL.dll
+C:\Users\Gebruiker\Documents\Visual Studio 2015\Projects\DhuyvetterBeton.Beton.Bestellingen\BL\bin\Debug\DocumentFormat.OpenXml.dll
+C:\Users\Gebruiker\Documents\Visual Studio 2015\Projects\DhuyvetterBeton.Beton.Bestellingen\BL\bin\Debug\RL.dll
+C:\Users\Gebruiker\Documents\Visual Studio 2015\Projects\DhuyvetterBeton.Beton.Bestellingen\BL\bin\Debug\DAL.pdb
+C:\Users\Gebruiker\Documents\Visual Studio 2015\Projects\DhuyvetterBeton.Beton.Bestellingen\BL\bin\Debug\RL.pdb
+C:\Users\Gebruiker\Documents\Visual Studio 2015\Projects\DhuyvetterBeton.Beton.Bestellingen\BL\bin\Debug\DocumentFormat.OpenXml.xml
+C:\Users\Gebruiker\Documents\Visual Studio 2015\Projects\DhuyvetterBeton.Beton.Bestellingen\BL\obj\Debug\BL.csprojResolveAssemblyReference.cache
+C:\Users\Gebruiker\Documents\Visual Studio 2015\Projects\DhuyvetterBeton.Beton.Bestellingen\BL\obj\Debug\BL.dll
+C:\Users\Gebruiker\Documents\Visual Studio 2015\Projects\DhuyvetterBeton.Beton.Bestellingen\BL\obj\Debug\BL.pdb
+F:\bureaublad\usb gilles\DHBestellingen\BL\bin\Debug\BL.dll
+F:\bureaublad\usb gilles\DHBestellingen\BL\bin\Debug\BL.pdb
+F:\bureaublad\usb gilles\DHBestellingen\BL\bin\Debug\DAL.dll
+F:\bureaublad\usb gilles\DHBestellingen\BL\bin\Debug\DocumentFormat.OpenXml.dll
+F:\bureaublad\usb gilles\DHBestellingen\BL\bin\Debug\RL.dll
+F:\bureaublad\usb gilles\DHBestellingen\BL\bin\Debug\DAL.pdb
+F:\bureaublad\usb gilles\DHBestellingen\BL\bin\Debug\RL.pdb
+F:\bureaublad\usb gilles\DHBestellingen\BL\bin\Debug\DocumentFormat.OpenXml.xml
+F:\bureaublad\usb gilles\DHBestellingen\BL\obj\Debug\BL.csprojResolveAssemblyReference.cache
+F:\bureaublad\usb gilles\DHBestellingen\BL\obj\Debug\BL.dll
+F:\bureaublad\usb gilles\DHBestellingen\BL\obj\Debug\BL.pdb
+F:\bureaublad\usb gilles\DHBestellingen\BL\bin\Debug\MySql.Data.dll
+E:\usb gilles\DHBestellingen\BL\bin\Debug\BL.dll
+E:\usb gilles\DHBestellingen\BL\bin\Debug\BL.pdb
+E:\usb gilles\DHBestellingen\BL\bin\Debug\DAL.dll
+E:\usb gilles\DHBestellingen\BL\bin\Debug\DocumentFormat.OpenXml.dll
+E:\usb gilles\DHBestellingen\BL\bin\Debug\RL.dll
+E:\usb gilles\DHBestellingen\BL\bin\Debug\MySql.Data.dll
+E:\usb gilles\DHBestellingen\BL\bin\Debug\DAL.pdb
+E:\usb gilles\DHBestellingen\BL\bin\Debug\DAL.dll.config
+E:\usb gilles\DHBestellingen\BL\bin\Debug\RL.pdb
+E:\usb gilles\DHBestellingen\BL\bin\Debug\DocumentFormat.OpenXml.xml
+E:\usb gilles\DHBestellingen\BL\obj\Debug\BL.csprojAssemblyReference.cache
+E:\usb gilles\DHBestellingen\BL\obj\Debug\BL.csproj.CoreCompileInputs.cache
+E:\usb gilles\DHBestellingen\BL\obj\Debug\BL.csproj.CopyComplete
+E:\usb gilles\DHBestellingen\BL\obj\Debug\BL.dll
+E:\usb gilles\DHBestellingen\BL\obj\Debug\BL.pdb
+C:\Users\Gilles\Desktop\usb gilles\DHBestellingen\BL\bin\Debug\BL.dll
+C:\Users\Gilles\Desktop\usb gilles\DHBestellingen\BL\bin\Debug\BL.pdb
+C:\Users\Gilles\Desktop\usb gilles\DHBestellingen\BL\bin\Debug\DAL.dll
+C:\Users\Gilles\Desktop\usb gilles\DHBestellingen\BL\bin\Debug\DocumentFormat.OpenXml.dll
+C:\Users\Gilles\Desktop\usb gilles\DHBestellingen\BL\bin\Debug\RL.dll
+C:\Users\Gilles\Desktop\usb gilles\DHBestellingen\BL\bin\Debug\MySql.Data.dll
+C:\Users\Gilles\Desktop\usb gilles\DHBestellingen\BL\bin\Debug\Google.Protobuf.dll
+C:\Users\Gilles\Desktop\usb gilles\DHBestellingen\BL\bin\Debug\DAL.pdb
+C:\Users\Gilles\Desktop\usb gilles\DHBestellingen\BL\bin\Debug\DAL.dll.config
+C:\Users\Gilles\Desktop\usb gilles\DHBestellingen\BL\bin\Debug\RL.pdb
+C:\Users\Gilles\Desktop\usb gilles\DHBestellingen\BL\bin\Debug\DocumentFormat.OpenXml.xml
+C:\Users\Gilles\Desktop\usb gilles\DHBestellingen\BL\bin\Debug\MySql.Data.xml
+C:\Users\Gilles\Desktop\usb gilles\DHBestellingen\BL\obj\Debug\BL.csprojAssemblyReference.cache
+C:\Users\Gilles\Desktop\usb gilles\DHBestellingen\BL\obj\Debug\BL.csproj.CoreCompileInputs.cache
+C:\Users\Gilles\Desktop\usb gilles\DHBestellingen\BL\obj\Debug\BL.csproj.CopyComplete
+C:\Users\Gilles\Desktop\usb gilles\DHBestellingen\BL\obj\Debug\BL.dll
+C:\Users\Gilles\Desktop\usb gilles\DHBestellingen\BL\obj\Debug\BL.pdb
+G:\usb gilles\DHBestellingen\BL\bin\Debug\BL.dll
+G:\usb gilles\DHBestellingen\BL\bin\Debug\BL.pdb
+G:\usb gilles\DHBestellingen\BL\bin\Debug\DAL.dll
+G:\usb gilles\DHBestellingen\BL\bin\Debug\DocumentFormat.OpenXml.dll
+G:\usb gilles\DHBestellingen\BL\bin\Debug\RL.dll
+G:\usb gilles\DHBestellingen\BL\bin\Debug\MySql.Data.dll
+G:\usb gilles\DHBestellingen\BL\bin\Debug\Google.Protobuf.dll
+G:\usb gilles\DHBestellingen\BL\bin\Debug\DAL.pdb
+G:\usb gilles\DHBestellingen\BL\bin\Debug\DAL.dll.config
+G:\usb gilles\DHBestellingen\BL\bin\Debug\RL.pdb
+G:\usb gilles\DHBestellingen\BL\bin\Debug\DocumentFormat.OpenXml.xml
+G:\usb gilles\DHBestellingen\BL\bin\Debug\MySql.Data.xml
+G:\usb gilles\DHBestellingen\BL\obj\Debug\BL.csprojAssemblyReference.cache
+G:\usb gilles\DHBestellingen\BL\obj\Debug\BL.csproj.CoreCompileInputs.cache
+G:\usb gilles\DHBestellingen\BL\obj\Debug\BL.csproj.CopyComplete
+G:\usb gilles\DHBestellingen\BL\obj\Debug\BL.dll
+G:\usb gilles\DHBestellingen\BL\obj\Debug\BL.pdb
+G:\usb gilles\DHFacturatie\BL\bin\Debug\BL.dll
+G:\usb gilles\DHFacturatie\BL\bin\Debug\BL.pdb
+G:\usb gilles\DHFacturatie\BL\bin\Debug\DAL.dll
+G:\usb gilles\DHFacturatie\BL\bin\Debug\DocumentFormat.OpenXml.dll
+G:\usb gilles\DHFacturatie\BL\bin\Debug\RL.dll
+G:\usb gilles\DHFacturatie\BL\bin\Debug\MySql.Data.dll
+G:\usb gilles\DHFacturatie\BL\bin\Debug\Google.Protobuf.dll
+G:\usb gilles\DHFacturatie\BL\bin\Debug\DAL.pdb
+G:\usb gilles\DHFacturatie\BL\bin\Debug\DAL.dll.config
+G:\usb gilles\DHFacturatie\BL\bin\Debug\RL.pdb
+G:\usb gilles\DHFacturatie\BL\bin\Debug\DocumentFormat.OpenXml.xml
+G:\usb gilles\DHFacturatie\BL\bin\Debug\MySql.Data.xml
+G:\usb gilles\DHFacturatie\BL\obj\Debug\BL.csprojAssemblyReference.cache
+G:\usb gilles\DHFacturatie\BL\obj\Debug\BL.csproj.CoreCompileInputs.cache
+G:\usb gilles\DHFacturatie\BL\obj\Debug\BL.csproj.CopyComplete
+G:\usb gilles\DHFacturatie\BL\obj\Debug\BL.dll
+G:\usb gilles\DHFacturatie\BL\obj\Debug\BL.pdb
+C:\Users\Gilles\Desktop\DHFacturatie\BL\bin\Debug\BL.dll
+C:\Users\Gilles\Desktop\DHFacturatie\BL\bin\Debug\BL.pdb
+C:\Users\Gilles\Desktop\DHFacturatie\BL\bin\Debug\DAL.dll
+C:\Users\Gilles\Desktop\DHFacturatie\BL\bin\Debug\DocumentFormat.OpenXml.dll
+C:\Users\Gilles\Desktop\DHFacturatie\BL\bin\Debug\RL.dll
+C:\Users\Gilles\Desktop\DHFacturatie\BL\bin\Debug\MySql.Data.dll
+C:\Users\Gilles\Desktop\DHFacturatie\BL\bin\Debug\DAL.pdb
+C:\Users\Gilles\Desktop\DHFacturatie\BL\bin\Debug\DAL.dll.config
+C:\Users\Gilles\Desktop\DHFacturatie\BL\bin\Debug\RL.pdb
+C:\Users\Gilles\Desktop\DHFacturatie\BL\bin\Debug\DocumentFormat.OpenXml.xml
+C:\Users\Gilles\Desktop\DHFacturatie\BL\obj\Debug\BL.csprojAssemblyReference.cache
+C:\Users\Gilles\Desktop\DHFacturatie\BL\obj\Debug\BL.csproj.CopyComplete
+C:\Users\Gilles\Desktop\DHFacturatie\BL\obj\Debug\BL.dll
+C:\Users\Gilles\Desktop\DHFacturatie\BL\obj\Debug\BL.pdb
+C:\Users\GillesD\Documents\DHFacturatie\BL\bin\Debug\BL.dll
+C:\Users\GillesD\Documents\DHFacturatie\BL\bin\Debug\BL.pdb
+C:\Users\GillesD\Documents\DHFacturatie\BL\bin\Debug\DAL.dll
+C:\Users\GillesD\Documents\DHFacturatie\BL\bin\Debug\DocumentFormat.OpenXml.dll
+C:\Users\GillesD\Documents\DHFacturatie\BL\bin\Debug\RL.dll
+C:\Users\GillesD\Documents\DHFacturatie\BL\bin\Debug\DAL.pdb
+C:\Users\GillesD\Documents\DHFacturatie\BL\bin\Debug\DAL.dll.config
+C:\Users\GillesD\Documents\DHFacturatie\BL\bin\Debug\RL.pdb
+C:\Users\GillesD\Documents\DHFacturatie\BL\bin\Debug\DocumentFormat.OpenXml.xml
+C:\Users\GillesD\Documents\DHFacturatie\BL\obj\Debug\BL.csprojAssemblyReference.cache
+C:\Users\GillesD\Documents\DHFacturatie\BL\obj\Debug\BL.csproj.CoreCompileInputs.cache
+C:\Users\GillesD\Documents\DHFacturatie\BL\obj\Debug\BL.csproj.CopyComplete
+C:\Users\GillesD\Documents\DHFacturatie\BL\obj\Debug\BL.dll
+C:\Users\GillesD\Documents\DHFacturatie\BL\obj\Debug\BL.pdb
+C:\Users\GillesD\Desktop\DHFacturatie\BL\bin\Debug\BL.dll
+C:\Users\GillesD\Desktop\DHFacturatie\BL\bin\Debug\BL.pdb
+C:\Users\GillesD\Desktop\DHFacturatie\BL\bin\Debug\DAL.dll
+C:\Users\GillesD\Desktop\DHFacturatie\BL\bin\Debug\DocumentFormat.OpenXml.dll
+C:\Users\GillesD\Desktop\DHFacturatie\BL\bin\Debug\RL.dll
+C:\Users\GillesD\Desktop\DHFacturatie\BL\bin\Debug\DAL.pdb
+C:\Users\GillesD\Desktop\DHFacturatie\BL\bin\Debug\DAL.dll.config
+C:\Users\GillesD\Desktop\DHFacturatie\BL\bin\Debug\RL.pdb
+C:\Users\GillesD\Desktop\DHFacturatie\BL\bin\Debug\DocumentFormat.OpenXml.xml
+C:\Users\GillesD\Desktop\DHFacturatie\BL\obj\Debug\BL.csprojAssemblyReference.cache
+C:\Users\GillesD\Desktop\DHFacturatie\BL\obj\Debug\BL.csproj.CoreCompileInputs.cache
+C:\Users\GillesD\Desktop\DHFacturatie\BL\obj\Debug\BL.csproj.CopyComplete
+C:\Users\GillesD\Desktop\DHFacturatie\BL\obj\Debug\BL.dll
+C:\Users\GillesD\Desktop\DHFacturatie\BL\obj\Debug\BL.pdb
+C:\Users\gille\Desktop\DHFacturatie\BL\bin\Debug\BL.dll
+C:\Users\gille\Desktop\DHFacturatie\BL\bin\Debug\BL.pdb
+C:\Users\gille\Desktop\DHFacturatie\BL\bin\Debug\DAL.dll
+C:\Users\gille\Desktop\DHFacturatie\BL\bin\Debug\DocumentFormat.OpenXml.dll
+C:\Users\gille\Desktop\DHFacturatie\BL\bin\Debug\RL.dll
+C:\Users\gille\Desktop\DHFacturatie\BL\bin\Debug\DAL.pdb
+C:\Users\gille\Desktop\DHFacturatie\BL\bin\Debug\DAL.dll.config
+C:\Users\gille\Desktop\DHFacturatie\BL\bin\Debug\RL.pdb
+C:\Users\gille\Desktop\DHFacturatie\BL\bin\Debug\DocumentFormat.OpenXml.xml
+C:\Users\gille\Desktop\DHFacturatie\BL\obj\Debug\BL.csprojAssemblyReference.cache
+C:\Users\gille\Desktop\DHFacturatie\BL\obj\Debug\BL.csproj.CoreCompileInputs.cache
+C:\Users\gille\Desktop\DHFacturatie\BL\obj\Debug\BL.csproj.CopyComplete
+C:\Users\gille\Desktop\DHFacturatie\BL\obj\Debug\BL.dll
+C:\Users\gille\Desktop\DHFacturatie\BL\obj\Debug\BL.pdb
+C:\Users\gille\Desktop\DHFacturatie\BL\bin\Debug\FireSharp.dll
+C:\Users\gille\Desktop\DHFacturatie\BL\bin\Debug\Newtonsoft.Json.dll
+C:\Users\gille\Desktop\DHFacturatie\BL\bin\Debug\RestSharp.dll
+C:\Users\gille\Desktop\DHFacturatie\BL\bin\Debug\Newtonsoft.Json.xml
+C:\Users\gille\Desktop\DHFacturatie\BL\bin\Debug\RestSharp.xml
+C:\Users\gille\Desktop\DHbestellingen\BL\bin\Debug\BL.dll
+C:\Users\gille\Desktop\DHbestellingen\BL\bin\Debug\BL.pdb
+C:\Users\gille\Desktop\DHbestellingen\BL\bin\Debug\DAL.dll
+C:\Users\gille\Desktop\DHbestellingen\BL\bin\Debug\DocumentFormat.OpenXml.dll
+C:\Users\gille\Desktop\DHbestellingen\BL\bin\Debug\FireSharp.dll
+C:\Users\gille\Desktop\DHbestellingen\BL\bin\Debug\Newtonsoft.Json.dll
+C:\Users\gille\Desktop\DHbestellingen\BL\bin\Debug\RestSharp.dll
+C:\Users\gille\Desktop\DHbestellingen\BL\bin\Debug\RL.dll
+C:\Users\gille\Desktop\DHbestellingen\BL\bin\Debug\DAL.pdb
+C:\Users\gille\Desktop\DHbestellingen\BL\bin\Debug\DAL.dll.config
+C:\Users\gille\Desktop\DHbestellingen\BL\bin\Debug\RL.pdb
+C:\Users\gille\Desktop\DHbestellingen\BL\bin\Debug\DocumentFormat.OpenXml.xml
+C:\Users\gille\Desktop\DHbestellingen\BL\bin\Debug\Newtonsoft.Json.xml
+C:\Users\gille\Desktop\DHbestellingen\BL\bin\Debug\RestSharp.xml
+C:\Users\gille\Desktop\DHbestellingen\BL\obj\Debug\BL.csprojAssemblyReference.cache
+C:\Users\gille\Desktop\DHbestellingen\BL\obj\Debug\BL.csproj.CoreCompileInputs.cache
+C:\Users\gille\Desktop\DHbestellingen\BL\obj\Debug\BL.csproj.CopyComplete
+C:\Users\gille\Desktop\DHbestellingen\BL\obj\Debug\BL.dll
+C:\Users\gille\Desktop\DHbestellingen\BL\obj\Debug\BL.pdb
+C:\Users\Gilles D'huyvetter\Desktop\DHbestellingen\BL\bin\Debug\BL.dll
+C:\Users\Gilles D'huyvetter\Desktop\DHbestellingen\BL\bin\Debug\BL.pdb
+C:\Users\Gilles D'huyvetter\Desktop\DHbestellingen\BL\bin\Debug\DAL.dll
+C:\Users\Gilles D'huyvetter\Desktop\DHbestellingen\BL\bin\Debug\FireSharp.dll
+C:\Users\Gilles D'huyvetter\Desktop\DHbestellingen\BL\bin\Debug\Newtonsoft.Json.dll
+C:\Users\Gilles D'huyvetter\Desktop\DHbestellingen\BL\bin\Debug\RestSharp.dll
+C:\Users\Gilles D'huyvetter\Desktop\DHbestellingen\BL\bin\Debug\RL.dll
+C:\Users\Gilles D'huyvetter\Desktop\DHbestellingen\BL\bin\Debug\DAL.pdb
+C:\Users\Gilles D'huyvetter\Desktop\DHbestellingen\BL\bin\Debug\DAL.dll.config
+C:\Users\Gilles D'huyvetter\Desktop\DHbestellingen\BL\bin\Debug\RL.pdb
+C:\Users\Gilles D'huyvetter\Desktop\DHbestellingen\BL\bin\Debug\DocumentFormat.OpenXml.xml
+C:\Users\Gilles D'huyvetter\Desktop\DHbestellingen\BL\bin\Debug\Newtonsoft.Json.xml
+C:\Users\Gilles D'huyvetter\Desktop\DHbestellingen\BL\bin\Debug\RestSharp.xml
+C:\Users\Gilles D'huyvetter\Desktop\DHbestellingen\BL\obj\Debug\BL.csproj.AssemblyReference.cache
+C:\Users\Gilles D'huyvetter\Desktop\DHbestellingen\BL\obj\Debug\BL.csproj.CoreCompileInputs.cache
+C:\Users\Gilles D'huyvetter\Desktop\DHbestellingen\BL\obj\Debug\BL.csproj.CopyComplete
+C:\Users\Gilles D'huyvetter\Desktop\DHbestellingen\BL\obj\Debug\BL.dll
+C:\Users\Gilles D'huyvetter\Desktop\DHbestellingen\BL\obj\Debug\BL.pdb
+C:\Users\Gilles D'huyvetter\Desktop\DHbestellingen\BL\bin\Debug\runtimes\win-x86\native\WebView2Loader.dll
+C:\Users\Gilles D'huyvetter\Desktop\DHbestellingen\BL\bin\Debug\Microsoft.Web.WebView2.Core.dll
+C:\Users\Gilles D'huyvetter\Desktop\DHbestellingen\BL\bin\Debug\Microsoft.Web.WebView2.WinForms.dll
+C:\Users\Gilles D'huyvetter\Desktop\DHbestellingen\BL\bin\Debug\Microsoft.Web.WebView2.Wpf.dll
+C:\Users\Gilles D'huyvetter\Desktop\DHbestellingen\BL\bin\Debug\Microsoft.Web.WebView2.Core.xml
+C:\Users\Gilles D'huyvetter\Desktop\DHbestellingen\BL\bin\Debug\Microsoft.Web.WebView2.WinForms.xml
+C:\Users\Gilles D'huyvetter\Desktop\DHbestellingen\BL\bin\Debug\Microsoft.Web.WebView2.Wpf.xml
+C:\Users\Gilles D'huyvetter\Desktop\Software D'huyvetter Beton\Bestellingen\BL\bin\Debug\runtimes\win-x86\native\WebView2Loader.dll
+C:\Users\Gilles D'huyvetter\Desktop\Software D'huyvetter Beton\Bestellingen\BL\bin\Debug\BL.dll
+C:\Users\Gilles D'huyvetter\Desktop\Software D'huyvetter Beton\Bestellingen\BL\bin\Debug\BL.pdb
+C:\Users\Gilles D'huyvetter\Desktop\Software D'huyvetter Beton\Bestellingen\BL\bin\Debug\DAL.dll
+C:\Users\Gilles D'huyvetter\Desktop\Software D'huyvetter Beton\Bestellingen\BL\bin\Debug\FireSharp.dll
+C:\Users\Gilles D'huyvetter\Desktop\Software D'huyvetter Beton\Bestellingen\BL\bin\Debug\Microsoft.Web.WebView2.Core.dll
+C:\Users\Gilles D'huyvetter\Desktop\Software D'huyvetter Beton\Bestellingen\BL\bin\Debug\Microsoft.Web.WebView2.WinForms.dll
+C:\Users\Gilles D'huyvetter\Desktop\Software D'huyvetter Beton\Bestellingen\BL\bin\Debug\Microsoft.Web.WebView2.Wpf.dll
+C:\Users\Gilles D'huyvetter\Desktop\Software D'huyvetter Beton\Bestellingen\BL\bin\Debug\Newtonsoft.Json.dll
+C:\Users\Gilles D'huyvetter\Desktop\Software D'huyvetter Beton\Bestellingen\BL\bin\Debug\RestSharp.dll
+C:\Users\Gilles D'huyvetter\Desktop\Software D'huyvetter Beton\Bestellingen\BL\bin\Debug\RL.dll
+C:\Users\Gilles D'huyvetter\Desktop\Software D'huyvetter Beton\Bestellingen\BL\bin\Debug\DAL.pdb
+C:\Users\Gilles D'huyvetter\Desktop\Software D'huyvetter Beton\Bestellingen\BL\bin\Debug\DAL.dll.config
+C:\Users\Gilles D'huyvetter\Desktop\Software D'huyvetter Beton\Bestellingen\BL\bin\Debug\RL.pdb
+C:\Users\Gilles D'huyvetter\Desktop\Software D'huyvetter Beton\Bestellingen\BL\bin\Debug\Microsoft.Web.WebView2.Core.xml
+C:\Users\Gilles D'huyvetter\Desktop\Software D'huyvetter Beton\Bestellingen\BL\bin\Debug\Microsoft.Web.WebView2.WinForms.xml
+C:\Users\Gilles D'huyvetter\Desktop\Software D'huyvetter Beton\Bestellingen\BL\bin\Debug\Microsoft.Web.WebView2.Wpf.xml
+C:\Users\Gilles D'huyvetter\Desktop\Software D'huyvetter Beton\Bestellingen\BL\bin\Debug\Newtonsoft.Json.xml
+C:\Users\Gilles D'huyvetter\Desktop\Software D'huyvetter Beton\Bestellingen\BL\bin\Debug\RestSharp.xml
+C:\Users\Gilles D'huyvetter\Desktop\Software D'huyvetter Beton\Bestellingen\BL\obj\Debug\BL.csproj.AssemblyReference.cache
+C:\Users\Gilles D'huyvetter\Desktop\Software D'huyvetter Beton\Bestellingen\BL\obj\Debug\BL.csproj.CoreCompileInputs.cache
+C:\Users\Gilles D'huyvetter\Desktop\Software D'huyvetter Beton\Bestellingen\BL\obj\Debug\BL.csproj.CopyComplete
+C:\Users\Gilles D'huyvetter\Desktop\Software D'huyvetter Beton\Bestellingen\BL\obj\Debug\BL.dll
+C:\Users\Gilles D'huyvetter\Desktop\Software D'huyvetter Beton\Bestellingen\BL\obj\Debug\BL.pdb

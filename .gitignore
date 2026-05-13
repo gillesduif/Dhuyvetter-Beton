@@ -1,0 +1,7 @@
+/DhuyvetterBeton.Beton/obj
+/DhuyvetterBeton.Beton/bin
+/packages
+
+# Secrets — nooit committen
+*firebase-adminsdk*.json
+*.json.secret

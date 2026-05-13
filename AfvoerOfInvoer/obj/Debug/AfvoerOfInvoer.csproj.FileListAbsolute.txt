@@ -1,0 +1,43 @@
+G:\usb gilles\DHFacturatie\AfvoerOfInvoer\bin\Debug\AfvoerOfInvoer.exe.config
+G:\usb gilles\DHFacturatie\AfvoerOfInvoer\bin\Debug\AfvoerOfInvoer.exe
+G:\usb gilles\DHFacturatie\AfvoerOfInvoer\bin\Debug\AfvoerOfInvoer.pdb
+G:\usb gilles\DHFacturatie\AfvoerOfInvoer\bin\Debug\BL.dll
+G:\usb gilles\DHFacturatie\AfvoerOfInvoer\bin\Debug\RL.dll
+G:\usb gilles\DHFacturatie\AfvoerOfInvoer\bin\Debug\DocumentFormat.OpenXml.dll
+G:\usb gilles\DHFacturatie\AfvoerOfInvoer\bin\Debug\DAL.dll
+G:\usb gilles\DHFacturatie\AfvoerOfInvoer\bin\Debug\MySql.Data.dll
+G:\usb gilles\DHFacturatie\AfvoerOfInvoer\bin\Debug\Google.Protobuf.dll
+G:\usb gilles\DHFacturatie\AfvoerOfInvoer\bin\Debug\BL.pdb
+G:\usb gilles\DHFacturatie\AfvoerOfInvoer\bin\Debug\RL.pdb
+G:\usb gilles\DHFacturatie\AfvoerOfInvoer\bin\Debug\DocumentFormat.OpenXml.xml
+G:\usb gilles\DHFacturatie\AfvoerOfInvoer\bin\Debug\DAL.pdb
+G:\usb gilles\DHFacturatie\AfvoerOfInvoer\bin\Debug\DAL.dll.config
+G:\usb gilles\DHFacturatie\AfvoerOfInvoer\bin\Debug\MySql.Data.xml
+G:\usb gilles\DHFacturatie\AfvoerOfInvoer\obj\Debug\AfvoerOfInvoer.csprojAssemblyReference.cache
+G:\usb gilles\DHFacturatie\AfvoerOfInvoer\obj\Debug\AfvoerOfInvoer.Form1.resources
+G:\usb gilles\DHFacturatie\AfvoerOfInvoer\obj\Debug\AfvoerOfInvoer.Properties.Resources.resources
+G:\usb gilles\DHFacturatie\AfvoerOfInvoer\obj\Debug\AfvoerOfInvoer.csproj.GenerateResource.cache
+G:\usb gilles\DHFacturatie\AfvoerOfInvoer\obj\Debug\AfvoerOfInvoer.csproj.CoreCompileInputs.cache
+G:\usb gilles\DHFacturatie\AfvoerOfInvoer\obj\Debug\AfvoerOfInvoer.csproj.CopyComplete
+G:\usb gilles\DHFacturatie\AfvoerOfInvoer\obj\Debug\AfvoerOfInvoer.exe
+G:\usb gilles\DHFacturatie\AfvoerOfInvoer\obj\Debug\AfvoerOfInvoer.pdb
+C:\Users\Gilles\Desktop\DHFacturatie\AfvoerOfInvoer\bin\Debug\AfvoerOfInvoer.exe.config
+C:\Users\Gilles\Desktop\DHFacturatie\AfvoerOfInvoer\bin\Debug\AfvoerOfInvoer.exe
+C:\Users\Gilles\Desktop\DHFacturatie\AfvoerOfInvoer\bin\Debug\AfvoerOfInvoer.pdb
+C:\Users\Gilles\Desktop\DHFacturatie\AfvoerOfInvoer\bin\Debug\BL.dll
+C:\Users\Gilles\Desktop\DHFacturatie\AfvoerOfInvoer\bin\Debug\RL.dll
+C:\Users\Gilles\Desktop\DHFacturatie\AfvoerOfInvoer\bin\Debug\DocumentFormat.OpenXml.dll
+C:\Users\Gilles\Desktop\DHFacturatie\AfvoerOfInvoer\bin\Debug\DAL.dll
+C:\Users\Gilles\Desktop\DHFacturatie\AfvoerOfInvoer\bin\Debug\MySql.Data.dll
+C:\Users\Gilles\Desktop\DHFacturatie\AfvoerOfInvoer\bin\Debug\BL.pdb
+C:\Users\Gilles\Desktop\DHFacturatie\AfvoerOfInvoer\bin\Debug\RL.pdb
+C:\Users\Gilles\Desktop\DHFacturatie\AfvoerOfInvoer\bin\Debug\DocumentFormat.OpenXml.xml
+C:\Users\Gilles\Desktop\DHFacturatie\AfvoerOfInvoer\bin\Debug\DAL.pdb
+C:\Users\Gilles\Desktop\DHFacturatie\AfvoerOfInvoer\bin\Debug\DAL.dll.config
+C:\Users\Gilles\Desktop\DHFacturatie\AfvoerOfInvoer\obj\Debug\AfvoerOfInvoer.csprojAssemblyReference.cache
+C:\Users\Gilles\Desktop\DHFacturatie\AfvoerOfInvoer\obj\Debug\AfvoerOfInvoer.Form1.resources
+C:\Users\Gilles\Desktop\DHFacturatie\AfvoerOfInvoer\obj\Debug\AfvoerOfInvoer.Properties.Resources.resources
+C:\Users\Gilles\Desktop\DHFacturatie\AfvoerOfInvoer\obj\Debug\AfvoerOfInvoer.csproj.GenerateResource.cache
+C:\Users\Gilles\Desktop\DHFacturatie\AfvoerOfInvoer\obj\Debug\AfvoerOfInvoer.csproj.CopyComplete
+C:\Users\Gilles\Desktop\DHFacturatie\AfvoerOfInvoer\obj\Debug\AfvoerOfInvoer.exe
+C:\Users\Gilles\Desktop\DHFacturatie\AfvoerOfInvoer\obj\Debug\AfvoerOfInvoer.pdb

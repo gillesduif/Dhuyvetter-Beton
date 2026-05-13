@@ -1,0 +1,938 @@
+<?xml version="1.0" encoding="utf-8"?>
+<wsdl:definitions xmlns:soap="http://schemas.xmlsoap.org/wsdl/soap/" xmlns:wsp="http://schemas.xmlsoap.org/ws/2004/09/policy" xmlns:msc="http://schemas.microsoft.com/ws/2005/12/wsdl/contract" xmlns:wsam="http://www.w3.org/2007/05/addressing/metadata" xmlns:tns="http://connect.companyweb.be/" xmlns:http="http://schemas.microsoft.com/ws/06/2004/policy/http" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:wsu="http://docs.oasis-open.org/wss/2004/01/oasis-200401-wss-wssecurity-utility-1.0.xsd" name="AlacarteServiceV1_3" targetNamespace="http://connect.companyweb.be/" xmlns:wsdl="http://schemas.xmlsoap.org/wsdl/">
+  <wsdl:types>
+    <xsd:schema elementFormDefault="qualified" targetNamespace="http://connect.companyweb.be/">
+      <xsd:import namespace="http://schemas.microsoft.com/2003/10/Serialization/Arrays" />
+      <xsd:import namespace="http://schemas.datacontract.org/2004/07/System" />
+      <xsd:element name="GetCompanyByVat">
+        <xsd:complexType>
+          <xsd:sequence>
+            <xsd:element minOccurs="0" maxOccurs="1" name="request" type="tns:RequestCompanyByVat" />
+          </xsd:sequence>
+        </xsd:complexType>
+      </xsd:element>
+      <xsd:element name="GetCompanyByVatResponse">
+        <xsd:complexType>
+          <xsd:sequence>
+            <xsd:element minOccurs="0" maxOccurs="1" name="GetCompanyByVatResult" type="tns:ResponseCompanyByVatV1_3" />
+          </xsd:sequence>
+        </xsd:complexType>
+      </xsd:element>
+      <xsd:element name="SearchCompanies">
+        <xsd:complexType>
+          <xsd:sequence>
+            <xsd:element minOccurs="0" maxOccurs="1" name="request" type="tns:RequestSearch" />
+          </xsd:sequence>
+        </xsd:complexType>
+      </xsd:element>
+      <xsd:element name="SearchCompaniesResponse">
+        <xsd:complexType>
+          <xsd:sequence>
+            <xsd:element minOccurs="0" maxOccurs="1" name="SearchCompaniesResult" type="tns:ResponseSearch" />
+          </xsd:sequence>
+        </xsd:complexType>
+      </xsd:element>
+      <xsd:element name="Alerts_Step1_GetChangeDates">
+        <xsd:complexType>
+          <xsd:sequence>
+            <xsd:element minOccurs="0" maxOccurs="1" name="request" type="tns:RequestStep1" />
+          </xsd:sequence>
+        </xsd:complexType>
+      </xsd:element>
+      <xsd:element name="Alerts_Step1_GetChangeDatesResponse">
+        <xsd:complexType>
+          <xsd:sequence>
+            <xsd:element minOccurs="0" maxOccurs="1" name="Alerts_Step1_GetChangeDatesResult" type="tns:ResponseStep1" />
+          </xsd:sequence>
+        </xsd:complexType>
+      </xsd:element>
+      <xsd:element name="Alerts_Step2_GetVatList">
+        <xsd:complexType>
+          <xsd:sequence>
+            <xsd:element minOccurs="0" maxOccurs="1" name="request" type="tns:RequestStep2" />
+          </xsd:sequence>
+        </xsd:complexType>
+      </xsd:element>
+      <xsd:element name="Alerts_Step2_GetVatListResponse">
+        <xsd:complexType>
+          <xsd:sequence>
+            <xsd:element minOccurs="0" maxOccurs="1" name="Alerts_Step2_GetVatListResult" type="tns:ResponseStep2" />
+          </xsd:sequence>
+        </xsd:complexType>
+      </xsd:element>
+      <xsd:element name="Alerts_Step3_CompanyOnVat">
+        <xsd:complexType>
+          <xsd:sequence>
+            <xsd:element minOccurs="0" maxOccurs="1" name="request" type="tns:RequestStep3_CompanyOnVat" />
+          </xsd:sequence>
+        </xsd:complexType>
+      </xsd:element>
+      <xsd:element name="Alerts_Step3_CompanyOnVatResponse">
+        <xsd:complexType>
+          <xsd:sequence>
+            <xsd:element minOccurs="0" maxOccurs="1" name="Alerts_Step3_CompanyOnVatResult" type="tns:ResponseCompanyByVatV1_3" />
+          </xsd:sequence>
+        </xsd:complexType>
+      </xsd:element>
+      <xsd:element name="Alerts_AddCompany">
+        <xsd:complexType>
+          <xsd:sequence>
+            <xsd:element minOccurs="0" maxOccurs="1" name="request" type="tns:RequestAddToAlerts" />
+          </xsd:sequence>
+        </xsd:complexType>
+      </xsd:element>
+      <xsd:element name="Alerts_AddCompanyResponse">
+        <xsd:complexType>
+          <xsd:sequence>
+            <xsd:element minOccurs="0" maxOccurs="1" name="Alerts_AddCompanyResult" type="tns:ResponseAddToAlerts" />
+          </xsd:sequence>
+        </xsd:complexType>
+      </xsd:element>
+      <xsd:element name="Alerts_RemoveCompany">
+        <xsd:complexType>
+          <xsd:sequence>
+            <xsd:element minOccurs="0" maxOccurs="1" name="request" type="tns:RequestRemoveFromAlerts" />
+          </xsd:sequence>
+        </xsd:complexType>
+      </xsd:element>
+      <xsd:element name="Alerts_RemoveCompanyResponse">
+        <xsd:complexType>
+          <xsd:sequence>
+            <xsd:element minOccurs="0" maxOccurs="1" name="Alerts_RemoveCompanyResult" type="tns:ResponseRemoveFromAlerts" />
+          </xsd:sequence>
+        </xsd:complexType>
+      </xsd:element>
+      <xsd:element name="Alerts_AddListOfCompanies">
+        <xsd:complexType>
+          <xsd:sequence>
+            <xsd:element minOccurs="0" maxOccurs="1" name="request" type="tns:RequestAddListToAlerts" />
+          </xsd:sequence>
+        </xsd:complexType>
+      </xsd:element>
+      <xsd:element name="Alerts_AddListOfCompaniesResponse">
+        <xsd:complexType>
+          <xsd:sequence>
+            <xsd:element minOccurs="0" maxOccurs="1" name="Alerts_AddListOfCompaniesResult" type="tns:ResponseAddListToAlerts" />
+          </xsd:sequence>
+        </xsd:complexType>
+      </xsd:element>
+      <xsd:complexType name="RequestCompanyByVat">
+        <xsd:sequence>
+          <xsd:element minOccurs="0" maxOccurs="1" name="VatNumber" type="xsd:string" />
+          <xsd:element minOccurs="0" maxOccurs="1" name="Language" type="xsd:string" />
+          <xsd:element minOccurs="0" maxOccurs="1" name="CompanyWebLogin" type="xsd:string" />
+          <xsd:element minOccurs="0" maxOccurs="1" name="CompanyWebPassword" type="xsd:string" />
+          <xsd:element minOccurs="0" maxOccurs="1" name="ServiceIntegrator" type="xsd:string" />
+          <xsd:element minOccurs="0" maxOccurs="1" name="LoginHash" type="xsd:string" />
+        </xsd:sequence>
+      </xsd:complexType>
+      <xsd:complexType name="ResponseCompanyByVatV1_3">
+        <xsd:sequence>
+          <xsd:element minOccurs="1" maxOccurs="1" name="StatusCode" type="xsd:int" />
+          <xsd:element minOccurs="0" maxOccurs="1" name="StatusMessage" type="xsd:string" />
+          <xsd:element minOccurs="0" maxOccurs="1" name="CompanyResponse" type="tns:CompanyResponseV1_3" />
+        </xsd:sequence>
+      </xsd:complexType>
+      <xsd:complexType name="RequestSearch">
+        <xsd:sequence>
+          <xsd:element minOccurs="0" maxOccurs="1" name="Language" type="xsd:string" />
+          <xsd:element minOccurs="0" maxOccurs="1" name="SearchTerm" type="xsd:string" />
+          <xsd:element minOccurs="0" maxOccurs="1" name="FilterPostalCode" type="xsd:string" />
+          <xsd:element minOccurs="0" maxOccurs="1" name="CompanyWebLogin" type="xsd:string" />
+          <xsd:element minOccurs="0" maxOccurs="1" name="CompanyWebPassword" type="xsd:string" />
+          <xsd:element minOccurs="0" maxOccurs="1" name="ServiceIntegrator" type="xsd:string" />
+          <xsd:element minOccurs="0" maxOccurs="1" name="LoginHash" type="xsd:string" />
+        </xsd:sequence>
+      </xsd:complexType>
+      <xsd:complexType name="ResponseSearch">
+        <xsd:sequence>
+          <xsd:element minOccurs="1" maxOccurs="1" name="StatusCode" type="xsd:int" />
+          <xsd:element minOccurs="0" maxOccurs="1" name="StatusMessage" type="xsd:string" />
+          <xsd:element minOccurs="0" maxOccurs="1" name="SearchResponseList" nillable="true" type="tns:ArrayOfSearchResponseItem" />
+        </xsd:sequence>
+      </xsd:complexType>
+      <xsd:complexType name="RequestStep1">
+        <xsd:sequence>
+          <xsd:element minOccurs="0" maxOccurs="1" name="CompanyWebLogin" type="xsd:string" />
+          <xsd:element minOccurs="0" maxOccurs="1" name="CompanyWebPassword" type="xsd:string" />
+          <xsd:element minOccurs="0" maxOccurs="1" name="ServiceIntegrator" type="xsd:string" />
+          <xsd:element minOccurs="0" maxOccurs="1" name="LoginHash" type="xsd:string" />
+        </xsd:sequence>
+      </xsd:complexType>
+      <xsd:complexType name="ResponseStep1">
+        <xsd:sequence>
+          <xsd:element minOccurs="1" maxOccurs="1" name="StatusCode" type="xsd:int" />
+          <xsd:element minOccurs="0" maxOccurs="1" name="StatusMessage" type="xsd:string" />
+          <xsd:element minOccurs="0" maxOccurs="1" name="ChangeDates" nillable="true" type="tns:ArrayOfChangeDate" />
+        </xsd:sequence>
+      </xsd:complexType>
+      <xsd:complexType name="RequestStep2">
+        <xsd:sequence>
+          <xsd:element minOccurs="1" maxOccurs="1" name="ChangedDate" type="xsd:int" />
+          <xsd:element minOccurs="0" maxOccurs="1" name="Language" type="xsd:string" />
+          <xsd:element minOccurs="0" maxOccurs="1" name="Step2Token" type="xsd:string" />
+          <xsd:element minOccurs="0" maxOccurs="1" name="CompanyWebLogin" type="xsd:string" />
+          <xsd:element minOccurs="0" maxOccurs="1" name="CompanyWebPassword" type="xsd:string" />
+          <xsd:element minOccurs="0" maxOccurs="1" name="ServiceIntegrator" type="xsd:string" />
+          <xsd:element minOccurs="0" maxOccurs="1" name="LoginHash" type="xsd:string" />
+        </xsd:sequence>
+      </xsd:complexType>
+      <xsd:complexType name="ResponseStep2">
+        <xsd:sequence>
+          <xsd:element minOccurs="1" maxOccurs="1" name="StatusCode" type="xsd:int" />
+          <xsd:element minOccurs="0" maxOccurs="1" name="StatusMessage" type="xsd:string" />
+          <xsd:element minOccurs="0" maxOccurs="1" name="ChangedVatList" nillable="true" type="tns:ArrayOfChangedVat" />
+        </xsd:sequence>
+      </xsd:complexType>
+      <xsd:complexType name="RequestStep3_CompanyOnVat">
+        <xsd:sequence>
+          <xsd:element minOccurs="1" maxOccurs="1" name="ChangedDate" type="xsd:int" />
+          <xsd:element minOccurs="0" maxOccurs="1" name="VatNumber" type="xsd:string" />
+          <xsd:element minOccurs="0" maxOccurs="1" name="Language" type="xsd:string" />
+          <xsd:element minOccurs="0" maxOccurs="1" name="Step3Token" type="xsd:string" />
+          <xsd:element minOccurs="0" maxOccurs="1" name="CompanyWebLogin" type="xsd:string" />
+          <xsd:element minOccurs="0" maxOccurs="1" name="CompanyWebPassword" type="xsd:string" />
+          <xsd:element minOccurs="0" maxOccurs="1" name="ServiceIntegrator" type="xsd:string" />
+          <xsd:element minOccurs="0" maxOccurs="1" name="LoginHash" type="xsd:string" />
+        </xsd:sequence>
+      </xsd:complexType>
+      <xsd:complexType name="RequestAddToAlerts">
+        <xsd:sequence>
+          <xsd:element minOccurs="0" maxOccurs="1" name="VatNumber" type="xsd:string" />
+          <xsd:element minOccurs="0" maxOccurs="1" name="CompanyWebLogin" type="xsd:string" />
+          <xsd:element minOccurs="0" maxOccurs="1" name="CompanyWebPassword" type="xsd:string" />
+          <xsd:element minOccurs="0" maxOccurs="1" name="ServiceIntegrator" type="xsd:string" />
+          <xsd:element minOccurs="0" maxOccurs="1" name="LoginHash" type="xsd:string" />
+        </xsd:sequence>
+      </xsd:complexType>
+      <xsd:complexType name="ResponseAddToAlerts">
+        <xsd:sequence>
+          <xsd:element minOccurs="1" maxOccurs="1" name="StatusCode" type="xsd:int" />
+          <xsd:element minOccurs="0" maxOccurs="1" name="StatusMessage" type="xsd:string" />
+        </xsd:sequence>
+      </xsd:complexType>
+      <xsd:complexType name="RequestRemoveFromAlerts">
+        <xsd:sequence>
+          <xsd:element minOccurs="0" maxOccurs="1" name="VatNumber" type="xsd:string" />
+          <xsd:element minOccurs="0" maxOccurs="1" name="CompanyWebLogin" type="xsd:string" />
+          <xsd:element minOccurs="0" maxOccurs="1" name="CompanyWebPassword" type="xsd:string" />
+          <xsd:element minOccurs="0" maxOccurs="1" name="ServiceIntegrator" type="xsd:string" />
+          <xsd:element minOccurs="0" maxOccurs="1" name="LoginHash" type="xsd:string" />
+        </xsd:sequence>
+      </xsd:complexType>
+      <xsd:complexType name="ResponseRemoveFromAlerts">
+        <xsd:sequence>
+          <xsd:element minOccurs="1" maxOccurs="1" name="StatusCode" type="xsd:int" />
+          <xsd:element minOccurs="0" maxOccurs="1" name="StatusMessage" type="xsd:string" />
+        </xsd:sequence>
+      </xsd:complexType>
+      <xsd:complexType name="RequestAddListToAlerts">
+        <xsd:sequence>
+          <xsd:element minOccurs="0" maxOccurs="1" name="VatNumbers" nillable="true" type="tns:ArrayOfString" />
+          <xsd:element minOccurs="0" maxOccurs="1" name="CompanyWebLogin" type="xsd:string" />
+          <xsd:element minOccurs="0" maxOccurs="1" name="CompanyWebPassword" type="xsd:string" />
+          <xsd:element minOccurs="0" maxOccurs="1" name="ServiceIntegrator" type="xsd:string" />
+          <xsd:element minOccurs="0" maxOccurs="1" name="LoginHash" type="xsd:string" />
+        </xsd:sequence>
+      </xsd:complexType>
+      <xsd:complexType name="ResponseAddListToAlerts">
+        <xsd:sequence>
+          <xsd:element minOccurs="1" maxOccurs="1" name="StatusCode" type="xsd:int" />
+          <xsd:element minOccurs="0" maxOccurs="1" name="StatusMessage" type="xsd:string" />
+          <xsd:element minOccurs="1" maxOccurs="1" name="Count_ActiveAlerts" type="xsd:int" />
+          <xsd:element minOccurs="1" maxOccurs="1" name="Count_Adds" type="xsd:int" />
+          <xsd:element minOccurs="1" maxOccurs="1" name="Count_Updates" type="xsd:int" />
+          <xsd:element minOccurs="1" maxOccurs="1" name="Count_Invalids" type="xsd:int" />
+        </xsd:sequence>
+      </xsd:complexType>
+      <xsd:complexType name="CompanyResponseV1_3">
+        <xsd:sequence>
+          <xsd:element minOccurs="0" maxOccurs="1" name="MetaData" type="tns:CompanyResponseMetaData" />
+          <xsd:element minOccurs="0" maxOccurs="1" name="PreferredLanguages" type="tns:PreferredLanguagesResponseFragment" />
+          <xsd:element minOccurs="0" maxOccurs="1" name="VatNumber" type="tns:IntegerResponseFragment" />
+          <xsd:element minOccurs="0" maxOccurs="1" name="VatEnabled" type="tns:BooleanResponseFragment" />
+          <xsd:element minOccurs="0" maxOccurs="1" name="CompanyName" type="tns:StringResponseFragment" />
+          <xsd:element minOccurs="0" maxOccurs="1" name="CommercialName" type="tns:StringResponseFragment" />
+          <xsd:element minOccurs="0" maxOccurs="1" name="ShortName" type="tns:StringResponseFragment" />
+          <xsd:element minOccurs="0" maxOccurs="1" name="LegalForm" type="tns:LegalFormResponseFragment" />
+          <xsd:element minOccurs="0" maxOccurs="1" name="Address" type="tns:AddressResponseFragment" />
+          <xsd:element minOccurs="0" maxOccurs="1" name="TelephoneNumber" type="tns:StringResponseFragment" />
+          <xsd:element minOccurs="0" maxOccurs="1" name="CompanyStatus" type="tns:CompanyStatusResponseFragment" />
+          <xsd:element minOccurs="0" maxOccurs="1" name="StartDate" type="tns:IntegerResponseFragment" />
+          <xsd:element minOccurs="0" maxOccurs="1" name="EndDate" type="tns:IntegerResponseFragment" />
+          <xsd:element minOccurs="0" maxOccurs="1" name="Score" type="tns:ScoreResponseFragment" />
+          <xsd:element minOccurs="0" maxOccurs="1" name="CreditLimit" type="tns:CreditLimitResponseFragment" />
+          <xsd:element minOccurs="0" maxOccurs="1" name="PaymentExperience" type="tns:PaymentExperienceResponseFragment" />
+          <xsd:element minOccurs="0" maxOccurs="1" name="WarningsOverview" type="tns:WarningsOverviewResponseFragment" />
+          <xsd:element minOccurs="0" maxOccurs="1" name="CurrentManagement" type="tns:ManagementListResponseFragment" />
+          <xsd:element minOccurs="0" maxOccurs="1" name="ExternalManagement" type="tns:ManagementListResponseFragment" />
+          <xsd:element minOccurs="0" maxOccurs="1" name="MainActivity" type="tns:ActivityResponseFragmentV1_1" />
+          <xsd:element minOccurs="0" maxOccurs="1" name="Activities" type="tns:ActivityListResponseFragmentV1_1" />
+          <xsd:element minOccurs="0" maxOccurs="1" name="Establishments" type="tns:EstablishmentsListResponseFragmentV1_1" />
+          <xsd:element minOccurs="0" maxOccurs="1" name="JointCommitees" type="tns:JointCommiteesListResponseFragment" />
+          <xsd:element minOccurs="0" maxOccurs="1" name="SocialSecurityInformation" type="tns:SocialSecurityResponseFragment" />
+          <xsd:element minOccurs="0" maxOccurs="1" name="ParentCompanies" type="tns:ParticipationsListResponseFragment" />
+          <xsd:element minOccurs="0" maxOccurs="1" name="SubsidiaryCompanies" type="tns:ParticipationsListResponseFragment" />
+          <xsd:element minOccurs="0" maxOccurs="1" name="SocialSecuritySummons" type="tns:SocialSecuritySummonsListResponseFragment" />
+          <xsd:element minOccurs="0" maxOccurs="1" name="JudicialAgreements" type="tns:JudicialAgreementsListResponseFragment" />
+          <xsd:element minOccurs="0" maxOccurs="1" name="Curators" type="tns:CuratorListResponseFragment" />
+          <xsd:element minOccurs="0" maxOccurs="1" name="BankruptcyOpen" type="tns:BankruptcyResponseFragment" />
+          <xsd:element minOccurs="0" maxOccurs="1" name="BankruptcyClose" type="tns:BankruptcyResponseFragment" />
+          <xsd:element minOccurs="0" maxOccurs="1" name="DetailUrl" type="tns:StringResponseFragment" />
+          <xsd:element minOccurs="0" maxOccurs="1" name="ReportUrl" type="tns:StringResponseFragment" />
+          <xsd:element minOccurs="0" maxOccurs="1" name="CustomReportUrl" type="tns:StringResponseFragment" />
+          <xsd:element minOccurs="0" maxOccurs="1" name="BalanceUrl" type="tns:StringResponseFragment" />
+          <xsd:element minOccurs="0" maxOccurs="1" name="Publications" type="tns:PublicationsListResponseFragment" />
+          <xsd:element minOccurs="0" maxOccurs="1" name="Balances" type="tns:BookYearListResponseFragment" />
+          <xsd:element minOccurs="0" maxOccurs="1" name="KycLinkedEntities" type="tns:KycLinkedEntitiesResponseFragment" />
+          <xsd:element minOccurs="0" maxOccurs="1" name="KycReportUrl" type="tns:StringResponseFragment" />
+        </xsd:sequence>
+      </xsd:complexType>
+      <xsd:complexType name="ArrayOfSearchResponseItem">
+        <xsd:sequence>
+          <xsd:element minOccurs="0" maxOccurs="unbounded" name="SearchResponseItem" nillable="true" type="tns:SearchResponseItem" />
+        </xsd:sequence>
+      </xsd:complexType>
+      <xsd:complexType name="ArrayOfChangeDate">
+        <xsd:sequence>
+          <xsd:element minOccurs="0" maxOccurs="unbounded" name="ChangeDate" nillable="true" type="tns:ChangeDate" />
+        </xsd:sequence>
+      </xsd:complexType>
+      <xsd:complexType name="ArrayOfChangedVat">
+        <xsd:sequence>
+          <xsd:element minOccurs="0" maxOccurs="unbounded" name="ChangedVat" nillable="true" type="tns:ChangedVat" />
+        </xsd:sequence>
+      </xsd:complexType>
+      <xsd:complexType name="ArrayOfString">
+        <xsd:sequence>
+          <xsd:element minOccurs="0" maxOccurs="unbounded" name="string" type="xsd:string" />
+        </xsd:sequence>
+      </xsd:complexType>
+      <xsd:complexType name="CompanyResponseMetaData">
+        <xsd:sequence>
+          <xsd:element minOccurs="1" maxOccurs="1" name="RemainingHits" type="xsd:int" />
+        </xsd:sequence>
+      </xsd:complexType>
+      <xsd:complexType name="PreferredLanguagesResponseFragment">
+        <xsd:sequence>
+          <xsd:element minOccurs="1" maxOccurs="1" name="IsEnabled" type="xsd:boolean" />
+          <xsd:element minOccurs="0" maxOccurs="1" name="Value" type="tns:PreferredLanguages" />
+        </xsd:sequence>
+      </xsd:complexType>
+      <xsd:complexType name="IntegerResponseFragment">
+        <xsd:sequence>
+          <xsd:element minOccurs="1" maxOccurs="1" name="IsEnabled" type="xsd:boolean" />
+          <xsd:element minOccurs="1" maxOccurs="1" name="Value" type="xsd:int" />
+        </xsd:sequence>
+      </xsd:complexType>
+      <xsd:complexType name="BooleanResponseFragment">
+        <xsd:sequence>
+          <xsd:element minOccurs="1" maxOccurs="1" name="IsEnabled" type="xsd:boolean" />
+          <xsd:element minOccurs="1" maxOccurs="1" name="Value" type="xsd:boolean" />
+        </xsd:sequence>
+      </xsd:complexType>
+      <xsd:complexType name="StringResponseFragment">
+        <xsd:sequence>
+          <xsd:element minOccurs="1" maxOccurs="1" name="IsEnabled" type="xsd:boolean" />
+          <xsd:element minOccurs="0" maxOccurs="1" name="Value" type="xsd:string" />
+        </xsd:sequence>
+      </xsd:complexType>
+      <xsd:complexType name="LegalFormResponseFragment">
+        <xsd:sequence>
+          <xsd:element minOccurs="1" maxOccurs="1" name="IsEnabled" type="xsd:boolean" />
+          <xsd:element minOccurs="0" maxOccurs="1" name="Value" type="tns:LegalForm" />
+        </xsd:sequence>
+      </xsd:complexType>
+      <xsd:complexType name="AddressResponseFragment">
+        <xsd:sequence>
+          <xsd:element minOccurs="1" maxOccurs="1" name="IsEnabled" type="xsd:boolean" />
+          <xsd:element minOccurs="0" maxOccurs="1" name="Value" type="tns:Address" />
+        </xsd:sequence>
+      </xsd:complexType>
+      <xsd:complexType name="CompanyStatusResponseFragment">
+        <xsd:sequence>
+          <xsd:element minOccurs="1" maxOccurs="1" name="IsEnabled" type="xsd:boolean" />
+          <xsd:element minOccurs="0" maxOccurs="1" name="Value" type="tns:Status" />
+        </xsd:sequence>
+      </xsd:complexType>
+      <xsd:complexType name="ScoreResponseFragment">
+        <xsd:sequence>
+          <xsd:element minOccurs="1" maxOccurs="1" name="IsEnabled" type="xsd:boolean" />
+          <xsd:element minOccurs="0" maxOccurs="1" name="Value" type="tns:Score" />
+        </xsd:sequence>
+      </xsd:complexType>
+      <xsd:complexType name="CreditLimitResponseFragment">
+        <xsd:sequence>
+          <xsd:element minOccurs="1" maxOccurs="1" name="IsEnabled" type="xsd:boolean" />
+          <xsd:element minOccurs="0" maxOccurs="1" name="Value" type="tns:CreditLimit" />
+        </xsd:sequence>
+      </xsd:complexType>
+      <xsd:complexType name="PaymentExperienceResponseFragment">
+        <xsd:sequence>
+          <xsd:element minOccurs="1" maxOccurs="1" name="IsEnabled" type="xsd:boolean" />
+          <xsd:element minOccurs="0" maxOccurs="1" name="Value" type="tns:PaymentExperience" />
+        </xsd:sequence>
+      </xsd:complexType>
+      <xsd:complexType name="WarningsOverviewResponseFragment">
+        <xsd:sequence>
+          <xsd:element minOccurs="1" maxOccurs="1" name="IsEnabled" type="xsd:boolean" />
+          <xsd:element minOccurs="0" maxOccurs="1" name="Value" type="tns:WarningsOverview" />
+        </xsd:sequence>
+      </xsd:complexType>
+      <xsd:complexType name="ManagementListResponseFragment">
+        <xsd:sequence>
+          <xsd:element minOccurs="1" maxOccurs="1" name="IsEnabled" type="xsd:boolean" />
+          <xsd:element minOccurs="0" maxOccurs="1" name="Value" nillable="true" type="tns:ArrayOfManagement" />
+        </xsd:sequence>
+      </xsd:complexType>
+      <xsd:complexType name="ActivityResponseFragmentV1_1">
+        <xsd:sequence>
+          <xsd:element minOccurs="1" maxOccurs="1" name="IsEnabled" type="xsd:boolean" />
+          <xsd:element minOccurs="0" maxOccurs="1" name="Value" type="tns:ActivityV1_1" />
+        </xsd:sequence>
+      </xsd:complexType>
+      <xsd:complexType name="ActivityListResponseFragmentV1_1">
+        <xsd:sequence>
+          <xsd:element minOccurs="1" maxOccurs="1" name="IsEnabled" type="xsd:boolean" />
+          <xsd:element minOccurs="0" maxOccurs="1" name="Value" nillable="true" type="tns:ArrayOfActivityV1_1" />
+        </xsd:sequence>
+      </xsd:complexType>
+      <xsd:complexType name="EstablishmentsListResponseFragmentV1_1">
+        <xsd:sequence>
+          <xsd:element minOccurs="1" maxOccurs="1" name="IsEnabled" type="xsd:boolean" />
+          <xsd:element minOccurs="0" maxOccurs="1" name="Value" nillable="true" type="tns:ArrayOfEstablishmentV1_1" />
+        </xsd:sequence>
+      </xsd:complexType>
+      <xsd:complexType name="JointCommiteesListResponseFragment">
+        <xsd:sequence>
+          <xsd:element minOccurs="1" maxOccurs="1" name="IsEnabled" type="xsd:boolean" />
+          <xsd:element minOccurs="0" maxOccurs="1" name="Value" nillable="true" type="tns:ArrayOfJointCommitee" />
+        </xsd:sequence>
+      </xsd:complexType>
+      <xsd:complexType name="SocialSecurityResponseFragment">
+        <xsd:sequence>
+          <xsd:element minOccurs="1" maxOccurs="1" name="IsEnabled" type="xsd:boolean" />
+          <xsd:element minOccurs="0" maxOccurs="1" name="Value" type="tns:SocialSecurityInformation" />
+        </xsd:sequence>
+      </xsd:complexType>
+      <xsd:complexType name="ParticipationsListResponseFragment">
+        <xsd:sequence>
+          <xsd:element minOccurs="1" maxOccurs="1" name="IsEnabled" type="xsd:boolean" />
+          <xsd:element minOccurs="0" maxOccurs="1" name="Value" nillable="true" type="tns:ArrayOfParticipation" />
+        </xsd:sequence>
+      </xsd:complexType>
+      <xsd:complexType name="SocialSecuritySummonsListResponseFragment">
+        <xsd:sequence>
+          <xsd:element minOccurs="1" maxOccurs="1" name="IsEnabled" type="xsd:boolean" />
+          <xsd:element minOccurs="0" maxOccurs="1" name="Value" nillable="true" type="tns:ArrayOfRszPublication" />
+        </xsd:sequence>
+      </xsd:complexType>
+      <xsd:complexType name="JudicialAgreementsListResponseFragment">
+        <xsd:sequence>
+          <xsd:element minOccurs="1" maxOccurs="1" name="IsEnabled" type="xsd:boolean" />
+          <xsd:element minOccurs="0" maxOccurs="1" name="Value" nillable="true" type="tns:ArrayOfJudicialAgreement" />
+        </xsd:sequence>
+      </xsd:complexType>
+      <xsd:complexType name="CuratorListResponseFragment">
+        <xsd:sequence>
+          <xsd:element minOccurs="1" maxOccurs="1" name="IsEnabled" type="xsd:boolean" />
+          <xsd:element minOccurs="0" maxOccurs="1" name="Value" nillable="true" type="tns:ArrayOfCurator" />
+        </xsd:sequence>
+      </xsd:complexType>
+      <xsd:complexType name="BankruptcyResponseFragment">
+        <xsd:sequence>
+          <xsd:element minOccurs="1" maxOccurs="1" name="IsEnabled" type="xsd:boolean" />
+          <xsd:element minOccurs="0" maxOccurs="1" name="Value" type="tns:BankrupcyPublication" />
+        </xsd:sequence>
+      </xsd:complexType>
+      <xsd:complexType name="PublicationsListResponseFragment">
+        <xsd:sequence>
+          <xsd:element minOccurs="1" maxOccurs="1" name="IsEnabled" type="xsd:boolean" />
+          <xsd:element minOccurs="0" maxOccurs="1" name="Value" nillable="true" type="tns:ArrayOfPublication" />
+        </xsd:sequence>
+      </xsd:complexType>
+      <xsd:complexType name="BookYearListResponseFragment">
+        <xsd:sequence>
+          <xsd:element minOccurs="1" maxOccurs="1" name="IsEnabled" type="xsd:boolean" />
+          <xsd:element minOccurs="0" maxOccurs="1" name="Value" nillable="true" type="tns:ArrayOfBalans" />
+        </xsd:sequence>
+      </xsd:complexType>
+      <xsd:complexType name="KycLinkedEntitiesResponseFragment">
+        <xsd:sequence>
+          <xsd:element minOccurs="1" maxOccurs="1" name="IsEnabled" type="xsd:boolean" />
+          <xsd:element minOccurs="0" maxOccurs="1" name="Value" type="tns:KycLinkedEntities" />
+        </xsd:sequence>
+      </xsd:complexType>
+      <xsd:complexType name="SearchResponseItem">
+        <xsd:sequence>
+          <xsd:element minOccurs="1" maxOccurs="1" name="VatNumber" type="xsd:int" />
+          <xsd:element minOccurs="0" maxOccurs="1" name="CompanyName" type="xsd:string" />
+          <xsd:element minOccurs="0" maxOccurs="1" name="Street" type="xsd:string" />
+          <xsd:element minOccurs="0" maxOccurs="1" name="City" type="xsd:string" />
+          <xsd:element minOccurs="1" maxOccurs="1" name="IsActive" type="xsd:boolean" />
+        </xsd:sequence>
+      </xsd:complexType>
+      <xsd:complexType name="ChangeDate">
+        <xsd:sequence>
+          <xsd:element minOccurs="1" maxOccurs="1" name="DateOfChange" type="xsd:int" />
+          <xsd:element minOccurs="1" maxOccurs="1" name="NumberOfChanges" type="xsd:int" />
+          <xsd:element minOccurs="0" maxOccurs="1" name="Step2Token" type="xsd:string" />
+        </xsd:sequence>
+      </xsd:complexType>
+      <xsd:complexType name="ChangedVat">
+        <xsd:sequence>
+          <xsd:element minOccurs="1" maxOccurs="1" name="DateOfChange" type="xsd:int" />
+          <xsd:element minOccurs="1" maxOccurs="1" name="VatNumber" type="xsd:int" />
+          <xsd:element minOccurs="0" maxOccurs="1" name="Step3Token" type="xsd:string" />
+        </xsd:sequence>
+      </xsd:complexType>
+      <xsd:complexType name="PreferredLanguages">
+        <xsd:sequence>
+          <xsd:element minOccurs="1" maxOccurs="1" name="UsesDutch" type="xsd:boolean" />
+          <xsd:element minOccurs="1" maxOccurs="1" name="UsesFrench" type="xsd:boolean" />
+          <xsd:element minOccurs="1" maxOccurs="1" name="UsesGerman" type="xsd:boolean" />
+          <xsd:element minOccurs="0" maxOccurs="1" name="LanguageString" type="xsd:string" />
+        </xsd:sequence>
+      </xsd:complexType>
+      <xsd:complexType name="LegalForm">
+        <xsd:sequence>
+          <xsd:element minOccurs="0" maxOccurs="1" name="Abbreviation" type="xsd:string" />
+          <xsd:element minOccurs="1" maxOccurs="1" name="Code" type="xsd:int" />
+        </xsd:sequence>
+      </xsd:complexType>
+      <xsd:complexType name="Address">
+        <xsd:sequence>
+          <xsd:element minOccurs="0" maxOccurs="1" name="Street" type="xsd:string" />
+          <xsd:element minOccurs="0" maxOccurs="1" name="HouseNumber" type="xsd:string" />
+          <xsd:element minOccurs="0" maxOccurs="1" name="PostalCode" type="xsd:string" />
+          <xsd:element minOccurs="0" maxOccurs="1" name="City" type="xsd:string" />
+          <xsd:element minOccurs="0" maxOccurs="1" name="CountryCode" type="xsd:string" />
+          <xsd:element minOccurs="0" maxOccurs="1" name="Line1" type="xsd:string" />
+          <xsd:element minOccurs="0" maxOccurs="1" name="Line2" type="xsd:string" />
+        </xsd:sequence>
+      </xsd:complexType>
+      <xsd:complexType name="Status">
+        <xsd:sequence>
+          <xsd:element minOccurs="1" maxOccurs="1" name="Code" type="xsd:int" />
+          <xsd:element minOccurs="0" maxOccurs="1" name="Info" type="xsd:string" />
+        </xsd:sequence>
+      </xsd:complexType>
+      <xsd:complexType name="Score">
+        <xsd:sequence>
+          <xsd:element minOccurs="0" maxOccurs="1" name="Info" type="xsd:string" />
+          <xsd:element minOccurs="0" maxOccurs="1" name="ScoreImage" type="xsd:string" />
+          <xsd:element minOccurs="1" maxOccurs="1" name="ScoreAsInt" type="xsd:int" />
+          <xsd:element minOccurs="1" maxOccurs="1" name="ScoreAsDecimal" type="xsd:decimal" />
+        </xsd:sequence>
+      </xsd:complexType>
+      <xsd:complexType name="CreditLimit">
+        <xsd:sequence>
+          <xsd:element minOccurs="1" maxOccurs="1" name="Limit" type="xsd:decimal" />
+          <xsd:element minOccurs="1" maxOccurs="1" name="Code" type="xsd:int" />
+          <xsd:element minOccurs="0" maxOccurs="1" name="Info" type="xsd:string" />
+        </xsd:sequence>
+      </xsd:complexType>
+      <xsd:complexType name="PaymentExperience">
+        <xsd:sequence>
+          <xsd:element minOccurs="1" maxOccurs="1" name="PercentagePayedAfter0To30Days" type="xsd:decimal" />
+          <xsd:element minOccurs="1" maxOccurs="1" name="PercentagePayedAfter30To60Days" type="xsd:decimal" />
+          <xsd:element minOccurs="1" maxOccurs="1" name="PercentagePayedAfter60To90Days" type="xsd:decimal" />
+          <xsd:element minOccurs="1" maxOccurs="1" name="PercentagePayedAfter90To120Days" type="xsd:decimal" />
+          <xsd:element minOccurs="1" maxOccurs="1" name="PercentagePayedAfter120To160Days" type="xsd:decimal" />
+          <xsd:element minOccurs="1" maxOccurs="1" name="PercentagePayedAfter160DaysOrMore" type="xsd:decimal" />
+          <xsd:element minOccurs="0" maxOccurs="1" name="Warning" type="xsd:string" />
+          <xsd:element minOccurs="0" maxOccurs="1" name="ReportUrl" type="xsd:string" />
+        </xsd:sequence>
+      </xsd:complexType>
+      <xsd:complexType name="WarningsOverview">
+        <xsd:sequence>
+          <xsd:element minOccurs="0" maxOccurs="1" name="Warnings" nillable="true" type="tns:ArrayOfString" />
+          <xsd:element minOccurs="0" maxOccurs="1" name="Url" type="xsd:string" />
+        </xsd:sequence>
+      </xsd:complexType>
+      <xsd:complexType name="ArrayOfManagement">
+        <xsd:sequence>
+          <xsd:element minOccurs="0" maxOccurs="unbounded" name="Management" nillable="true" type="tns:Management" />
+        </xsd:sequence>
+      </xsd:complexType>
+      <xsd:complexType name="ActivityV1_1">
+        <xsd:sequence>
+          <xsd:element minOccurs="0" maxOccurs="1" name="Source" type="xsd:string" />
+          <xsd:element minOccurs="0" maxOccurs="1" name="Code" type="xsd:string" />
+          <xsd:element minOccurs="0" maxOccurs="1" name="Description" type="xsd:string" />
+          <xsd:element minOccurs="1" maxOccurs="1" name="IsMainCategory" type="xsd:boolean" />
+        </xsd:sequence>
+      </xsd:complexType>
+      <xsd:complexType name="ArrayOfActivityV1_1">
+        <xsd:sequence>
+          <xsd:element minOccurs="0" maxOccurs="unbounded" name="ActivityV1_1" nillable="true" type="tns:ActivityV1_1" />
+        </xsd:sequence>
+      </xsd:complexType>
+      <xsd:complexType name="ArrayOfEstablishmentV1_1">
+        <xsd:sequence>
+          <xsd:element minOccurs="0" maxOccurs="unbounded" name="EstablishmentV1_1" nillable="true" type="tns:EstablishmentV1_1" />
+        </xsd:sequence>
+      </xsd:complexType>
+      <xsd:complexType name="ArrayOfJointCommitee">
+        <xsd:sequence>
+          <xsd:element minOccurs="0" maxOccurs="unbounded" name="JointCommitee" nillable="true" type="tns:JointCommitee" />
+        </xsd:sequence>
+      </xsd:complexType>
+      <xsd:complexType name="SocialSecurityInformation">
+        <xsd:sequence>
+          <xsd:element minOccurs="0" maxOccurs="1" name="RegistrationId" type="xsd:string" />
+        </xsd:sequence>
+      </xsd:complexType>
+      <xsd:complexType name="ArrayOfParticipation">
+        <xsd:sequence>
+          <xsd:element minOccurs="0" maxOccurs="unbounded" name="Participation" nillable="true" type="tns:Participation" />
+        </xsd:sequence>
+      </xsd:complexType>
+      <xsd:complexType name="ArrayOfRszPublication">
+        <xsd:sequence>
+          <xsd:element minOccurs="0" maxOccurs="unbounded" name="RszPublication" nillable="true" type="tns:RszPublication" />
+        </xsd:sequence>
+      </xsd:complexType>
+      <xsd:complexType name="ArrayOfJudicialAgreement">
+        <xsd:sequence>
+          <xsd:element minOccurs="0" maxOccurs="unbounded" name="JudicialAgreement" nillable="true" type="tns:JudicialAgreement" />
+        </xsd:sequence>
+      </xsd:complexType>
+      <xsd:complexType name="ArrayOfCurator">
+        <xsd:sequence>
+          <xsd:element minOccurs="0" maxOccurs="unbounded" name="Curator" nillable="true" type="tns:Curator" />
+        </xsd:sequence>
+      </xsd:complexType>
+      <xsd:complexType name="BankrupcyPublication">
+        <xsd:sequence>
+          <xsd:element minOccurs="0" maxOccurs="1" name="Griffie" type="xsd:string" />
+          <xsd:element minOccurs="1" maxOccurs="1" name="Date" type="xsd:int" />
+          <xsd:element minOccurs="0" maxOccurs="1" name="Reason" type="xsd:string" />
+          <xsd:element minOccurs="1" maxOccurs="1" name="ClaimsDate" type="xsd:int" />
+          <xsd:element minOccurs="0" maxOccurs="1" name="Info" type="xsd:string" />
+        </xsd:sequence>
+      </xsd:complexType>
+      <xsd:complexType name="ArrayOfPublication">
+        <xsd:sequence>
+          <xsd:element minOccurs="0" maxOccurs="unbounded" name="Publication" nillable="true" type="tns:Publication" />
+        </xsd:sequence>
+      </xsd:complexType>
+      <xsd:complexType name="ArrayOfBalans">
+        <xsd:sequence>
+          <xsd:element minOccurs="0" maxOccurs="unbounded" name="Balans" nillable="true" type="tns:Balans" />
+        </xsd:sequence>
+      </xsd:complexType>
+      <xsd:complexType name="KycLinkedEntities">
+        <xsd:sequence>
+          <xsd:element minOccurs="0" maxOccurs="1" name="Root" type="tns:KycLinkedCompany" />
+          <xsd:element minOccurs="0" maxOccurs="1" name="LinkedCompanies" nillable="true" type="tns:ArrayOfKycLinkedCompany" />
+          <xsd:element minOccurs="0" maxOccurs="1" name="LinkedPersons" nillable="true" type="tns:ArrayOfKycLinkedPerson" />
+        </xsd:sequence>
+      </xsd:complexType>
+      <xsd:complexType name="Management">
+        <xsd:sequence>
+          <xsd:element minOccurs="1" maxOccurs="1" name="FunctionCode" type="xsd:int" />
+          <xsd:element minOccurs="0" maxOccurs="1" name="FunctionDescription" type="xsd:string" />
+          <xsd:element minOccurs="1" maxOccurs="1" name="StartDate" type="xsd:int" />
+          <xsd:element minOccurs="1" maxOccurs="1" name="EndDate" type="xsd:int" />
+          <xsd:element minOccurs="1" maxOccurs="1" name="CompanyVatNumber" type="xsd:int" />
+          <xsd:element minOccurs="0" maxOccurs="1" name="CompanyRepresentedBy" type="xsd:string" />
+          <xsd:element minOccurs="0" maxOccurs="1" name="PersonName" type="xsd:string" />
+          <xsd:element minOccurs="0" maxOccurs="1" name="CompanyName" type="xsd:string" />
+          <xsd:element minOccurs="0" maxOccurs="1" name="Type" type="xsd:string" />
+          <xsd:element minOccurs="1" maxOccurs="1" name="MandateId" type="xsd:int" />
+        </xsd:sequence>
+      </xsd:complexType>
+      <xsd:complexType name="EstablishmentV1_1">
+        <xsd:sequence>
+          <xsd:element minOccurs="1" maxOccurs="1" name="EstablishmentNumber" type="xsd:long" />
+          <xsd:element minOccurs="0" maxOccurs="1" name="Name" type="xsd:string" />
+          <xsd:element minOccurs="0" maxOccurs="1" name="Address" type="tns:Address" />
+          <xsd:element minOccurs="0" maxOccurs="1" name="Activities" type="tns:ActivityListResponseFragmentV1_1" />
+          <xsd:element minOccurs="1" maxOccurs="1" name="StartDate" type="xsd:int" />
+        </xsd:sequence>
+      </xsd:complexType>
+      <xsd:complexType name="JointCommitee">
+        <xsd:sequence>
+          <xsd:element minOccurs="1" maxOccurs="1" name="Code" type="xsd:int" />
+          <xsd:element minOccurs="0" maxOccurs="1" name="Description" type="xsd:string" />
+        </xsd:sequence>
+      </xsd:complexType>
+      <xsd:complexType name="Participation">
+        <xsd:sequence>
+          <xsd:element minOccurs="1" maxOccurs="1" name="VatNumber" type="xsd:int" />
+          <xsd:element minOccurs="0" maxOccurs="1" name="Name" type="xsd:string" />
+          <xsd:element minOccurs="0" maxOccurs="1" name="CountryCode" type="xsd:string" />
+          <xsd:element minOccurs="1" maxOccurs="1" name="NumberOfShares" type="xsd:long" />
+          <xsd:element minOccurs="1" maxOccurs="1" name="SharesPercentage" type="xsd:decimal" />
+          <xsd:element minOccurs="0" maxOccurs="1" name="Subsidiaries" nillable="true" type="tns:ArrayOfParticipation" />
+        </xsd:sequence>
+      </xsd:complexType>
+      <xsd:complexType name="RszPublication">
+        <xsd:sequence>
+          <xsd:element minOccurs="1" maxOccurs="1" name="PublicationDate" type="xsd:int" />
+          <xsd:element minOccurs="0" maxOccurs="1" name="Title" type="xsd:string" />
+        </xsd:sequence>
+      </xsd:complexType>
+      <xsd:complexType name="JudicialAgreement">
+        <xsd:sequence>
+          <xsd:element minOccurs="0" maxOccurs="1" name="Status" type="xsd:string" />
+          <xsd:element minOccurs="1" maxOccurs="1" name="StartDate" type="xsd:int" />
+          <xsd:element minOccurs="1" maxOccurs="1" name="EndDate" type="xsd:int" />
+          <xsd:element minOccurs="0" maxOccurs="1" name="Griffie" type="xsd:string" />
+        </xsd:sequence>
+      </xsd:complexType>
+      <xsd:complexType name="Curator">
+        <xsd:sequence>
+          <xsd:element minOccurs="1" maxOccurs="1" name="AppointedDate" type="xsd:int" />
+          <xsd:element minOccurs="0" maxOccurs="1" name="Name" type="xsd:string" />
+          <xsd:element minOccurs="0" maxOccurs="1" name="FirstName" type="xsd:string" />
+          <xsd:element minOccurs="0" maxOccurs="1" name="Address" type="tns:Address" />
+          <xsd:element minOccurs="0" maxOccurs="1" name="Fax" type="xsd:string" />
+          <xsd:element minOccurs="0" maxOccurs="1" name="Telephone" type="xsd:string" />
+          <xsd:element minOccurs="0" maxOccurs="1" name="Email" type="xsd:string" />
+        </xsd:sequence>
+      </xsd:complexType>
+      <xsd:complexType name="Publication">
+        <xsd:sequence>
+          <xsd:element minOccurs="1" maxOccurs="1" name="Id" type="xsd:int" />
+          <xsd:element minOccurs="0" maxOccurs="1" name="Type" type="xsd:string" />
+          <xsd:element minOccurs="1" maxOccurs="1" name="PublicationDate" type="xsd:int" />
+          <xsd:element minOccurs="0" maxOccurs="1" name="Title" type="xsd:string" />
+          <xsd:element minOccurs="0" maxOccurs="1" name="Language" type="xsd:string" />
+          <xsd:element minOccurs="0" maxOccurs="1" name="PdfNumber" type="xsd:string" />
+          <xsd:element minOccurs="0" maxOccurs="1" name="Url" type="xsd:string" />
+        </xsd:sequence>
+      </xsd:complexType>
+      <xsd:complexType name="Balans">
+        <xsd:sequence>
+          <xsd:element minOccurs="1" maxOccurs="1" name="BookYear" type="xsd:int" />
+          <xsd:element minOccurs="0" maxOccurs="1" name="BalansData" nillable="true" type="tns:ArrayOfBalansData" />
+        </xsd:sequence>
+      </xsd:complexType>
+      <xsd:complexType name="KycLinkedCompany">
+        <xsd:sequence>
+          <xsd:element minOccurs="1" maxOccurs="1" name="Vat" type="xsd:int" />
+          <xsd:element minOccurs="0" maxOccurs="1" name="Name" type="xsd:string" />
+          <xsd:element minOccurs="0" maxOccurs="1" name="LegalForm" type="tns:LegalForm" />
+          <xsd:element minOccurs="0" maxOccurs="1" name="LinkType" type="xsd:string" />
+          <xsd:element minOccurs="0" maxOccurs="1" name="SharesPercentage" type="tns:KycSharesPercentage" />
+          <xsd:element minOccurs="0" maxOccurs="1" name="SharesDate" type="tns:KycSharesDate" />
+        </xsd:sequence>
+      </xsd:complexType>
+      <xsd:complexType name="ArrayOfKycLinkedCompany">
+        <xsd:sequence>
+          <xsd:element minOccurs="0" maxOccurs="unbounded" name="KycLinkedCompany" nillable="true" type="tns:KycLinkedCompany" />
+        </xsd:sequence>
+      </xsd:complexType>
+      <xsd:complexType name="ArrayOfKycLinkedPerson">
+        <xsd:sequence>
+          <xsd:element minOccurs="0" maxOccurs="unbounded" name="KycLinkedPerson" nillable="true" type="tns:KycLinkedPerson" />
+        </xsd:sequence>
+      </xsd:complexType>
+      <xsd:complexType name="ArrayOfBalansData">
+        <xsd:sequence>
+          <xsd:element minOccurs="0" maxOccurs="unbounded" name="BalansData" nillable="true" type="tns:BalansData" />
+        </xsd:sequence>
+      </xsd:complexType>
+      <xsd:complexType name="KycSharesPercentage">
+        <xsd:sequence>
+          <xsd:element minOccurs="1" maxOccurs="1" name="IsAvailable" type="xsd:boolean" />
+          <xsd:element minOccurs="1" maxOccurs="1" name="Value" nillable="true" type="xsd:decimal" />
+        </xsd:sequence>
+      </xsd:complexType>
+      <xsd:complexType name="KycSharesDate">
+        <xsd:sequence>
+          <xsd:element minOccurs="1" maxOccurs="1" name="IsAvailable" type="xsd:boolean" />
+          <xsd:element minOccurs="1" maxOccurs="1" name="Value" nillable="true" type="xsd:int" />
+        </xsd:sequence>
+      </xsd:complexType>
+      <xsd:complexType name="KycLinkedPerson">
+        <xsd:sequence>
+          <xsd:element minOccurs="0" maxOccurs="1" name="Chain" nillable="true" type="tns:ArrayOfKycLink" />
+          <xsd:element minOccurs="0" maxOccurs="1" name="Firstname" type="xsd:string" />
+          <xsd:element minOccurs="0" maxOccurs="1" name="Lastname" type="xsd:string" />
+          <xsd:element minOccurs="1" maxOccurs="1" name="IsDuplicatePath" type="xsd:boolean" />
+        </xsd:sequence>
+      </xsd:complexType>
+      <xsd:complexType name="BalansData">
+        <xsd:sequence>
+          <xsd:element minOccurs="0" maxOccurs="1" name="Key" type="xsd:string" />
+          <xsd:element minOccurs="0" maxOccurs="1" name="Value" type="xsd:string" />
+        </xsd:sequence>
+      </xsd:complexType>
+      <xsd:complexType name="ArrayOfKycLink">
+        <xsd:sequence>
+          <xsd:element minOccurs="0" maxOccurs="unbounded" name="KycLink" nillable="true" type="tns:KycLink" />
+        </xsd:sequence>
+      </xsd:complexType>
+      <xsd:complexType name="KycLink">
+        <xsd:sequence>
+          <xsd:element minOccurs="1" maxOccurs="1" name="Vat" type="xsd:int" />
+        </xsd:sequence>
+      </xsd:complexType>
+    </xsd:schema>
+  </wsdl:types>
+  <wsdl:message name="AlacarteServiceV1_3_GetCompanyByVat_InputMessage">
+    <wsdl:part name="parameters" element="tns:GetCompanyByVat" />
+  </wsdl:message>
+  <wsdl:message name="AlacarteServiceV1_3_GetCompanyByVat_OutputMessage">
+    <wsdl:part name="parameters" element="tns:GetCompanyByVatResponse" />
+  </wsdl:message>
+  <wsdl:message name="AlacarteServiceV1_3_SearchCompanies_InputMessage">
+    <wsdl:part name="parameters" element="tns:SearchCompanies" />
+  </wsdl:message>
+  <wsdl:message name="AlacarteServiceV1_3_SearchCompanies_OutputMessage">
+    <wsdl:part name="parameters" element="tns:SearchCompaniesResponse" />
+  </wsdl:message>
+  <wsdl:message name="AlacarteServiceV1_3_Alerts_Step1_GetChangeDates_InputMessage">
+    <wsdl:part name="parameters" element="tns:Alerts_Step1_GetChangeDates" />
+  </wsdl:message>
+  <wsdl:message name="AlacarteServiceV1_3_Alerts_Step1_GetChangeDates_OutputMessage">
+    <wsdl:part name="parameters" element="tns:Alerts_Step1_GetChangeDatesResponse" />
+  </wsdl:message>
+  <wsdl:message name="AlacarteServiceV1_3_Alerts_Step2_GetVatList_InputMessage">
+    <wsdl:part name="parameters" element="tns:Alerts_Step2_GetVatList" />
+  </wsdl:message>
+  <wsdl:message name="AlacarteServiceV1_3_Alerts_Step2_GetVatList_OutputMessage">
+    <wsdl:part name="parameters" element="tns:Alerts_Step2_GetVatListResponse" />
+  </wsdl:message>
+  <wsdl:message name="AlacarteServiceV1_3_Alerts_Step3_CompanyOnVat_InputMessage">
+    <wsdl:part name="parameters" element="tns:Alerts_Step3_CompanyOnVat" />
+  </wsdl:message>
+  <wsdl:message name="AlacarteServiceV1_3_Alerts_Step3_CompanyOnVat_OutputMessage">
+    <wsdl:part name="parameters" element="tns:Alerts_Step3_CompanyOnVatResponse" />
+  </wsdl:message>
+  <wsdl:message name="AlacarteServiceV1_3_Alerts_AddCompany_InputMessage">
+    <wsdl:part name="parameters" element="tns:Alerts_AddCompany" />
+  </wsdl:message>
+  <wsdl:message name="AlacarteServiceV1_3_Alerts_AddCompany_OutputMessage">
+    <wsdl:part name="parameters" element="tns:Alerts_AddCompanyResponse" />
+  </wsdl:message>
+  <wsdl:message name="AlacarteServiceV1_3_Alerts_RemoveCompany_InputMessage">
+    <wsdl:part name="parameters" element="tns:Alerts_RemoveCompany" />
+  </wsdl:message>
+  <wsdl:message name="AlacarteServiceV1_3_Alerts_RemoveCompany_OutputMessage">
+    <wsdl:part name="parameters" element="tns:Alerts_RemoveCompanyResponse" />
+  </wsdl:message>
+  <wsdl:message name="AlacarteServiceV1_3_Alerts_AddListOfCompanies_InputMessage">
+    <wsdl:part name="parameters" element="tns:Alerts_AddListOfCompanies" />
+  </wsdl:message>
+  <wsdl:message name="AlacarteServiceV1_3_Alerts_AddListOfCompanies_OutputMessage">
+    <wsdl:part name="parameters" element="tns:Alerts_AddListOfCompaniesResponse" />
+  </wsdl:message>
+  <wsdl:portType name="AlacarteServiceV1_3">
+    <wsdl:operation name="GetCompanyByVat">
+      <wsdl:input message="tns:AlacarteServiceV1_3_GetCompanyByVat_InputMessage" />
+      <wsdl:output message="tns:AlacarteServiceV1_3_GetCompanyByVat_OutputMessage" />
+    </wsdl:operation>
+    <wsdl:operation name="SearchCompanies">
+      <wsdl:input message="tns:AlacarteServiceV1_3_SearchCompanies_InputMessage" />
+      <wsdl:output message="tns:AlacarteServiceV1_3_SearchCompanies_OutputMessage" />
+    </wsdl:operation>
+    <wsdl:operation name="Alerts_Step1_GetChangeDates">
+      <wsdl:input message="tns:AlacarteServiceV1_3_Alerts_Step1_GetChangeDates_InputMessage" />
+      <wsdl:output message="tns:AlacarteServiceV1_3_Alerts_Step1_GetChangeDates_OutputMessage" />
+    </wsdl:operation>
+    <wsdl:operation name="Alerts_Step2_GetVatList">
+      <wsdl:input message="tns:AlacarteServiceV1_3_Alerts_Step2_GetVatList_InputMessage" />
+      <wsdl:output message="tns:AlacarteServiceV1_3_Alerts_Step2_GetVatList_OutputMessage" />
+    </wsdl:operation>
+    <wsdl:operation name="Alerts_Step3_CompanyOnVat">
+      <wsdl:input message="tns:AlacarteServiceV1_3_Alerts_Step3_CompanyOnVat_InputMessage" />
+      <wsdl:output message="tns:AlacarteServiceV1_3_Alerts_Step3_CompanyOnVat_OutputMessage" />
+    </wsdl:operation>
+    <wsdl:operation name="Alerts_AddCompany">
+      <wsdl:input message="tns:AlacarteServiceV1_3_Alerts_AddCompany_InputMessage" />
+      <wsdl:output message="tns:AlacarteServiceV1_3_Alerts_AddCompany_OutputMessage" />
+    </wsdl:operation>
+    <wsdl:operation name="Alerts_RemoveCompany">
+      <wsdl:input message="tns:AlacarteServiceV1_3_Alerts_RemoveCompany_InputMessage" />
+      <wsdl:output message="tns:AlacarteServiceV1_3_Alerts_RemoveCompany_OutputMessage" />
+    </wsdl:operation>
+    <wsdl:operation name="Alerts_AddListOfCompanies">
+      <wsdl:input message="tns:AlacarteServiceV1_3_Alerts_AddListOfCompanies_InputMessage" />
+      <wsdl:output message="tns:AlacarteServiceV1_3_Alerts_AddListOfCompanies_OutputMessage" />
+    </wsdl:operation>
+  </wsdl:portType>
+  <wsdl:binding style="document" name="BasicHttpBinding_AlacarteServiceV1_3_soap" type="tns:AlacarteServiceV1_3">
+    <soap:binding transport="http://schemas.xmlsoap.org/soap/http" />
+    <wsdl:operation name="GetCompanyByVat">
+      <soap:operation soapAction="http://connect.companyweb.be/AlacarteServiceV1_3/GetCompanyByVat" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="SearchCompanies">
+      <soap:operation soapAction="http://connect.companyweb.be/AlacarteServiceV1_3/SearchCompanies" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="Alerts_Step1_GetChangeDates">
+      <soap:operation soapAction="http://connect.companyweb.be/AlacarteServiceV1_3/Alerts_Step1_GetChangeDates" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="Alerts_Step2_GetVatList">
+      <soap:operation soapAction="http://connect.companyweb.be/AlacarteServiceV1_3/Alerts_Step2_GetVatList" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="Alerts_Step3_CompanyOnVat">
+      <soap:operation soapAction="http://connect.companyweb.be/AlacarteServiceV1_3/Alerts_Step3_CompanyOnVat" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="Alerts_AddCompany">
+      <soap:operation soapAction="http://connect.companyweb.be/AlacarteServiceV1_3/Alerts_AddCompany" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="Alerts_RemoveCompany">
+      <soap:operation soapAction="http://connect.companyweb.be/AlacarteServiceV1_3/Alerts_RemoveCompany" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="Alerts_AddListOfCompanies">
+      <soap:operation soapAction="http://connect.companyweb.be/AlacarteServiceV1_3/Alerts_AddListOfCompanies" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+  </wsdl:binding>
+  <wsdl:service name="AlacarteServiceV1_3">
+    <wsdl:port name="BasicHttpBinding_AlacarteServiceV1_3_soap" binding="tns:BasicHttpBinding_AlacarteServiceV1_3_soap">
+      <soap:address location="https://connect.companyweb.be/V1.3/alacarteservice.asmx" />
+    </wsdl:port>
+  </wsdl:service>
+</wsdl:definitions>

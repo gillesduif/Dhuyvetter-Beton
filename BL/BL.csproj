@@ -1,0 +1,165 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="12.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <Import Project="..\packages\cef.redist.x86.73.1.13\build\cef.redist.x86.props" Condition="Exists('..\packages\cef.redist.x86.73.1.13\build\cef.redist.x86.props')" />
+  <Import Project="..\packages\cef.redist.x64.73.1.13\build\cef.redist.x64.props" Condition="Exists('..\packages\cef.redist.x64.73.1.13\build\cef.redist.x64.props')" />
+  <Import Project="$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props" Condition="Exists('$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props')" />
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProjectGuid>{0B591F27-C1C4-47F1-8565-3143E558005F}</ProjectGuid>
+    <OutputType>Library</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>BL</RootNamespace>
+    <AssemblyName>BL</AssemblyName>
+    <TargetFrameworkVersion>v4.6</TargetFrameworkVersion>
+    <FileAlignment>512</FileAlignment>
+    <TargetFrameworkProfile />
+    <NuGetPackageImportStamp>
+    </NuGetPackageImportStamp>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="DocumentFormat.OpenXml, Version=2.5.5631.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35, processorArchitecture=MSIL">
+      <Private>True</Private>
+    </Reference>
+    <Reference Include="FireSharp, Version=1.1.0.0, Culture=neutral, processorArchitecture=MSIL">
+      <HintPath>..\packages\FireSharp.1.1.0\lib\net45\FireSharp.dll</HintPath>
+    </Reference>
+    <Reference Include="Microsoft.Web.WebView2.Core, Version=1.0.961.33, Culture=neutral, PublicKeyToken=2a8ab48044d2601e, processorArchitecture=MSIL">
+      <HintPath>..\packages\Microsoft.Web.WebView2.1.0.961.33\lib\net45\Microsoft.Web.WebView2.Core.dll</HintPath>
+    </Reference>
+    <Reference Include="Microsoft.Web.WebView2.WinForms, Version=1.0.961.33, Culture=neutral, PublicKeyToken=2a8ab48044d2601e, processorArchitecture=MSIL">
+      <HintPath>..\packages\Microsoft.Web.WebView2.1.0.961.33\lib\net45\Microsoft.Web.WebView2.WinForms.dll</HintPath>
+    </Reference>
+    <Reference Include="Microsoft.Web.WebView2.Wpf, Version=1.0.961.33, Culture=neutral, PublicKeyToken=2a8ab48044d2601e, processorArchitecture=MSIL">
+      <HintPath>..\packages\Microsoft.Web.WebView2.1.0.961.33\lib\net45\Microsoft.Web.WebView2.Wpf.dll</HintPath>
+    </Reference>
+    <Reference Include="Newtonsoft.Json, Version=6.0.0.0, Culture=neutral, PublicKeyToken=30ad4fe6b2a6aeed, processorArchitecture=MSIL">
+      <HintPath>..\packages\Newtonsoft.Json.6.0.4\lib\net45\Newtonsoft.Json.dll</HintPath>
+    </Reference>
+    <Reference Include="RestSharp, Version=104.4.0.0, Culture=neutral, processorArchitecture=MSIL">
+      <HintPath>..\packages\RestSharp.104.4.0\lib\net4\RestSharp.dll</HintPath>
+    </Reference>
+    <Reference Include="System" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="Microsoft.CSharp" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Xml" />
+    <Reference Include="WindowsBase" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="Account.cs" />
+    <Compile Include="AccountUpdate.cs" />
+    <Compile Include="AfdrukWachtRij.cs" />
+    <Compile Include="AfvoerInvoer.cs" />
+    <Compile Include="AgendaLeveringen.cs" />
+    <Compile Include="BedrijfsData.cs" />
+    <Compile Include="BenorCategorie.cs" />
+    <Compile Include="Bestelling.cs" />
+    <Compile Include="BestellingPrefab.cs" />
+    <Compile Include="BestellingWebsite.cs" />
+    <Compile Include="BugReport.cs" />
+    <Compile Include="Categorie.cs" />
+    <Compile Include="Chauffeur.cs" />
+    <Compile Include="CodeRood.cs" />
+    <Compile Include="ContactPersoonPrefab.cs" />
+    <Compile Include="EuropeanVatInformation.cs" />
+    <Compile Include="Excell1.cs" />
+    <Compile Include="ExcellAanvoer.cs" />
+    <Compile Include="ExcellAfvoer.cs" />
+    <Compile Include="ExcellCreator.cs" />
+    <Compile Include="ExcellFactuur10.cs" />
+    <Compile Include="ExcellFactuur.cs" />
+    <Compile Include="ExcelLijstPrijs.cs" />
+    <Compile Include="ExcellPomp.cs" />
+    <Compile Include="ExcellPrefab.cs" />
+    <Compile Include="Factuur.cs" />
+    <Compile Include="Factuur_Item.cs" />
+    <Compile Include="Hasher.cs" />
+    <Compile Include="Hulpstof.cs" />
+    <Compile Include="HulpstofPrijs.cs" />
+    <Compile Include="Hulpstof_Factuur_Item.cs" />
+    <Compile Include="Interne_Bestelling.cs" />
+    <Compile Include="KlantNotitie.cs" />
+    <Compile Include="KlantPrefab.cs" />
+    <Compile Include="Korting_Klant.cs" />
+    <Compile Include="Korting_Product.cs" />
+    <Compile Include="Korting_Product_Werf.cs" />
+    <Compile Include="Korting_Werf.cs" />
+    <Compile Include="Logboek.cs" />
+    <Compile Include="NormaleLeveringBon.cs" />
+    <Compile Include="OfferteKlant.cs" />
+    <Compile Include="OfferteProduct.cs" />
+    <Compile Include="OfferteWerf.cs" />
+    <Compile Include="OfferteWerfProduct.cs" />
+    <Compile Include="OmschrijvingProduct.cs" />
+    <Compile Include="Personeel.cs" />
+    <Compile Include="Pomp.cs" />
+    <Compile Include="PompPrijs.cs" />
+    <Compile Include="PostcodeGemeente.cs" />
+    <Compile Include="PrijsLijst.cs" />
+    <Compile Include="PrijsSetting.cs" />
+    <Compile Include="ProductPrefab.cs" />
+    <Compile Include="ProductWebshop.cs" />
+    <Compile Include="Saldo.cs" />
+    <Compile Include="SoortenHulpstof.cs" />
+    <Compile Include="Straatnaam.cs" />
+    <Compile Include="Verlof.cs" />
+    <Compile Include="Voertuig.cs" />
+    <Compile Include="Werf.cs" />
+    <Compile Include="Formule.cs" />
+    <Compile Include="Klant.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="WerfPrefab.cs" />
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\DAL\DAL.csproj">
+      <Project>{de33c011-1562-4e8b-85c4-00e47293c8e6}</Project>
+      <Name>DAL</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\RL\RL.csproj">
+      <Project>{b34ecfda-1a44-4595-a62f-e30e2c993b40}</Project>
+      <Name>RL</Name>
+    </ProjectReference>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="packages.config" />
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+  <Target Name="EnsureNuGetPackageBuildImports" BeforeTargets="PrepareForBuild">
+    <PropertyGroup>
+      <ErrorText>This project references NuGet package(s) that are missing on this computer. Use NuGet Package Restore to download them.  For more information, see http://go.microsoft.com/fwlink/?LinkID=322105. The missing file is {0}.</ErrorText>
+    </PropertyGroup>
+    <Error Condition="!Exists('..\packages\cef.redist.x64.73.1.13\build\cef.redist.x64.props')" Text="$([System.String]::Format('$(ErrorText)', '..\packages\cef.redist.x64.73.1.13\build\cef.redist.x64.props'))" />
+    <Error Condition="!Exists('..\packages\cef.redist.x86.73.1.13\build\cef.redist.x86.props')" Text="$([System.String]::Format('$(ErrorText)', '..\packages\cef.redist.x86.73.1.13\build\cef.redist.x86.props'))" />
+    <Error Condition="!Exists('..\packages\Microsoft.Web.WebView2.1.0.961.33\build\Microsoft.Web.WebView2.targets')" Text="$([System.String]::Format('$(ErrorText)', '..\packages\Microsoft.Web.WebView2.1.0.961.33\build\Microsoft.Web.WebView2.targets'))" />
+    <Error Condition="!Exists('..\packages\System.Text.Json.6.0.0\build\System.Text.Json.targets')" Text="$([System.String]::Format('$(ErrorText)', '..\packages\System.Text.Json.6.0.0\build\System.Text.Json.targets'))" />
+  </Target>
+  <Import Project="..\packages\Microsoft.Web.WebView2.1.0.961.33\build\Microsoft.Web.WebView2.targets" Condition="Exists('..\packages\Microsoft.Web.WebView2.1.0.961.33\build\Microsoft.Web.WebView2.targets')" />
+  <Import Project="..\packages\System.Text.Json.6.0.0\build\System.Text.Json.targets" Condition="Exists('..\packages\System.Text.Json.6.0.0\build\System.Text.Json.targets')" />
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+</Project>

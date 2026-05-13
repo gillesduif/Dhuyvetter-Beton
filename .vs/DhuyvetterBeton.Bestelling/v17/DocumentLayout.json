@@ -1,0 +1,551 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "B:\\Bestellingen\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{2FC40076-DCE1-466D-8136-CB1E31DB5C9B}|DhuyvetterBeton.Beton\\DhuyvetterBeton.Bestellingen.csproj|b:\\bestellingen\\dhuyvetterbeton.beton\\bestelling\\ucnieuwebestelling.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{2FC40076-DCE1-466D-8136-CB1E31DB5C9B}|DhuyvetterBeton.Beton\\DhuyvetterBeton.Bestellingen.csproj|solutionrelative:dhuyvetterbeton.beton\\bestelling\\ucnieuwebestelling.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{2FC40076-DCE1-466D-8136-CB1E31DB5C9B}|DhuyvetterBeton.Beton\\DhuyvetterBeton.Bestellingen.csproj|B:\\Bestellingen\\dhuyvetterbeton.beton\\frmwelkom.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{2FC40076-DCE1-466D-8136-CB1E31DB5C9B}|DhuyvetterBeton.Beton\\DhuyvetterBeton.Bestellingen.csproj|solutionrelative:dhuyvetterbeton.beton\\frmwelkom.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{2FC40076-DCE1-466D-8136-CB1E31DB5C9B}|DhuyvetterBeton.Beton\\DhuyvetterBeton.Bestellingen.csproj|B:\\Bestellingen\\dhuyvetterbeton.beton\\frmwelkom.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{2FC40076-DCE1-466D-8136-CB1E31DB5C9B}|DhuyvetterBeton.Beton\\DhuyvetterBeton.Bestellingen.csproj|solutionrelative:dhuyvetterbeton.beton\\frmwelkom.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0B591F27-C1C4-47F1-8565-3143E558005F}|BL\\BL.csproj|B:\\Bestellingen\\bl\\bedrijfsdata.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{0B591F27-C1C4-47F1-8565-3143E558005F}|BL\\BL.csproj|solutionrelative:bl\\bedrijfsdata.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{2FC40076-DCE1-466D-8136-CB1E31DB5C9B}|DhuyvetterBeton.Beton\\DhuyvetterBeton.Bestellingen.csproj|B:\\Bestellingen\\dhuyvetterbeton.beton\\bestelling\\ucnieuwebestelling.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{2FC40076-DCE1-466D-8136-CB1E31DB5C9B}|DhuyvetterBeton.Beton\\DhuyvetterBeton.Bestellingen.csproj|solutionrelative:dhuyvetterbeton.beton\\bestelling\\ucnieuwebestelling.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{2FC40076-DCE1-466D-8136-CB1E31DB5C9B}|DhuyvetterBeton.Beton\\DhuyvetterBeton.Bestellingen.csproj|B:\\Bestellingen\\dhuyvetterbeton.beton\\bestelling\\ucwijzigbestelling.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{2FC40076-DCE1-466D-8136-CB1E31DB5C9B}|DhuyvetterBeton.Beton\\DhuyvetterBeton.Bestellingen.csproj|solutionrelative:dhuyvetterbeton.beton\\bestelling\\ucwijzigbestelling.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{2FC40076-DCE1-466D-8136-CB1E31DB5C9B}|DhuyvetterBeton.Beton\\DhuyvetterBeton.Bestellingen.csproj|B:\\Bestellingen\\dhuyvetterbeton.beton\\bestelling\\ucwijzigbestelling.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{2FC40076-DCE1-466D-8136-CB1E31DB5C9B}|DhuyvetterBeton.Beton\\DhuyvetterBeton.Bestellingen.csproj|solutionrelative:dhuyvetterbeton.beton\\bestelling\\ucwijzigbestelling.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{2FC40076-DCE1-466D-8136-CB1E31DB5C9B}|DhuyvetterBeton.Beton\\DhuyvetterBeton.Bestellingen.csproj|B:\\Bestellingen\\dhuyvetterbeton.beton\\klanten\\tools\\frmdetailbedrijf.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{2FC40076-DCE1-466D-8136-CB1E31DB5C9B}|DhuyvetterBeton.Beton\\DhuyvetterBeton.Bestellingen.csproj|solutionrelative:dhuyvetterbeton.beton\\klanten\\tools\\frmdetailbedrijf.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{2FC40076-DCE1-466D-8136-CB1E31DB5C9B}|DhuyvetterBeton.Beton\\DhuyvetterBeton.Bestellingen.csproj|B:\\Bestellingen\\dhuyvetterbeton.beton\\agenda\\ucagendaprefab.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{2FC40076-DCE1-466D-8136-CB1E31DB5C9B}|DhuyvetterBeton.Beton\\DhuyvetterBeton.Bestellingen.csproj|solutionrelative:dhuyvetterbeton.beton\\agenda\\ucagendaprefab.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{2FC40076-DCE1-466D-8136-CB1E31DB5C9B}|DhuyvetterBeton.Beton\\DhuyvetterBeton.Bestellingen.csproj|B:\\Bestellingen\\dhuyvetterbeton.beton\\agenda\\ucagendabeton.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{2FC40076-DCE1-466D-8136-CB1E31DB5C9B}|DhuyvetterBeton.Beton\\DhuyvetterBeton.Bestellingen.csproj|solutionrelative:dhuyvetterbeton.beton\\agenda\\ucagendabeton.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{2FC40076-DCE1-466D-8136-CB1E31DB5C9B}|DhuyvetterBeton.Beton\\DhuyvetterBeton.Bestellingen.csproj|B:\\Bestellingen\\dhuyvetterbeton.beton\\agenda\\frmverlofagenda.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{2FC40076-DCE1-466D-8136-CB1E31DB5C9B}|DhuyvetterBeton.Beton\\DhuyvetterBeton.Bestellingen.csproj|solutionrelative:dhuyvetterbeton.beton\\agenda\\frmverlofagenda.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{2FC40076-DCE1-466D-8136-CB1E31DB5C9B}|DhuyvetterBeton.Beton\\DhuyvetterBeton.Bestellingen.csproj|B:\\Bestellingen\\dhuyvetterbeton.beton\\properties\\licenses.licx||{8B382828-6202-11D1-8870-0000F87579D2}",
+      "RelativeMoniker": "D:0:0:{2FC40076-DCE1-466D-8136-CB1E31DB5C9B}|DhuyvetterBeton.Beton\\DhuyvetterBeton.Bestellingen.csproj|solutionrelative:dhuyvetterbeton.beton\\properties\\licenses.licx||{8B382828-6202-11D1-8870-0000F87579D2}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{2FC40076-DCE1-466D-8136-CB1E31DB5C9B}|DhuyvetterBeton.Beton\\DhuyvetterBeton.Bestellingen.csproj|B:\\Bestellingen\\dhuyvetterbeton.beton\\klanten\\tools\\frmdetailbedrijf.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{2FC40076-DCE1-466D-8136-CB1E31DB5C9B}|DhuyvetterBeton.Beton\\DhuyvetterBeton.Bestellingen.csproj|solutionrelative:dhuyvetterbeton.beton\\klanten\\tools\\frmdetailbedrijf.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{2FC40076-DCE1-466D-8136-CB1E31DB5C9B}|DhuyvetterBeton.Beton\\DhuyvetterBeton.Bestellingen.csproj|B:\\Bestellingen\\dhuyvetterbeton.beton\\klanten\\ucwijzigenklant.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{2FC40076-DCE1-466D-8136-CB1E31DB5C9B}|DhuyvetterBeton.Beton\\DhuyvetterBeton.Bestellingen.csproj|solutionrelative:dhuyvetterbeton.beton\\klanten\\ucwijzigenklant.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{DE33C011-1562-4E8B-85C4-00E47293C8E6}|DAL\\DAL.csproj|B:\\Bestellingen\\dal\\dataaccess.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{DE33C011-1562-4E8B-85C4-00E47293C8E6}|DAL\\DAL.csproj|solutionrelative:dal\\dataaccess.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{00000000-0000-0000-0000-000000000000}|\u003CSolution\u003E|RL||{04B8AB82-A572-4FEF-95CE-5222444B6B64}|"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{2FC40076-DCE1-466D-8136-CB1E31DB5C9B}|DhuyvetterBeton.Beton\\DhuyvetterBeton.Bestellingen.csproj|B:\\Bestellingen\\dhuyvetterbeton.beton\\personeeld\\ucverlofdag.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{2FC40076-DCE1-466D-8136-CB1E31DB5C9B}|DhuyvetterBeton.Beton\\DhuyvetterBeton.Bestellingen.csproj|solutionrelative:dhuyvetterbeton.beton\\personeeld\\ucverlofdag.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{2FC40076-DCE1-466D-8136-CB1E31DB5C9B}|DhuyvetterBeton.Beton\\DhuyvetterBeton.Bestellingen.csproj|B:\\Bestellingen\\dhuyvetterbeton.beton\\uchoofdvenster.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{2FC40076-DCE1-466D-8136-CB1E31DB5C9B}|DhuyvetterBeton.Beton\\DhuyvetterBeton.Bestellingen.csproj|solutionrelative:dhuyvetterbeton.beton\\uchoofdvenster.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{2FC40076-DCE1-466D-8136-CB1E31DB5C9B}|DhuyvetterBeton.Beton\\DhuyvetterBeton.Bestellingen.csproj|B:\\Bestellingen\\dhuyvetterbeton.beton\\agenda\\ucagendabeton.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{2FC40076-DCE1-466D-8136-CB1E31DB5C9B}|DhuyvetterBeton.Beton\\DhuyvetterBeton.Bestellingen.csproj|solutionrelative:dhuyvetterbeton.beton\\agenda\\ucagendabeton.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{2FC40076-DCE1-466D-8136-CB1E31DB5C9B}|DhuyvetterBeton.Beton\\DhuyvetterBeton.Bestellingen.csproj|B:\\Bestellingen\\dhuyvetterbeton.beton\\frmhoofdvenster.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{2FC40076-DCE1-466D-8136-CB1E31DB5C9B}|DhuyvetterBeton.Beton\\DhuyvetterBeton.Bestellingen.csproj|solutionrelative:dhuyvetterbeton.beton\\frmhoofdvenster.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{2FC40076-DCE1-466D-8136-CB1E31DB5C9B}|DhuyvetterBeton.Beton\\DhuyvetterBeton.Bestellingen.csproj|B:\\Bestellingen\\dhuyvetterbeton.beton\\bestelling\\ucnieuwebestelling.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{2FC40076-DCE1-466D-8136-CB1E31DB5C9B}|DhuyvetterBeton.Beton\\DhuyvetterBeton.Bestellingen.csproj|solutionrelative:dhuyvetterbeton.beton\\bestelling\\ucnieuwebestelling.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0B591F27-C1C4-47F1-8565-3143E558005F}|BL\\BL.csproj|B:\\Bestellingen\\bl\\bestelling.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{0B591F27-C1C4-47F1-8565-3143E558005F}|BL\\BL.csproj|solutionrelative:bl\\bestelling.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{2FC40076-DCE1-466D-8136-CB1E31DB5C9B}|DhuyvetterBeton.Beton\\DhuyvetterBeton.Bestellingen.csproj|B:\\Bestellingen\\dhuyvetterbeton.beton\\uchoofdvenster.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{2FC40076-DCE1-466D-8136-CB1E31DB5C9B}|DhuyvetterBeton.Beton\\DhuyvetterBeton.Bestellingen.csproj|solutionrelative:dhuyvetterbeton.beton\\uchoofdvenster.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{2FC40076-DCE1-466D-8136-CB1E31DB5C9B}|DhuyvetterBeton.Beton\\DhuyvetterBeton.Bestellingen.csproj|B:\\Bestellingen\\dhuyvetterbeton.beton\\uchoofdvenster.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{2FC40076-DCE1-466D-8136-CB1E31DB5C9B}|DhuyvetterBeton.Beton\\DhuyvetterBeton.Bestellingen.csproj|solutionrelative:dhuyvetterbeton.beton\\uchoofdvenster.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0B591F27-C1C4-47F1-8565-3143E558005F}|BL\\BL.csproj|B:\\Bestellingen\\bl\\excellaanvoer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{0B591F27-C1C4-47F1-8565-3143E558005F}|BL\\BL.csproj|solutionrelative:bl\\excellaanvoer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0B591F27-C1C4-47F1-8565-3143E558005F}|BL\\BL.csproj|B:\\Bestellingen\\bl\\afvoerinvoer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{0B591F27-C1C4-47F1-8565-3143E558005F}|BL\\BL.csproj|solutionrelative:bl\\afvoerinvoer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0B591F27-C1C4-47F1-8565-3143E558005F}|BL\\BL.csproj|B:\\Bestellingen\\bl\\excellpomp.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{0B591F27-C1C4-47F1-8565-3143E558005F}|BL\\BL.csproj|solutionrelative:bl\\excellpomp.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{2FC40076-DCE1-466D-8136-CB1E31DB5C9B}|DhuyvetterBeton.Beton\\DhuyvetterBeton.Bestellingen.csproj|B:\\Bestellingen\\dhuyvetterbeton.beton\\facturen\\ucmailfacturen.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{2FC40076-DCE1-466D-8136-CB1E31DB5C9B}|DhuyvetterBeton.Beton\\DhuyvetterBeton.Bestellingen.csproj|solutionrelative:dhuyvetterbeton.beton\\facturen\\ucmailfacturen.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0B591F27-C1C4-47F1-8565-3143E558005F}|BL\\BL.csproj|B:\\Bestellingen\\bl\\excell1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{0B591F27-C1C4-47F1-8565-3143E558005F}|BL\\BL.csproj|solutionrelative:bl\\excell1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{2FC40076-DCE1-466D-8136-CB1E31DB5C9B}|DhuyvetterBeton.Beton\\DhuyvetterBeton.Bestellingen.csproj|B:\\Bestellingen\\dhuyvetterbeton.beton\\agenda\\ucagendabeton.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{2FC40076-DCE1-466D-8136-CB1E31DB5C9B}|DhuyvetterBeton.Beton\\DhuyvetterBeton.Bestellingen.csproj|solutionrelative:dhuyvetterbeton.beton\\agenda\\ucagendabeton.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0B591F27-C1C4-47F1-8565-3143E558005F}|BL\\BL.csproj|B:\\Bestellingen\\bl\\excellafvoer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{0B591F27-C1C4-47F1-8565-3143E558005F}|BL\\BL.csproj|solutionrelative:bl\\excellafvoer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0B591F27-C1C4-47F1-8565-3143E558005F}|BL\\BL.csproj|B:\\Bestellingen\\bl\\straatnaam.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{0B591F27-C1C4-47F1-8565-3143E558005F}|BL\\BL.csproj|solutionrelative:bl\\straatnaam.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{2FC40076-DCE1-466D-8136-CB1E31DB5C9B}|DhuyvetterBeton.Beton\\DhuyvetterBeton.Bestellingen.csproj|B:\\Bestellingen\\dhuyvetterbeton.beton\\dhuyvetbestelllingdataset.xsd||{07AC752B-D2B0-4DCD-AD9C-237BF561A30A}",
+      "RelativeMoniker": "D:0:0:{2FC40076-DCE1-466D-8136-CB1E31DB5C9B}|DhuyvetterBeton.Beton\\DhuyvetterBeton.Bestellingen.csproj|solutionrelative:dhuyvetterbeton.beton\\dhuyvetbestelllingdataset.xsd||{07AC752B-D2B0-4DCD-AD9C-237BF561A30A}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{DE33C011-1562-4E8B-85C4-00E47293C8E6}|DAL\\DAL.csproj|B:\\Bestellingen\\dal\\dhuyvetbestelllingdataset.xsd||{07AC752B-D2B0-4DCD-AD9C-237BF561A30A}",
+      "RelativeMoniker": "D:0:0:{DE33C011-1562-4E8B-85C4-00E47293C8E6}|DAL\\DAL.csproj|solutionrelative:dal\\dhuyvetbestelllingdataset.xsd||{07AC752B-D2B0-4DCD-AD9C-237BF561A30A}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 1,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedHeight": 200,
+          "SelectedChildIndex": 1,
+          "Children": [
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{cce594b6-0c39-4442-ba28-10c64ac7e89f}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "ucNieuweBestelling.cs [Design]",
+              "DocumentMoniker": "B:\\Bestellingen\\DhuyvetterBeton.Beton\\Bestelling\\ucNieuweBestelling.cs",
+              "RelativeDocumentMoniker": "DhuyvetterBeton.Beton\\Bestelling\\ucNieuweBestelling.cs",
+              "ToolTip": "B:\\Bestellingen\\DhuyvetterBeton.Beton\\Bestelling\\ucNieuweBestelling.cs [Design]",
+              "RelativeToolTip": "DhuyvetterBeton.Beton\\Bestelling\\ucNieuweBestelling.cs [Design]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-05-13T07:41:03.169Z",
+              "EditorCaption": " [Design]"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "BedrijfsData.cs",
+              "DocumentMoniker": "B:\\Bestellingen\\BL\\BedrijfsData.cs",
+              "RelativeDocumentMoniker": "BL\\BedrijfsData.cs",
+              "ToolTip": "B:\\Bestellingen\\BL\\BedrijfsData.cs",
+              "RelativeToolTip": "BL\\BedrijfsData.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAcAAAAhAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-05-13T07:41:03.192Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 15,
+              "Title": "RL",
+              "DocumentMoniker": "B:\\Bestellingen\\RL\\RL.csproj",
+              "RelativeDocumentMoniker": "RL\\RL.csproj",
+              "ToolTip": "B:\\Bestellingen\\RL\\RL.csproj",
+              "RelativeToolTip": "RL\\RL.csproj",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
+              "WhenOpened": "2024-01-07T10:16:44.756Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 14,
+              "Title": "DataAccess.cs",
+              "DocumentMoniker": "B:\\Bestellingen\\DAL\\DataAccess.cs",
+              "RelativeDocumentMoniker": "DAL\\DataAccess.cs",
+              "ToolTip": "B:\\Bestellingen\\DAL\\DataAccess.cs",
+              "RelativeToolTip": "DAL\\DataAccess.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAwAAAANAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-05-13T07:41:03.196Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 24,
+              "Title": "ExcellAanvoer.cs",
+              "DocumentMoniker": "B:\\Bestellingen\\BL\\ExcellAanvoer.cs",
+              "RelativeDocumentMoniker": "BL\\ExcellAanvoer.cs",
+              "ToolTip": "B:\\Bestellingen\\BL\\ExcellAanvoer.cs",
+              "RelativeToolTip": "BL\\ExcellAanvoer.cs",
+              "ViewState": "AQIAAA0AAAAAAAAAAIBAwBkAAABDAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-05-13T07:41:03.201Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 21,
+              "Title": "Bestelling.cs",
+              "DocumentMoniker": "B:\\Bestellingen\\BL\\Bestelling.cs",
+              "RelativeDocumentMoniker": "BL\\Bestelling.cs",
+              "ToolTip": "B:\\Bestellingen\\BL\\Bestelling.cs",
+              "RelativeToolTip": "BL\\Bestelling.cs",
+              "ViewState": "AQIAAAQBAAAAAAAAAIA0wA0BAAANAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-05-13T07:41:03.201Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 25,
+              "Title": "AfvoerInvoer.cs",
+              "DocumentMoniker": "B:\\Bestellingen\\BL\\AfvoerInvoer.cs",
+              "RelativeDocumentMoniker": "BL\\AfvoerInvoer.cs",
+              "ToolTip": "B:\\Bestellingen\\BL\\AfvoerInvoer.cs",
+              "RelativeToolTip": "BL\\AfvoerInvoer.cs",
+              "ViewState": "AQIAAE4AAAAAAAAAAAAywCIAAAAPAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-05-13T07:41:03.203Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 26,
+              "Title": "ExcellPomp.cs",
+              "DocumentMoniker": "B:\\Bestellingen\\BL\\ExcellPomp.cs",
+              "RelativeDocumentMoniker": "BL\\ExcellPomp.cs",
+              "ToolTip": "B:\\Bestellingen\\BL\\ExcellPomp.cs",
+              "RelativeToolTip": "BL\\ExcellPomp.cs",
+              "ViewState": "AQIAAA0AAAAAAAAAAIBAwBoAAAANAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-05-13T07:41:03.204Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 33,
+              "Title": "DhuyvetBestelllingDataSet.xsd",
+              "DocumentMoniker": "B:\\Bestellingen\\DAL\\DhuyvetBestelllingDataSet.xsd",
+              "RelativeDocumentMoniker": "DAL\\DhuyvetBestelllingDataSet.xsd",
+              "ToolTip": "B:\\Bestellingen\\DAL\\DhuyvetBestelllingDataSet.xsd",
+              "RelativeToolTip": "DAL\\DhuyvetBestelllingDataSet.xsd",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000835|",
+              "WhenOpened": "2026-05-13T07:41:03.205Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 31,
+              "Title": "Straatnaam.cs",
+              "DocumentMoniker": "B:\\Bestellingen\\BL\\Straatnaam.cs",
+              "RelativeDocumentMoniker": "BL\\Straatnaam.cs",
+              "ToolTip": "B:\\Bestellingen\\BL\\Straatnaam.cs",
+              "RelativeToolTip": "BL\\Straatnaam.cs",
+              "ViewState": "AQIAADAAAAAAAAAAAOBiwDUAAABFAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-05-13T07:41:03.205Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 30,
+              "Title": "ExcellAfvoer.cs",
+              "DocumentMoniker": "B:\\Bestellingen\\BL\\ExcellAfvoer.cs",
+              "RelativeDocumentMoniker": "BL\\ExcellAfvoer.cs",
+              "ToolTip": "B:\\Bestellingen\\BL\\ExcellAfvoer.cs",
+              "RelativeToolTip": "BL\\ExcellAfvoer.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAADwvwAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-05-13T07:41:03.206Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 28,
+              "Title": "Excell1.cs",
+              "DocumentMoniker": "B:\\Bestellingen\\BL\\Excell1.cs",
+              "RelativeDocumentMoniker": "BL\\Excell1.cs",
+              "ToolTip": "B:\\Bestellingen\\BL\\Excell1.cs",
+              "RelativeToolTip": "BL\\Excell1.cs",
+              "ViewState": "AQIAAAoAAAAAAAAAAAAAABcAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-05-13T07:41:03.206Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "FrmWelkom.cs",
+              "DocumentMoniker": "B:\\Bestellingen\\DhuyvetterBeton.Beton\\FrmWelkom.cs",
+              "RelativeDocumentMoniker": "DhuyvetterBeton.Beton\\FrmWelkom.cs",
+              "ToolTip": "B:\\Bestellingen\\DhuyvetterBeton.Beton\\FrmWelkom.cs",
+              "RelativeToolTip": "DhuyvetterBeton.Beton\\FrmWelkom.cs",
+              "ViewState": "AQIAAIEBAAAAAAAAAAAgwHoBAAAJAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003525|",
+              "WhenOpened": "2026-05-13T07:40:56.011Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "FrmDetailBedrijf.Designer.cs",
+              "DocumentMoniker": "B:\\Bestellingen\\DhuyvetterBeton.Beton\\Klanten\\Tools\\FrmDetailBedrijf.Designer.cs",
+              "RelativeDocumentMoniker": "DhuyvetterBeton.Beton\\Klanten\\Tools\\FrmDetailBedrijf.Designer.cs",
+              "ToolTip": "B:\\Bestellingen\\DhuyvetterBeton.Beton\\Klanten\\Tools\\FrmDetailBedrijf.Designer.cs",
+              "RelativeToolTip": "DhuyvetterBeton.Beton\\Klanten\\Tools\\FrmDetailBedrijf.Designer.cs",
+              "ViewState": "AQIAAHYBAAAAAAAAAAAqwJ8BAAAMAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001384|",
+              "WhenOpened": "2026-05-13T07:41:03.192Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "ucAgendaPrefab.cs [Design]",
+              "DocumentMoniker": "B:\\Bestellingen\\DhuyvetterBeton.Beton\\Agenda\\ucAgendaPrefab.cs",
+              "RelativeDocumentMoniker": "DhuyvetterBeton.Beton\\Agenda\\ucAgendaPrefab.cs",
+              "ToolTip": "C:\\Users\\Gilles D\u0027huyvetter\\Desktop\\Software D\u0027huyvetter Beton\\Bestellingen\\DhuyvetterBeton.Beton\\Agenda\\ucAgendaPrefab.cs [Design]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003302|",
+              "WhenOpened": "2026-05-13T07:41:03.192Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "FrmWelkom.cs [Design]",
+              "DocumentMoniker": "B:\\Bestellingen\\DhuyvetterBeton.Beton\\FrmWelkom.cs",
+              "RelativeDocumentMoniker": "DhuyvetterBeton.Beton\\FrmWelkom.cs",
+              "ToolTip": "C:\\Users\\Gilles D\u0027huyvetter\\Desktop\\Software D\u0027huyvetter Beton\\Bestellingen\\DhuyvetterBeton.Beton\\FrmWelkom.cs [Design]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003525|",
+              "WhenOpened": "2026-05-13T07:41:03.195Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "ucNieuweBestelling.cs",
+              "DocumentMoniker": "B:\\Bestellingen\\DhuyvetterBeton.Beton\\Bestelling\\ucNieuweBestelling.cs",
+              "RelativeDocumentMoniker": "DhuyvetterBeton.Beton\\Bestelling\\ucNieuweBestelling.cs",
+              "ToolTip": "B:\\Bestellingen\\DhuyvetterBeton.Beton\\Bestelling\\ucNieuweBestelling.cs",
+              "RelativeToolTip": "DhuyvetterBeton.Beton\\Bestelling\\ucNieuweBestelling.cs",
+              "ViewState": "AQIAABcGAAAAAAAAAAAlwAAGAAAMAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003302|",
+              "WhenOpened": "2026-05-13T07:41:03.196Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "ucWijzigBestelling.cs [Design]",
+              "DocumentMoniker": "B:\\Bestellingen\\DhuyvetterBeton.Beton\\Bestelling\\ucWijzigBestelling.cs",
+              "RelativeDocumentMoniker": "DhuyvetterBeton.Beton\\Bestelling\\ucWijzigBestelling.cs",
+              "ToolTip": "C:\\Users\\Gilles D\u0027huyvetter\\Desktop\\Software D\u0027huyvetter Beton\\Bestellingen\\DhuyvetterBeton.Beton\\Bestelling\\ucWijzigBestelling.cs [Design]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003302|",
+              "WhenOpened": "2026-05-13T07:41:03.197Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "ucWijzigBestelling.cs",
+              "DocumentMoniker": "B:\\Bestellingen\\DhuyvetterBeton.Beton\\Bestelling\\ucWijzigBestelling.cs",
+              "RelativeDocumentMoniker": "DhuyvetterBeton.Beton\\Bestelling\\ucWijzigBestelling.cs",
+              "ToolTip": "B:\\Bestellingen\\DhuyvetterBeton.Beton\\Bestelling\\ucWijzigBestelling.cs",
+              "RelativeToolTip": "DhuyvetterBeton.Beton\\Bestelling\\ucWijzigBestelling.cs",
+              "ViewState": "AQIAAMsCAAAAAAAAAAAMwOoCAAApAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003302|",
+              "WhenOpened": "2026-05-13T07:41:03.197Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "ucAgendaBeton.cs [Design]",
+              "DocumentMoniker": "B:\\Bestellingen\\DhuyvetterBeton.Beton\\Agenda\\ucAgendaBeton.cs",
+              "RelativeDocumentMoniker": "DhuyvetterBeton.Beton\\Agenda\\ucAgendaBeton.cs",
+              "ToolTip": "C:\\Users\\Gilles D\u0027huyvetter\\Desktop\\Software D\u0027huyvetter Beton\\Bestellingen\\DhuyvetterBeton.Beton\\Agenda\\ucAgendaBeton.cs [Design]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003302|",
+              "WhenOpened": "2026-05-13T07:41:03.198Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 11,
+              "Title": "licenses.licx",
+              "DocumentMoniker": "B:\\Bestellingen\\DhuyvetterBeton.Beton\\Properties\\licenses.licx",
+              "RelativeDocumentMoniker": "DhuyvetterBeton.Beton\\Properties\\licenses.licx",
+              "ToolTip": "B:\\Bestellingen\\DhuyvetterBeton.Beton\\Properties\\licenses.licx",
+              "RelativeToolTip": "DhuyvetterBeton.Beton\\Properties\\licenses.licx",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001001|",
+              "WhenOpened": "2026-05-13T07:41:03.198Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 16,
+              "Title": "ucVerlofDag.cs",
+              "DocumentMoniker": "B:\\Bestellingen\\DhuyvetterBeton.Beton\\PersoneelD\\ucVerlofDag.cs",
+              "RelativeDocumentMoniker": "DhuyvetterBeton.Beton\\PersoneelD\\ucVerlofDag.cs",
+              "ToolTip": "B:\\Bestellingen\\DhuyvetterBeton.Beton\\PersoneelD\\ucVerlofDag.cs",
+              "RelativeToolTip": "DhuyvetterBeton.Beton\\PersoneelD\\ucVerlofDag.cs",
+              "ViewState": "AQIAAAwAAAAAAAAAAAASwBMAAAAcAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003302|",
+              "WhenOpened": "2026-05-13T07:41:03.198Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 18,
+              "Title": "ucAgendaBeton.Designer.cs",
+              "DocumentMoniker": "B:\\Bestellingen\\DhuyvetterBeton.Beton\\Agenda\\ucAgendaBeton.Designer.cs",
+              "RelativeDocumentMoniker": "DhuyvetterBeton.Beton\\Agenda\\ucAgendaBeton.Designer.cs",
+              "ToolTip": "B:\\Bestellingen\\DhuyvetterBeton.Beton\\Agenda\\ucAgendaBeton.Designer.cs",
+              "RelativeToolTip": "DhuyvetterBeton.Beton\\Agenda\\ucAgendaBeton.Designer.cs",
+              "ViewState": "AQIAAB0GAAAAAAAAAAAuwCAGAAAyAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001384|",
+              "WhenOpened": "2026-05-13T07:41:03.199Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 10,
+              "Title": "FrmVerlofAgenda.cs [Design]",
+              "DocumentMoniker": "B:\\Bestellingen\\DhuyvetterBeton.Beton\\Agenda\\FrmVerlofAgenda.cs",
+              "RelativeDocumentMoniker": "DhuyvetterBeton.Beton\\Agenda\\FrmVerlofAgenda.cs",
+              "ToolTip": "C:\\Users\\Gilles D\u0027huyvetter\\Desktop\\Software D\u0027huyvetter Beton\\Bestellingen\\DhuyvetterBeton.Beton\\Agenda\\FrmVerlofAgenda.cs [Design]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003525|",
+              "WhenOpened": "2026-05-13T07:41:03.199Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 12,
+              "Title": "FrmDetailBedrijf.cs",
+              "DocumentMoniker": "B:\\Bestellingen\\DhuyvetterBeton.Beton\\Klanten\\Tools\\FrmDetailBedrijf.cs",
+              "RelativeDocumentMoniker": "DhuyvetterBeton.Beton\\Klanten\\Tools\\FrmDetailBedrijf.cs",
+              "ToolTip": "B:\\Bestellingen\\DhuyvetterBeton.Beton\\Klanten\\Tools\\FrmDetailBedrijf.cs",
+              "RelativeToolTip": "DhuyvetterBeton.Beton\\Klanten\\Tools\\FrmDetailBedrijf.cs",
+              "ViewState": "AQIAAJcBAAAAAAAAAAAAAJoBAAAfAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003525|",
+              "WhenOpened": "2026-05-13T07:41:03.2Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 13,
+              "Title": "ucWijzigenKlant.cs",
+              "DocumentMoniker": "B:\\Bestellingen\\DhuyvetterBeton.Beton\\Klanten\\ucWijzigenKlant.cs",
+              "RelativeDocumentMoniker": "DhuyvetterBeton.Beton\\Klanten\\ucWijzigenKlant.cs",
+              "ToolTip": "B:\\Bestellingen\\DhuyvetterBeton.Beton\\Klanten\\ucWijzigenKlant.cs",
+              "RelativeToolTip": "DhuyvetterBeton.Beton\\Klanten\\ucWijzigenKlant.cs",
+              "ViewState": "AQIAAIcDAAAAAAAAAAAqwJEDAAAQAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003302|",
+              "WhenOpened": "2026-05-13T07:41:03.2Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 19,
+              "Title": "FrmHoofdVenster.Designer.cs",
+              "DocumentMoniker": "B:\\Bestellingen\\DhuyvetterBeton.Beton\\FrmHoofdVenster.Designer.cs",
+              "RelativeDocumentMoniker": "DhuyvetterBeton.Beton\\FrmHoofdVenster.Designer.cs",
+              "ToolTip": "B:\\Bestellingen\\DhuyvetterBeton.Beton\\FrmHoofdVenster.Designer.cs",
+              "RelativeToolTip": "DhuyvetterBeton.Beton\\FrmHoofdVenster.Designer.cs",
+              "ViewState": "AQIAANMAAAAAAAAAAAAuwN4AAAAcAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001384|",
+              "WhenOpened": "2026-05-13T07:41:03.2Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 17,
+              "Title": "ucHoofdvenster.Designer.cs",
+              "DocumentMoniker": "B:\\Bestellingen\\DhuyvetterBeton.Beton\\ucHoofdvenster.Designer.cs",
+              "RelativeDocumentMoniker": "DhuyvetterBeton.Beton\\ucHoofdvenster.Designer.cs",
+              "ToolTip": "B:\\Bestellingen\\DhuyvetterBeton.Beton\\ucHoofdvenster.Designer.cs",
+              "RelativeToolTip": "DhuyvetterBeton.Beton\\ucHoofdvenster.Designer.cs",
+              "ViewState": "AQIAAKYBAAAAAAAAAAA1wK4BAAAyAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001384|",
+              "WhenOpened": "2026-05-13T07:41:03.201Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 20,
+              "Title": "ucNieuweBestelling.Designer.cs",
+              "DocumentMoniker": "B:\\Bestellingen\\DhuyvetterBeton.Beton\\Bestelling\\ucNieuweBestelling.Designer.cs",
+              "RelativeDocumentMoniker": "DhuyvetterBeton.Beton\\Bestelling\\ucNieuweBestelling.Designer.cs",
+              "ToolTip": "B:\\Bestellingen\\DhuyvetterBeton.Beton\\Bestelling\\ucNieuweBestelling.Designer.cs",
+              "RelativeToolTip": "DhuyvetterBeton.Beton\\Bestelling\\ucNieuweBestelling.Designer.cs",
+              "ViewState": "AQIAACMLAAAAAAAAAAAuwCoLAAAQAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001384|",
+              "WhenOpened": "2026-05-13T07:41:03.202Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 29,
+              "Title": "ucAgendaBeton.cs",
+              "DocumentMoniker": "B:\\Bestellingen\\DhuyvetterBeton.Beton\\Agenda\\ucAgendaBeton.cs",
+              "RelativeDocumentMoniker": "DhuyvetterBeton.Beton\\Agenda\\ucAgendaBeton.cs",
+              "ToolTip": "B:\\Bestellingen\\DhuyvetterBeton.Beton\\Agenda\\ucAgendaBeton.cs",
+              "RelativeToolTip": "DhuyvetterBeton.Beton\\Agenda\\ucAgendaBeton.cs",
+              "ViewState": "AQIAALIAAAAANTMzMxMzwAIAAAAZAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003302|",
+              "WhenOpened": "2026-05-13T07:41:03.202Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 23,
+              "Title": "ucHoofdvenster.cs [Design]",
+              "DocumentMoniker": "B:\\Bestellingen\\DhuyvetterBeton.Beton\\ucHoofdvenster.cs",
+              "RelativeDocumentMoniker": "DhuyvetterBeton.Beton\\ucHoofdvenster.cs",
+              "ToolTip": "C:\\Users\\Gilles D\u0027huyvetter\\Desktop\\Software D\u0027huyvetter Beton\\Bestellingen\\DhuyvetterBeton.Beton\\ucHoofdvenster.cs [Design]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003302|",
+              "WhenOpened": "2026-05-13T07:41:03.203Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 22,
+              "Title": "ucHoofdvenster.cs",
+              "DocumentMoniker": "B:\\Bestellingen\\DhuyvetterBeton.Beton\\ucHoofdvenster.cs",
+              "RelativeDocumentMoniker": "DhuyvetterBeton.Beton\\ucHoofdvenster.cs",
+              "ToolTip": "B:\\Bestellingen\\DhuyvetterBeton.Beton\\ucHoofdvenster.cs",
+              "RelativeToolTip": "DhuyvetterBeton.Beton\\ucHoofdvenster.cs",
+              "ViewState": "AQIAAL0AAAAAAAAAAAAuwMcAAAAeAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003302|",
+              "WhenOpened": "2026-05-13T07:41:03.203Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 27,
+              "Title": "ucMailFacturen.cs [Design]",
+              "DocumentMoniker": "B:\\Bestellingen\\DhuyvetterBeton.Beton\\Facturen\\ucMailFacturen.cs",
+              "RelativeDocumentMoniker": "DhuyvetterBeton.Beton\\Facturen\\ucMailFacturen.cs",
+              "ToolTip": "C:\\Users\\Gilles D\u0027huyvetter\\Desktop\\Software D\u0027huyvetter Beton\\Bestellingen\\DhuyvetterBeton.Beton\\Facturen\\ucMailFacturen.cs [Design]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003302|",
+              "WhenOpened": "2026-05-13T07:41:03.204Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 32,
+              "Title": "DhuyvetBestelllingDataSet.xsd",
+              "DocumentMoniker": "B:\\Bestellingen\\DhuyvetterBeton.Beton\\DhuyvetBestelllingDataSet.xsd",
+              "RelativeDocumentMoniker": "DhuyvetterBeton.Beton\\DhuyvetBestelllingDataSet.xsd",
+              "ToolTip": "B:\\Bestellingen\\DhuyvetterBeton.Beton\\DhuyvetBestelllingDataSet.xsd",
+              "RelativeToolTip": "DhuyvetterBeton.Beton\\DhuyvetBestelllingDataSet.xsd",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003579|",
+              "WhenOpened": "2026-05-13T07:41:03.205Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

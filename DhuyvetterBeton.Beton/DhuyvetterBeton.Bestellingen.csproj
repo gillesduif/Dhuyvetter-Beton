@@ -1,0 +1,1258 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="14.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <Import Project="..\packages\CefSharp.Common.96.0.141\build\CefSharp.Common.props" Condition="Exists('..\packages\CefSharp.Common.96.0.141\build\CefSharp.Common.props')" />
+  <Import Project="..\packages\cef.redist.x86.96.0.14\build\cef.redist.x86.props" Condition="Exists('..\packages\cef.redist.x86.96.0.14\build\cef.redist.x86.props')" />
+  <Import Project="..\packages\cef.redist.x64.96.0.14\build\cef.redist.x64.props" Condition="Exists('..\packages\cef.redist.x64.96.0.14\build\cef.redist.x64.props')" />
+  <Import Project="$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props" Condition="Exists('$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props')" />
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProjectGuid>{2FC40076-DCE1-466D-8136-CB1E31DB5C9B}</ProjectGuid>
+    <OutputType>WinExe</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>DhuyvetterBeton.Beton</RootNamespace>
+    <AssemblyName>Dhuyvetter Beton - Bureau</AssemblyName>
+    <TargetFrameworkVersion>v4.8</TargetFrameworkVersion>
+    <FileAlignment>512</FileAlignment>
+    <AutoGenerateBindingRedirects>true</AutoGenerateBindingRedirects>
+    <TargetFrameworkProfile />
+    <NuGetPackageImportStamp>
+    </NuGetPackageImportStamp>
+    <IsWebBootstrapper>false</IsWebBootstrapper>
+    <PublishUrl>publish\</PublishUrl>
+    <Install>true</Install>
+    <InstallFrom>Disk</InstallFrom>
+    <UpdateEnabled>false</UpdateEnabled>
+    <UpdateMode>Foreground</UpdateMode>
+    <UpdateInterval>7</UpdateInterval>
+    <UpdateIntervalUnits>Days</UpdateIntervalUnits>
+    <UpdatePeriodically>false</UpdatePeriodically>
+    <UpdateRequired>false</UpdateRequired>
+    <MapFileExtensions>true</MapFileExtensions>
+    <ApplicationRevision>0</ApplicationRevision>
+    <ApplicationVersion>1.0.0.%2a</ApplicationVersion>
+    <UseApplicationTrust>false</UseApplicationTrust>
+    <BootstrapperEnabled>true</BootstrapperEnabled>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <PlatformTarget>x86</PlatformTarget>
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+    <DebugSymbols>true</DebugSymbols>
+  </PropertyGroup>
+  <PropertyGroup>
+    <ApplicationIcon>logo.ico</ApplicationIcon>
+  </PropertyGroup>
+  <PropertyGroup>
+    <StartupObject>DhuyvetterBeton.Beton.Program</StartupObject>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="BouncyCastle.Crypto, Version=1.8.1.0, Culture=neutral, PublicKeyToken=0e99375e54769942, processorArchitecture=MSIL">
+      <HintPath>..\packages\Portable.BouncyCastle.1.8.1.3\lib\net40\BouncyCastle.Crypto.dll</HintPath>
+    </Reference>
+    <Reference Include="Bunifu_UI_v1.52, Version=1.3.0.0, Culture=neutral, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>bin\Debug\Bunifu_UI_v1.52.dll</HintPath>
+    </Reference>
+    <Reference Include="CefSharp, Version=96.0.141.0, Culture=neutral, PublicKeyToken=40c4b6fc221f4138, processorArchitecture=MSIL">
+      <HintPath>..\packages\CefSharp.Common.96.0.141\lib\net452\CefSharp.dll</HintPath>
+    </Reference>
+    <Reference Include="CefSharp.Core, Version=96.0.141.0, Culture=neutral, PublicKeyToken=40c4b6fc221f4138, processorArchitecture=MSIL">
+      <HintPath>..\packages\CefSharp.Common.96.0.141\lib\net452\CefSharp.Core.dll</HintPath>
+    </Reference>
+    <Reference Include="DevExpress.Data.Desktop.v20.2, Version=20.2.5.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a, processorArchitecture=MSIL" />
+    <Reference Include="DevExpress.Data.v20.2, Version=20.2.5.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a, processorArchitecture=MSIL" />
+    <Reference Include="DevExpress.Images.v20.2, Version=20.2.5.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a, processorArchitecture=MSIL" />
+    <Reference Include="DevExpress.Map.v20.2.Core, Version=20.2.5.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a, processorArchitecture=MSIL" />
+    <Reference Include="DevExpress.Office.v20.2.Core, Version=20.2.5.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a" />
+    <Reference Include="DevExpress.Pdf.v20.2.Core, Version=20.2.5.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a, processorArchitecture=MSIL" />
+    <Reference Include="DevExpress.Pdf.v20.2.Drawing, Version=20.2.5.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a, processorArchitecture=MSIL" />
+    <Reference Include="DevExpress.Printing.v20.2.Core, Version=20.2.5.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a, processorArchitecture=MSIL" />
+    <Reference Include="DevExpress.RichEdit.v20.2.Core, Version=20.2.5.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a" />
+    <Reference Include="DevExpress.Utils.v20.2, Version=20.2.5.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a, processorArchitecture=MSIL" />
+    <Reference Include="DevExpress.Utils.v20.2.UI, Version=20.2.5.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a, processorArchitecture=MSIL" />
+    <Reference Include="DevExpress.XtraBars.v20.2, Version=20.2.5.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a, processorArchitecture=MSIL" />
+    <Reference Include="DevExpress.XtraEditors.v20.2, Version=20.2.5.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a, processorArchitecture=MSIL" />
+    <Reference Include="DevExpress.XtraGrid.v20.2, Version=20.2.5.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a, processorArchitecture=MSIL" />
+    <Reference Include="DevExpress.XtraLayout.v20.2, Version=20.2.5.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a, processorArchitecture=MSIL" />
+    <Reference Include="DevExpress.XtraMap.v20.2, Version=20.2.5.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a, processorArchitecture=MSIL" />
+    <Reference Include="DevExpress.XtraPdfViewer.v20.2, Version=20.2.5.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a, processorArchitecture=MSIL" />
+    <Reference Include="DevExpress.XtraPrinting.v20.2, Version=20.2.5.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a, processorArchitecture=MSIL" />
+    <Reference Include="DevExpress.XtraRichEdit.v20.2, Version=20.2.5.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a, processorArchitecture=MSIL" />
+    <Reference Include="DevExpress.XtraScheduler.v20.2, Version=20.2.5.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a, processorArchitecture=MSIL" />
+    <Reference Include="DevExpress.XtraScheduler.v20.2.Core.Desktop, Version=20.2.5.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a, processorArchitecture=MSIL" />
+    <Reference Include="DevExpress.XtraScheduler.v20.2.Core, Version=20.2.5.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a, processorArchitecture=MSIL" />
+    <Reference Include="DevExpress.XtraScheduler.v20.2.Extensions, Version=20.2.5.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a, processorArchitecture=MSIL" />
+    <Reference Include="DevExpress.XtraScheduler.v20.2.Reporting, Version=20.2.5.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a, processorArchitecture=MSIL" />
+    <Reference Include="DevExpress.XtraScheduler.v20.2.Reporting.Extensions, Version=20.2.5.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a, processorArchitecture=MSIL" />
+    <Reference Include="DevExpress.XtraTreeList.v20.2, Version=20.2.5.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a, processorArchitecture=MSIL" />
+    <Reference Include="DevExpress.XtraTreeMap.v20.2.UI, Version=20.2.5.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a, processorArchitecture=MSIL" />
+    <Reference Include="DevExpress.XtraTreeMap.v20.2, Version=20.2.5.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a, processorArchitecture=MSIL" />
+    <Reference Include="EntityFramework, Version=6.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089, processorArchitecture=MSIL">
+      <HintPath>..\packages\EntityFramework.6.2.0\lib\net45\EntityFramework.dll</HintPath>
+    </Reference>
+    <Reference Include="EntityFramework.SqlServer, Version=6.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089, processorArchitecture=MSIL">
+      <HintPath>..\packages\EntityFramework.6.2.0\lib\net45\EntityFramework.SqlServer.dll</HintPath>
+    </Reference>
+    <Reference Include="FireSharp, Version=1.1.0.0, Culture=neutral, processorArchitecture=MSIL">
+      <HintPath>..\packages\FireSharp.1.1.0\lib\net45\FireSharp.dll</HintPath>
+    </Reference>
+    <Reference Include="Geckofx-Core, Version=45.0.34.0, Culture=neutral, PublicKeyToken=3209ac31600d1857, processorArchitecture=x86">
+      <HintPath>..\packages\Geckofx45.45.0.34\lib\net45\Geckofx-Core.dll</HintPath>
+    </Reference>
+    <Reference Include="Geckofx-Winforms, Version=45.0.34.0, Culture=neutral, PublicKeyToken=3209ac31600d1857, processorArchitecture=x86">
+      <HintPath>..\packages\Geckofx45.45.0.34\lib\net45\Geckofx-Winforms.dll</HintPath>
+    </Reference>
+    <Reference Include="Google.Api.CommonProtos, Version=2.2.0.0, Culture=neutral, PublicKeyToken=3ec5ea7f18953e47, processorArchitecture=MSIL">
+      <HintPath>..\packages\Google.Api.CommonProtos.2.2.0\lib\net461\Google.Api.CommonProtos.dll</HintPath>
+    </Reference>
+    <Reference Include="Google.Api.Gax, Version=3.2.0.0, Culture=neutral, PublicKeyToken=3ec5ea7f18953e47, processorArchitecture=MSIL">
+      <HintPath>..\packages\Google.Api.Gax.3.2.0\lib\net461\Google.Api.Gax.dll</HintPath>
+    </Reference>
+    <Reference Include="Google.Api.Gax.Grpc, Version=3.2.0.0, Culture=neutral, PublicKeyToken=3ec5ea7f18953e47, processorArchitecture=MSIL">
+      <HintPath>..\packages\Google.Api.Gax.Grpc.3.2.0\lib\net461\Google.Api.Gax.Grpc.dll</HintPath>
+    </Reference>
+    <Reference Include="Google.Api.Gax.Grpc.GrpcCore, Version=3.2.0.0, Culture=neutral, PublicKeyToken=3ec5ea7f18953e47, processorArchitecture=MSIL">
+      <HintPath>..\packages\Google.Api.Gax.Grpc.GrpcCore.3.2.0\lib\net461\Google.Api.Gax.Grpc.GrpcCore.dll</HintPath>
+    </Reference>
+    <Reference Include="Google.Apis, Version=1.48.0.0, Culture=neutral, PublicKeyToken=4b01fa6e34db77ab, processorArchitecture=MSIL">
+      <HintPath>..\packages\Google.Apis.1.48.0\lib\net45\Google.Apis.dll</HintPath>
+    </Reference>
+    <Reference Include="Google.Apis.Auth, Version=1.48.0.0, Culture=neutral, PublicKeyToken=4b01fa6e34db77ab, processorArchitecture=MSIL">
+      <HintPath>..\packages\Google.Apis.Auth.1.48.0\lib\net45\Google.Apis.Auth.dll</HintPath>
+    </Reference>
+    <Reference Include="Google.Apis.Auth.PlatformServices, Version=1.48.0.0, Culture=neutral, PublicKeyToken=4b01fa6e34db77ab, processorArchitecture=MSIL">
+      <HintPath>..\packages\Google.Apis.Auth.1.48.0\lib\net45\Google.Apis.Auth.PlatformServices.dll</HintPath>
+    </Reference>
+    <Reference Include="Google.Apis.Core, Version=1.48.0.0, Culture=neutral, PublicKeyToken=4b01fa6e34db77ab, processorArchitecture=MSIL">
+      <HintPath>..\packages\Google.Apis.Core.1.48.0\lib\net45\Google.Apis.Core.dll</HintPath>
+    </Reference>
+    <Reference Include="Google.Apis.PlatformServices, Version=1.48.0.0, Culture=neutral, PublicKeyToken=4b01fa6e34db77ab, processorArchitecture=MSIL">
+      <HintPath>..\packages\Google.Apis.1.48.0\lib\net45\Google.Apis.PlatformServices.dll</HintPath>
+    </Reference>
+    <Reference Include="Google.Cloud.Firestore, Version=2.3.0.0, Culture=neutral, PublicKeyToken=185c282632e132a0, processorArchitecture=MSIL">
+      <HintPath>..\packages\Google.Cloud.Firestore.2.3.0\lib\net461\Google.Cloud.Firestore.dll</HintPath>
+    </Reference>
+    <Reference Include="Google.Cloud.Firestore.V1, Version=2.2.0.0, Culture=neutral, PublicKeyToken=185c282632e132a0, processorArchitecture=MSIL">
+      <HintPath>..\packages\Google.Cloud.Firestore.V1.2.2.0\lib\net461\Google.Cloud.Firestore.V1.dll</HintPath>
+    </Reference>
+    <Reference Include="Google.LongRunning, Version=2.1.0.0, Culture=neutral, PublicKeyToken=185c282632e132a0, processorArchitecture=MSIL">
+      <HintPath>..\packages\Google.LongRunning.2.1.0\lib\net461\Google.LongRunning.dll</HintPath>
+    </Reference>
+    <Reference Include="Google.Protobuf, Version=3.13.0.0, Culture=neutral, PublicKeyToken=a7d26565bac4d604, processorArchitecture=MSIL">
+      <HintPath>..\packages\Google.Protobuf.3.13.0\lib\net45\Google.Protobuf.dll</HintPath>
+    </Reference>
+    <Reference Include="GoogleApi, Version=3.10.9.0, Culture=neutral, PublicKeyToken=781851e053b06e74, processorArchitecture=MSIL">
+      <HintPath>..\packages\GoogleApi.3.10.9\lib\net45\GoogleApi.dll</HintPath>
+    </Reference>
+    <Reference Include="Grpc.Auth, Version=2.0.0.0, Culture=neutral, PublicKeyToken=d754f35622e28bad, processorArchitecture=MSIL">
+      <HintPath>..\packages\Grpc.Auth.2.31.0\lib\net45\Grpc.Auth.dll</HintPath>
+    </Reference>
+    <Reference Include="Grpc.Core, Version=2.0.0.0, Culture=neutral, PublicKeyToken=d754f35622e28bad, processorArchitecture=MSIL">
+      <HintPath>..\packages\Grpc.Core.2.31.0\lib\net45\Grpc.Core.dll</HintPath>
+    </Reference>
+    <Reference Include="Grpc.Core.Api, Version=2.0.0.0, Culture=neutral, PublicKeyToken=d754f35622e28bad, processorArchitecture=MSIL">
+      <HintPath>..\packages\Grpc.Core.Api.2.31.0\lib\net45\Grpc.Core.Api.dll</HintPath>
+    </Reference>
+    <Reference Include="Microsoft.Bcl.AsyncInterfaces, Version=6.0.0.0, Culture=neutral, PublicKeyToken=cc7b13ffcd2ddd51, processorArchitecture=MSIL">
+      <HintPath>..\packages\Microsoft.Bcl.AsyncInterfaces.6.0.0\lib\net461\Microsoft.Bcl.AsyncInterfaces.dll</HintPath>
+    </Reference>
+    <Reference Include="Microsoft.IdentityModel.Logging, Version=1.1.2.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35, processorArchitecture=MSIL">
+      <HintPath>..\packages\Microsoft.IdentityModel.Logging.1.1.2\lib\net451\Microsoft.IdentityModel.Logging.dll</HintPath>
+    </Reference>
+    <Reference Include="Microsoft.IdentityModel.Tokens, Version=5.1.2.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35, processorArchitecture=MSIL">
+      <HintPath>..\packages\Microsoft.IdentityModel.Tokens.5.1.2\lib\net451\Microsoft.IdentityModel.Tokens.dll</HintPath>
+    </Reference>
+    <Reference Include="Microsoft.Office.Interop.Excel, Version=15.0.0.0, Culture=neutral, PublicKeyToken=71e9bce111e9429c, processorArchitecture=MSIL">
+      <EmbedInteropTypes>True</EmbedInteropTypes>
+    </Reference>
+    <Reference Include="Microsoft.Office.Interop.Outlook, Version=15.0.0.0, Culture=neutral, PublicKeyToken=71e9bce111e9429c, processorArchitecture=MSIL">
+      <EmbedInteropTypes>True</EmbedInteropTypes>
+    </Reference>
+    <Reference Include="Microsoft.Office.Tools.Outlook, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a, processorArchitecture=MSIL">
+      <EmbedInteropTypes>True</EmbedInteropTypes>
+    </Reference>
+    <Reference Include="Microsoft.VisualBasic" />
+    <Reference Include="Microsoft.Web.WebView2.Core, Version=1.0.961.33, Culture=neutral, PublicKeyToken=2a8ab48044d2601e, processorArchitecture=MSIL">
+      <HintPath>..\packages\Microsoft.Web.WebView2.1.0.961.33\lib\net45\Microsoft.Web.WebView2.Core.dll</HintPath>
+    </Reference>
+    <Reference Include="Microsoft.Web.WebView2.WinForms, Version=1.0.961.33, Culture=neutral, PublicKeyToken=2a8ab48044d2601e, processorArchitecture=MSIL">
+      <HintPath>..\packages\Microsoft.Web.WebView2.1.0.961.33\lib\net45\Microsoft.Web.WebView2.WinForms.dll</HintPath>
+    </Reference>
+    <Reference Include="Microsoft.Web.WebView2.Wpf, Version=1.0.961.33, Culture=neutral, PublicKeyToken=2a8ab48044d2601e, processorArchitecture=MSIL">
+      <HintPath>..\packages\Microsoft.Web.WebView2.1.0.961.33\lib\net45\Microsoft.Web.WebView2.Wpf.dll</HintPath>
+    </Reference>
+    <Reference Include="Microsoft.WindowsAPICodePack, Version=1.1.2.0, Culture=neutral, processorArchitecture=MSIL">
+      <HintPath>..\packages\WindowsAPICodePack-Core.1.1.2\lib\Microsoft.WindowsAPICodePack.dll</HintPath>
+    </Reference>
+    <Reference Include="Microsoft.WindowsAPICodePack.ExtendedLinguisticServices, Version=1.1.0.0, Culture=neutral, processorArchitecture=MSIL">
+      <HintPath>..\packages\WindowsAPICodePack-ExtendedLinguisticServices.1.1.1\lib\Microsoft.WindowsAPICodePack.ExtendedLinguisticServices.dll</HintPath>
+    </Reference>
+    <Reference Include="Microsoft.WindowsAPICodePack.Sensors, Version=1.1.0.0, Culture=neutral, processorArchitecture=MSIL">
+      <HintPath>..\packages\WindowsAPICodePack-Sensors.1.1.1\lib\Microsoft.WindowsAPICodePack.Sensors.dll</HintPath>
+    </Reference>
+    <Reference Include="Microsoft.WindowsAPICodePack.Shell, Version=1.1.0.0, Culture=neutral, processorArchitecture=MSIL">
+      <HintPath>..\packages\WindowsAPICodePack-Shell.1.1.1\lib\Microsoft.WindowsAPICodePack.Shell.dll</HintPath>
+    </Reference>
+    <Reference Include="Microsoft.WindowsAPICodePack.ShellExtensions, Version=1.1.0.0, Culture=neutral, processorArchitecture=MSIL">
+      <HintPath>..\packages\WindowsAPICodePack-ShellExtensions.1.1.1\lib\Microsoft.WindowsAPICodePack.ShellExtensions.dll</HintPath>
+    </Reference>
+    <Reference Include="Newtonsoft.Json, Version=12.0.0.0, Culture=neutral, PublicKeyToken=30ad4fe6b2a6aeed, processorArchitecture=MSIL">
+      <HintPath>..\packages\Newtonsoft.Json.12.0.3\lib\net45\Newtonsoft.Json.dll</HintPath>
+    </Reference>
+    <Reference Include="PresentationCore" />
+    <Reference Include="PresentationFramework" />
+    <Reference Include="RestSharp, Version=104.4.0.0, Culture=neutral, processorArchitecture=MSIL">
+      <HintPath>..\packages\RestSharp.104.4.0\lib\net4\RestSharp.dll</HintPath>
+    </Reference>
+    <Reference Include="System" />
+    <Reference Include="System.Buffers, Version=4.0.3.0, Culture=neutral, PublicKeyToken=cc7b13ffcd2ddd51, processorArchitecture=MSIL">
+      <HintPath>..\packages\System.Buffers.4.5.1\lib\net461\System.Buffers.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Collections.Immutable, Version=1.2.2.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a, processorArchitecture=MSIL">
+      <HintPath>..\packages\System.Collections.Immutable.1.4.0\lib\netstandard2.0\System.Collections.Immutable.dll</HintPath>
+    </Reference>
+    <Reference Include="System.ComponentModel.DataAnnotations" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Data.Linq" />
+    <Reference Include="System.Data.SQLite, Version=1.0.110.0, Culture=neutral, PublicKeyToken=db937bc2d44ff139, processorArchitecture=MSIL">
+      <HintPath>..\packages\System.Data.SQLite.Core.1.0.110.0\lib\net46\System.Data.SQLite.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Data.SQLite.EF6, Version=1.0.110.0, Culture=neutral, PublicKeyToken=db937bc2d44ff139, processorArchitecture=MSIL">
+      <HintPath>..\packages\System.Data.SQLite.EF6.1.0.110.0\lib\net46\System.Data.SQLite.EF6.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Data.SQLite.Linq, Version=1.0.110.0, Culture=neutral, PublicKeyToken=db937bc2d44ff139, processorArchitecture=MSIL">
+      <HintPath>..\packages\System.Data.SQLite.Linq.1.0.110.0\lib\net46\System.Data.SQLite.Linq.dll</HintPath>
+    </Reference>
+    <Reference Include="System.IdentityModel.Tokens.Jwt, Version=5.1.2.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35, processorArchitecture=MSIL">
+      <HintPath>..\packages\System.IdentityModel.Tokens.Jwt.5.1.2\lib\net451\System.IdentityModel.Tokens.Jwt.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Linq.Async, Version=4.0.0.0, Culture=neutral, PublicKeyToken=94bc3704cddfc263, processorArchitecture=MSIL">
+      <HintPath>..\packages\System.Linq.Async.4.0.0\lib\net461\System.Linq.Async.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Management" />
+    <Reference Include="System.Memory, Version=4.0.1.1, Culture=neutral, PublicKeyToken=cc7b13ffcd2ddd51, processorArchitecture=MSIL">
+      <HintPath>..\packages\System.Memory.4.5.4\lib\net461\System.Memory.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Messaging" />
+    <Reference Include="System.Net" />
+    <Reference Include="System.Numerics" />
+    <Reference Include="System.Numerics.Vectors, Version=4.1.4.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a, processorArchitecture=MSIL">
+      <HintPath>..\packages\System.Numerics.Vectors.4.5.0\lib\net46\System.Numerics.Vectors.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Printing" />
+    <Reference Include="System.Runtime.CompilerServices.Unsafe, Version=6.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a, processorArchitecture=MSIL">
+      <HintPath>..\packages\System.Runtime.CompilerServices.Unsafe.6.0.0\lib\net461\System.Runtime.CompilerServices.Unsafe.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Runtime.Remoting" />
+    <Reference Include="System.Runtime.Serialization" />
+    <Reference Include="System.ServiceModel" />
+    <Reference Include="System.Text.Encodings.Web, Version=6.0.0.0, Culture=neutral, PublicKeyToken=cc7b13ffcd2ddd51, processorArchitecture=MSIL">
+      <HintPath>..\packages\System.Text.Encodings.Web.6.0.0\lib\net461\System.Text.Encodings.Web.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Text.Json, Version=6.0.0.0, Culture=neutral, PublicKeyToken=cc7b13ffcd2ddd51, processorArchitecture=MSIL">
+      <HintPath>..\packages\System.Text.Json.6.0.0\lib\net461\System.Text.Json.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Threading.Tasks.Extensions, Version=4.2.0.1, Culture=neutral, PublicKeyToken=cc7b13ffcd2ddd51, processorArchitecture=MSIL">
+      <HintPath>..\packages\System.Threading.Tasks.Extensions.4.5.4\lib\net461\System.Threading.Tasks.Extensions.dll</HintPath>
+    </Reference>
+    <Reference Include="System.ValueTuple, Version=4.0.3.0, Culture=neutral, PublicKeyToken=cc7b13ffcd2ddd51, processorArchitecture=MSIL">
+      <HintPath>..\packages\System.ValueTuple.4.5.0\lib\net461\System.ValueTuple.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Web" />
+    <Reference Include="System.Web.Services" />
+    <Reference Include="System.Windows" />
+    <Reference Include="System.Xaml" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="Microsoft.CSharp" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Deployment" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Net.Http" />
+    <Reference Include="System.Windows.Forms" />
+    <Reference Include="System.Xml" />
+    <Reference Include="Tulpep.NotificationWindow, Version=1.1.25.0, Culture=neutral, processorArchitecture=MSIL">
+      <HintPath>..\packages\Tulpep.NotificationWindow.1.1.25\lib\net40\Tulpep.NotificationWindow.dll</HintPath>
+    </Reference>
+    <Reference Include="Twilio, Version=5.25.1.0, Culture=neutral, processorArchitecture=MSIL">
+      <HintPath>..\packages\Twilio.5.25.1\lib\net451\Twilio.dll</HintPath>
+    </Reference>
+    <Reference Include="UIAutomationClient" />
+    <Reference Include="WindowsBase" />
+    <Reference Include="zxing, Version=0.16.6.0, Culture=neutral, PublicKeyToken=4e88037ac681fe60, processorArchitecture=MSIL">
+      <HintPath>..\packages\ZXing.Net.0.16.6\lib\net461\zxing.dll</HintPath>
+    </Reference>
+    <Reference Include="zxing.presentation, Version=0.16.6.0, Culture=neutral, PublicKeyToken=4e88037ac681fe60, processorArchitecture=MSIL">
+      <HintPath>..\packages\ZXing.Net.0.16.6\lib\net461\zxing.presentation.dll</HintPath>
+    </Reference>
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="AboutBox1.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="AboutBox1.Designer.cs">
+      <DependentUpon>AboutBox1.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Agenda\FrmBugReport.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Agenda\FrmBugReport.Designer.cs">
+      <DependentUpon>FrmBugReport.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Agenda\FrmBugReportOverzicht.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Agenda\FrmBugReportOverzicht.Designer.cs">
+      <DependentUpon>FrmBugReportOverzicht.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Agenda\FrmLogboek.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Agenda\FrmLogboek.Designer.cs">
+      <DependentUpon>FrmLogboek.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Agenda\FrmPersoneelToevoegen.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Agenda\FrmPersoneelToevoegen.Designer.cs">
+      <DependentUpon>FrmPersoneelToevoegen.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Agenda\FrmVerlofAgenda.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Agenda\FrmVerlofAgenda.Designer.cs">
+      <DependentUpon>FrmVerlofAgenda.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Agenda\ucAgendaBeton.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="Agenda\ucAgendaBeton.Designer.cs">
+      <DependentUpon>ucAgendaBeton.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Agenda\ucAgendaPrefab.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="Agenda\ucAgendaPrefab.Designer.cs">
+      <DependentUpon>ucAgendaPrefab.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Agenda\ucLogboek.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="Agenda\ucLogboek.Designer.cs">
+      <DependentUpon>ucLogboek.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Bestelling\FrmTakenAfdrukken.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Bestelling\FrmTakenAfdrukken.Designer.cs">
+      <DependentUpon>FrmTakenAfdrukken.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Bestelling\Tools\FrmHulpstofWijzigen.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Bestelling\Tools\FrmHulpstofWijzigen.Designer.cs">
+      <DependentUpon>FrmHulpstofWijzigen.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Bestelling\Tools\FrmInformatieAanpassen.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Bestelling\Tools\FrmInformatieAanpassen.Designer.cs">
+      <DependentUpon>FrmInformatieAanpassen.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Bestelling\Tools\FrmPompWijzigen.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Bestelling\Tools\FrmPompWijzigen.Designer.cs">
+      <DependentUpon>FrmPompWijzigen.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Bestelling\Tools\FrmProductWijzigen.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Bestelling\Tools\FrmProductWijzigen.Designer.cs">
+      <DependentUpon>FrmProductWijzigen.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Bestelling\Tools\frmSMSBerichten.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Bestelling\Tools\frmSMSBerichten.Designer.cs">
+      <DependentUpon>frmSMSBerichten.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Bestelling\Tools\FrmWerfWijzigen.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Bestelling\Tools\FrmWerfWijzigen.Designer.cs">
+      <DependentUpon>FrmWerfWijzigen.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Bestelling\Tools\SMS.cs" />
+    <Compile Include="Bestelling\ucBestellingenLijst.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="Bestelling\ucBestellingenLijst.Designer.cs">
+      <DependentUpon>ucBestellingenLijst.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Bestelling\ucNieuweBestelling.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="Bestelling\ucNieuweBestelling.Designer.cs">
+      <DependentUpon>ucNieuweBestelling.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Bestelling\ucNieuweBestellingPrefab.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="Bestelling\ucNieuweBestellingPrefab.Designer.cs">
+      <DependentUpon>ucNieuweBestellingPrefab.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Bestelling\ucVerwijderBestelling.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="Bestelling\ucVerwijderBestelling.Designer.cs">
+      <DependentUpon>ucVerwijderBestelling.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Bestelling\ucWijzigBestelling.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="Bestelling\ucWijzigBestelling.Designer.cs">
+      <DependentUpon>ucWijzigBestelling.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Bestelling\ucWijzigPrefabBestelling.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="Bestelling\ucWijzigPrefabBestelling.Designer.cs">
+      <DependentUpon>ucWijzigPrefabBestelling.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Connected Services\alacarteservice\Reference.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>Reference.svcmap</DependentUpon>
+    </Compile>
+    <Compile Include="DhuyvetbestellingDataSet.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>DhuyvetbestellingDataSet.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="DhuyvetbestellingDataSet1.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>DhuyvetbestellingDataSet1.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="DhuyvetBestelllingDataSet.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>DhuyvetBestelllingDataSet.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="DhuyvetLeveringDataSet.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>DhuyvetLeveringDataSet.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="Extensions.cs" />
+    <Compile Include="Facturen\FrmMailFacturen.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Facturen\FrmMailFacturen.Designer.cs">
+      <DependentUpon>FrmMailFacturen.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Facturen\FrmNieuweFactuur.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="Facturen\FrmNieuweFactuur.Designer.cs">
+      <DependentUpon>FrmNieuweFactuur.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Facturen\FrmOpenFacturen.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Facturen\FrmOpenFacturen.Designer.cs">
+      <DependentUpon>FrmOpenFacturen.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Facturen\FrmWijzigFactuur.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Facturen\FrmWijzigFactuur.Designer.cs">
+      <DependentUpon>FrmWijzigFactuur.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Facturen\ucFactuurWijzigen.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="Facturen\ucFactuurWijzigen.Designer.cs">
+      <DependentUpon>ucFactuurWijzigen.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Facturen\ucMailFacturen.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="Facturen\ucMailFacturen.Designer.cs">
+      <DependentUpon>ucMailFacturen.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Facturen\ucOverzichtFacturen.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="Facturen\ucOverzichtFacturen.Designer.cs">
+      <DependentUpon>ucOverzichtFacturen.cs</DependentUpon>
+    </Compile>
+    <Compile Include="FrmGoogleMaps.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FrmGoogleMaps.Designer.cs">
+      <DependentUpon>FrmGoogleMaps.cs</DependentUpon>
+    </Compile>
+    <Compile Include="FrmMessage.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FrmMessage.Designer.cs">
+      <DependentUpon>FrmMessage.cs</DependentUpon>
+    </Compile>
+    <Compile Include="FrmPrijsSetting.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FrmPrijsSetting.Designer.cs">
+      <DependentUpon>FrmPrijsSetting.cs</DependentUpon>
+    </Compile>
+    <Compile Include="FrmWelkom.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FrmWelkom.Designer.cs">
+      <DependentUpon>FrmWelkom.cs</DependentUpon>
+    </Compile>
+    <Compile Include="FrmHoofdVenster.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FrmHoofdVenster.Designer.cs">
+      <DependentUpon>FrmHoofdVenster.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Klanten\FrmKlantNotitie.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Klanten\FrmKlantNotitie.Designer.cs" />
+    <Compile Include="Klanten\Tools\FrmDetailBedrijf.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Klanten\Tools\FrmDetailBedrijf.Designer.cs">
+      <DependentUpon>FrmDetailBedrijf.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Klanten\ucToevoegenKlant.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="Klanten\ucToevoegenKlant.Designer.cs">
+      <DependentUpon>ucToevoegenKlant.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Klanten\ucWijzigenKlant.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="Klanten\ucWijzigenKlant.Designer.cs">
+      <DependentUpon>ucWijzigenKlant.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Kortingen\FrmNieuweKortingProduct.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Kortingen\FrmNieuweKortingProduct.Designer.cs">
+      <DependentUpon>FrmNieuweKortingProduct.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Kortingen\FrmNieuweKortingProductWerf.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Kortingen\FrmNieuweKortingProductWerf.Designer.cs">
+      <DependentUpon>FrmNieuweKortingProductWerf.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Kortingen\FrmNieuweKortingWerf.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Kortingen\FrmNieuweKortingWerf.Designer.cs">
+      <DependentUpon>FrmNieuweKortingWerf.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Kortingen\FrmSoortKorting.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Kortingen\FrmSoortKorting.Designer.cs">
+      <DependentUpon>FrmSoortKorting.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Offertes\FrmNieuweOfferte.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Offertes\FrmNieuweOfferte.Designer.cs">
+      <DependentUpon>FrmNieuweOfferte.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Offertes\FrmWijzigOfferte.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Offertes\FrmWijzigOfferte.Designer.cs">
+      <DependentUpon>FrmWijzigOfferte.cs</DependentUpon>
+    </Compile>
+    <Compile Include="OrderApp.cs" />
+    <Compile Include="PersoneelD\FrmCalendarView.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="PersoneelD\FrmCalendarView.Designer.cs">
+      <DependentUpon>FrmCalendarView.cs</DependentUpon>
+    </Compile>
+    <Compile Include="PersoneelD\ucPersoneel.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="PersoneelD\ucPersoneel.Designer.cs">
+      <DependentUpon>ucPersoneel.cs</DependentUpon>
+    </Compile>
+    <Compile Include="PersoneelD\ucVerlofDag.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="PersoneelD\ucVerlofDag.Designer.cs">
+      <DependentUpon>ucVerlofDag.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Pompen\ucPompen.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="Pompen\ucPompen.Designer.cs">
+      <DependentUpon>ucPompen.cs</DependentUpon>
+    </Compile>
+    <Compile Include="PrijsLijst\FrmHulpstofPrijzen.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="PrijsLijst\FrmHulpstofPrijzen.Designer.cs">
+      <DependentUpon>FrmHulpstofPrijzen.cs</DependentUpon>
+    </Compile>
+    <Compile Include="PrijsLijst\FrmPompPrijzen.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="PrijsLijst\FrmPompPrijzen.Designer.cs">
+      <DependentUpon>FrmPompPrijzen.cs</DependentUpon>
+    </Compile>
+    <Compile Include="PrijsLijst\FrmPrijsBeheer.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="PrijsLijst\FrmPrijsBeheer.Designer.cs">
+      <DependentUpon>FrmPrijsBeheer.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Producten\ucProductenBeheer.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="Producten\ucProductenBeheer.Designer.cs">
+      <DependentUpon>ucProductenBeheer.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Program.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="Laadvenster.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Laadvenster.Designer.cs">
+      <DependentUpon>Laadvenster.cs</DependentUpon>
+    </Compile>
+    <Compile Include="SmsController.cs" />
+    <Compile Include="ucHoofdvenster.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="ucHoofdvenster.Designer.cs">
+      <DependentUpon>ucHoofdvenster.cs</DependentUpon>
+    </Compile>
+    <Compile Include="WaitForm1.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="WaitForm1.Designer.cs">
+      <DependentUpon>WaitForm1.cs</DependentUpon>
+    </Compile>
+    <Compile Include="WaitForm2.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="WaitForm2.Designer.cs">
+      <DependentUpon>WaitForm2.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Website\ucProductToevoegen.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="Website\ucProductToevoegen.Designer.cs">
+      <DependentUpon>ucProductToevoegen.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Werven\FrmNieuweWerf.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Werven\FrmNieuweWerf.Designer.cs">
+      <DependentUpon>FrmNieuweWerf.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Werven\FrmNieuweWerfPrefab.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Werven\FrmNieuweWerfPrefab.Designer.cs">
+      <DependentUpon>FrmNieuweWerfPrefab.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Werven\FrmWerfVerwijderen.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Werven\FrmWerfVerwijderen.Designer.cs">
+      <DependentUpon>FrmWerfVerwijderen.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Werven\FrmWijzigenWerf.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Werven\FrmWijzigenWerf.Designer.cs">
+      <DependentUpon>FrmWijzigenWerf.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Werven\ucWerven.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="Werven\ucWerven.Designer.cs">
+      <DependentUpon>ucWerven.cs</DependentUpon>
+    </Compile>
+    <Compile Include="XtraForm1.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="XtraForm1.Designer.cs">
+      <DependentUpon>XtraForm1.cs</DependentUpon>
+    </Compile>
+    <None Include="DhuyvetbestellingDataSet1.xsc">
+      <DependentUpon>DhuyvetbestellingDataSet1.xsd</DependentUpon>
+    </None>
+    <None Include="DhuyvetbestellingDataSet1.xsd">
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>DhuyvetbestellingDataSet1.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="DhuyvetbestellingDataSet1.xss">
+      <DependentUpon>DhuyvetbestellingDataSet1.xsd</DependentUpon>
+    </None>
+    <None Include="DhuyvetBestelllingDataSet.xsc">
+      <DependentUpon>DhuyvetBestelllingDataSet.xsd</DependentUpon>
+    </None>
+    <None Include="DhuyvetBestelllingDataSet.xsd">
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>DhuyvetBestelllingDataSet.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="DhuyvetBestelllingDataSet.xss">
+      <DependentUpon>DhuyvetBestelllingDataSet.xsd</DependentUpon>
+    </None>
+    <None Include="DhuyvetLeveringDataSet.xsc">
+      <DependentUpon>DhuyvetLeveringDataSet.xsd</DependentUpon>
+    </None>
+    <None Include="DhuyvetLeveringDataSet.xsd">
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>DhuyvetLeveringDataSet.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="DhuyvetLeveringDataSet.xss">
+      <DependentUpon>DhuyvetLeveringDataSet.xsd</DependentUpon>
+    </None>
+    <None Include="Resources\neg-35.png" />
+    <None Include="Resources\neg-34.png" />
+    <None Include="Resources\neg-33.png" />
+    <None Include="Resources\neg-32.png" />
+    <None Include="Resources\neg-31.png" />
+    <None Include="Resources\neg-30.png" />
+    <None Include="Resources\neg-29.png" />
+    <None Include="Resources\neg-28.png" />
+    <None Include="Resources\neg-27.png" />
+    <None Include="Resources\neg-26.png" />
+    <None Include="Resources\neg-25.png" />
+    <None Include="Resources\neg-24.png" />
+    <None Include="Resources\neg-23.png" />
+    <None Include="Resources\neg-22.png" />
+    <None Include="Resources\neg-21.png" />
+    <None Include="Resources\neg-20.png" />
+    <None Include="Resources\neg-19.png" />
+    <None Include="Resources\neg-18.png" />
+    <None Include="Resources\neg-17.png" />
+    <None Include="Resources\neg-16.png" />
+    <None Include="Resources\neg-15.png" />
+    <None Include="Resources\neg-14.png" />
+    <None Include="Resources\neg-13.png" />
+    <None Include="Resources\neg-12.png" />
+    <None Include="Resources\neg-11.png" />
+    <None Include="Resources\neg-10.png" />
+    <None Include="Resources\neg-09.png" />
+    <None Include="Resources\neg-08.png" />
+    <None Include="Resources\neg-07.png" />
+    <None Include="Resources\neg-06.png" />
+    <None Include="Resources\neg-05.png" />
+    <None Include="Resources\neg-04.png" />
+    <None Include="Resources\neg-03.png" />
+    <None Include="Resources\neg-02.png" />
+    <None Include="Resources\neg-01.png" />
+    <None Include="Resources\failliet.png" />
+    <None Include="Resources\blanco.png" />
+    <None Include="Resources\zero.png" />
+    <None Include="Resources\stop.png" />
+    <None Include="Resources\pos-50.png" />
+    <None Include="Resources\pos-49.png" />
+    <None Include="Resources\pos-48.png" />
+    <None Include="Resources\pos-47.png" />
+    <None Include="Resources\pos-46.png" />
+    <None Include="Resources\pos-45.png" />
+    <None Include="Resources\pos-44.png" />
+    <None Include="Resources\pos-43.png" />
+    <None Include="Resources\pos-42.png" />
+    <None Include="Resources\pos-41.png" />
+    <None Include="Resources\pos-40.png" />
+    <None Include="Resources\pos-39.png" />
+    <None Include="Resources\pos-38.png" />
+    <None Include="Resources\pos-37.png" />
+    <None Include="Resources\pos-36.png" />
+    <None Include="Resources\pos-35.png" />
+    <None Include="Resources\pos-34.png" />
+    <None Include="Resources\pos-33.png" />
+    <None Include="Resources\pos-32.png" />
+    <None Include="Resources\pos-31.png" />
+    <None Include="Resources\pos-30.png" />
+    <None Include="Resources\pos-29.png" />
+    <None Include="Resources\pos-28.png" />
+    <None Include="Resources\pos-27.png" />
+    <None Include="Resources\pos-26.png" />
+    <None Include="Resources\pos-25.png" />
+    <None Include="Resources\pos-24.png" />
+    <None Include="Resources\pos-23.png" />
+    <None Include="Resources\pos-22.png" />
+    <None Include="Resources\pos-21.png" />
+    <None Include="Resources\pos-20.png" />
+    <None Include="Resources\pos-19.png" />
+    <None Include="Resources\pos-18.png" />
+    <None Include="Resources\pos-17.png" />
+    <None Include="Resources\pos-16.png" />
+    <None Include="Resources\pos-15.png" />
+    <None Include="Resources\pos-14.png" />
+    <None Include="Resources\pos-13.png" />
+    <None Include="Resources\pos-12.png" />
+    <None Include="Resources\pos-11.png" />
+    <None Include="Resources\pos-10.png" />
+    <None Include="Resources\pos-09.png" />
+    <None Include="Resources\pos-08.png" />
+    <None Include="Resources\pos-07.png" />
+    <None Include="Resources\pos-06.png" />
+    <None Include="Resources\pos-05.png" />
+    <None Include="Resources\pos-04.png" />
+    <None Include="Resources\pos-03.png" />
+    <None Include="Resources\pos-02.png" />
+    <None Include="Resources\pos-01.png" />
+    <None Include="Resources\new.png" />
+    <None Include="Resources\neg-50.png" />
+    <None Include="Resources\neg-49.png" />
+    <None Include="Resources\neg-48.png" />
+    <None Include="Resources\neg-47.png" />
+    <None Include="Resources\neg-46.png" />
+    <None Include="Resources\neg-45.png" />
+    <None Include="Resources\neg-44.png" />
+    <None Include="Resources\neg-43.png" />
+    <None Include="Resources\neg-42.png" />
+    <None Include="Resources\neg-41.png" />
+    <None Include="Resources\neg-40.png" />
+    <None Include="Resources\neg-39.png" />
+    <None Include="Resources\neg-38.png" />
+    <None Include="Resources\neg-37.png" />
+    <None Include="Resources\neg-36.png" />
+    <None Include="Connected Services\alacarteservice\configuration91.svcinfo" />
+    <None Include="Connected Services\alacarteservice\configuration.svcinfo" />
+    <None Include="Connected Services\alacarteservice\DhuyvetterBeton.Beton.alacarteservice.Alerts_AddCompanyResponse.datasource">
+      <DependentUpon>Reference.svcmap</DependentUpon>
+    </None>
+    <None Include="Connected Services\alacarteservice\DhuyvetterBeton.Beton.alacarteservice.Alerts_AddListOfCompaniesResponse.datasource">
+      <DependentUpon>Reference.svcmap</DependentUpon>
+    </None>
+    <None Include="Connected Services\alacarteservice\DhuyvetterBeton.Beton.alacarteservice.Alerts_RemoveCompanyResponse.datasource">
+      <DependentUpon>Reference.svcmap</DependentUpon>
+    </None>
+    <None Include="Connected Services\alacarteservice\DhuyvetterBeton.Beton.alacarteservice.Alerts_Step1_GetChangeDatesResponse.datasource">
+      <DependentUpon>Reference.svcmap</DependentUpon>
+    </None>
+    <None Include="Connected Services\alacarteservice\DhuyvetterBeton.Beton.alacarteservice.Alerts_Step2_GetVatListResponse.datasource">
+      <DependentUpon>Reference.svcmap</DependentUpon>
+    </None>
+    <None Include="Connected Services\alacarteservice\DhuyvetterBeton.Beton.alacarteservice.Alerts_Step3_CompanyOnVatResponse.datasource">
+      <DependentUpon>Reference.svcmap</DependentUpon>
+    </None>
+    <None Include="Connected Services\alacarteservice\DhuyvetterBeton.Beton.alacarteservice.GetCompanyByVatResponse.datasource">
+      <DependentUpon>Reference.svcmap</DependentUpon>
+    </None>
+    <None Include="Connected Services\alacarteservice\DhuyvetterBeton.Beton.alacarteservice.ResponseAddListToAlerts.datasource">
+      <DependentUpon>Reference.svcmap</DependentUpon>
+    </None>
+    <None Include="Connected Services\alacarteservice\DhuyvetterBeton.Beton.alacarteservice.ResponseAddToAlerts.datasource">
+      <DependentUpon>Reference.svcmap</DependentUpon>
+    </None>
+    <None Include="Connected Services\alacarteservice\DhuyvetterBeton.Beton.alacarteservice.ResponseCompanyByVatV1_3.datasource">
+      <DependentUpon>Reference.svcmap</DependentUpon>
+    </None>
+    <None Include="Connected Services\alacarteservice\DhuyvetterBeton.Beton.alacarteservice.ResponseRemoveFromAlerts.datasource">
+      <DependentUpon>Reference.svcmap</DependentUpon>
+    </None>
+    <None Include="Connected Services\alacarteservice\DhuyvetterBeton.Beton.alacarteservice.ResponseSearch.datasource">
+      <DependentUpon>Reference.svcmap</DependentUpon>
+    </None>
+    <None Include="Connected Services\alacarteservice\DhuyvetterBeton.Beton.alacarteservice.ResponseStep1.datasource">
+      <DependentUpon>Reference.svcmap</DependentUpon>
+    </None>
+    <None Include="Connected Services\alacarteservice\DhuyvetterBeton.Beton.alacarteservice.ResponseStep2.datasource">
+      <DependentUpon>Reference.svcmap</DependentUpon>
+    </None>
+    <None Include="Connected Services\alacarteservice\DhuyvetterBeton.Beton.alacarteservice.SearchCompaniesResponse.datasource">
+      <DependentUpon>Reference.svcmap</DependentUpon>
+    </None>
+    <None Include="Connected Services\alacarteservice\Reference.svcmap">
+      <Generator>WCF Proxy Generator</Generator>
+      <LastGenOutput>Reference.cs</LastGenOutput>
+    </None>
+    <Content Include="dbintern-56185-firebase-adminsdk-50c46-700d8feb2f.json" />
+    <None Include="Connected Services\alacarteservice\AlacarteServiceV1_3.wsdl" />
+    <None Include="Firefox\omni.ja" />
+    <None Include="Resources\cancel.png" />
+    <None Include="Resources\DBLogo.png" />
+    <EmbeddedResource Include="AboutBox1.resx">
+      <DependentUpon>AboutBox1.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Agenda\FrmBugReport.resx">
+      <DependentUpon>FrmBugReport.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Agenda\FrmBugReportOverzicht.resx">
+      <DependentUpon>FrmBugReportOverzicht.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Agenda\FrmLogboek.resx">
+      <DependentUpon>FrmLogboek.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Agenda\FrmPersoneelToevoegen.resx">
+      <DependentUpon>FrmPersoneelToevoegen.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Agenda\FrmVerlofAgenda.resx">
+      <DependentUpon>FrmVerlofAgenda.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Agenda\ucAgendaBeton.resx">
+      <DependentUpon>ucAgendaBeton.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Agenda\ucAgendaPrefab.resx">
+      <DependentUpon>ucAgendaPrefab.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Agenda\ucLogboek.resx">
+      <DependentUpon>ucLogboek.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Bestelling\FrmTakenAfdrukken.resx">
+      <DependentUpon>FrmTakenAfdrukken.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Bestelling\Tools\FrmHulpstofWijzigen.resx">
+      <DependentUpon>FrmHulpstofWijzigen.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Bestelling\Tools\FrmInformatieAanpassen.resx">
+      <DependentUpon>FrmInformatieAanpassen.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Bestelling\Tools\FrmPompWijzigen.resx">
+      <DependentUpon>FrmPompWijzigen.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Bestelling\Tools\FrmProductWijzigen.resx">
+      <DependentUpon>FrmProductWijzigen.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Bestelling\Tools\frmSMSBerichten.resx">
+      <DependentUpon>frmSMSBerichten.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Bestelling\Tools\FrmWerfWijzigen.resx">
+      <DependentUpon>FrmWerfWijzigen.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Bestelling\ucBestellingenLijst.resx">
+      <DependentUpon>ucBestellingenLijst.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Bestelling\ucNieuweBestelling.resx">
+      <DependentUpon>ucNieuweBestelling.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Bestelling\ucNieuweBestellingPrefab.resx">
+      <DependentUpon>ucNieuweBestellingPrefab.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Bestelling\ucVerwijderBestelling.resx">
+      <DependentUpon>ucVerwijderBestelling.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Bestelling\ucWijzigBestelling.resx">
+      <DependentUpon>ucWijzigBestelling.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Bestelling\ucWijzigPrefabBestelling.resx">
+      <DependentUpon>ucWijzigPrefabBestelling.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Facturen\FrmMailFacturen.resx">
+      <DependentUpon>FrmMailFacturen.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Facturen\FrmNieuweFactuur.resx">
+      <DependentUpon>FrmNieuweFactuur.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Facturen\FrmOpenFacturen.resx">
+      <DependentUpon>FrmOpenFacturen.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Facturen\FrmWijzigFactuur.resx">
+      <DependentUpon>FrmWijzigFactuur.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Facturen\ucFactuurWijzigen.resx">
+      <DependentUpon>ucFactuurWijzigen.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Facturen\ucMailFacturen.resx">
+      <DependentUpon>ucMailFacturen.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Facturen\ucOverzichtFacturen.resx">
+      <DependentUpon>ucOverzichtFacturen.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FrmGoogleMaps.resx">
+      <DependentUpon>FrmGoogleMaps.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FrmMessage.resx">
+      <DependentUpon>FrmMessage.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FrmPrijsSetting.resx">
+      <DependentUpon>FrmPrijsSetting.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FrmWelkom.resx">
+      <DependentUpon>FrmWelkom.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FrmHoofdVenster.resx">
+      <DependentUpon>FrmHoofdVenster.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Klanten\FrmKlantNotitie.resx" />
+    <EmbeddedResource Include="Klanten\Tools\FrmDetailBedrijf.resx">
+      <DependentUpon>FrmDetailBedrijf.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Klanten\ucToevoegenKlant.resx">
+      <DependentUpon>ucToevoegenKlant.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Klanten\ucWijzigenKlant.resx">
+      <DependentUpon>ucWijzigenKlant.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Kortingen\FrmNieuweKortingProduct.resx">
+      <DependentUpon>FrmNieuweKortingProduct.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Kortingen\FrmNieuweKortingProductWerf.resx">
+      <DependentUpon>FrmNieuweKortingProductWerf.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Kortingen\FrmNieuweKortingWerf.resx">
+      <DependentUpon>FrmNieuweKortingWerf.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Kortingen\FrmSoortKorting.resx">
+      <DependentUpon>FrmSoortKorting.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Offertes\FrmNieuweOfferte.resx">
+      <DependentUpon>FrmNieuweOfferte.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Offertes\FrmWijzigOfferte.resx">
+      <DependentUpon>FrmWijzigOfferte.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="PersoneelD\FrmCalendarView.resx">
+      <DependentUpon>FrmCalendarView.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="PersoneelD\ucPersoneel.resx">
+      <DependentUpon>ucPersoneel.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="PersoneelD\ucVerlofDag.resx">
+      <DependentUpon>ucVerlofDag.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Pompen\ucPompen.resx">
+      <DependentUpon>ucPompen.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="PrijsLijst\FrmHulpstofPrijzen.resx">
+      <DependentUpon>FrmHulpstofPrijzen.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="PrijsLijst\FrmPompPrijzen.resx">
+      <DependentUpon>FrmPompPrijzen.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="PrijsLijst\FrmPrijsBeheer.resx">
+      <DependentUpon>FrmPrijsBeheer.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Producten\ucProductenBeheer.resx">
+      <DependentUpon>ucProductenBeheer.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Properties\licenses.licx" />
+    <EmbeddedResource Include="Properties\Resources.resx">
+      <Generator>ResXFileCodeGenerator</Generator>
+      <LastGenOutput>Resources.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <Compile Include="Properties\Resources.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Resources.resx</DependentUpon>
+      <DesignTime>True</DesignTime>
+    </Compile>
+    <EmbeddedResource Include="Laadvenster.resx">
+      <DependentUpon>Laadvenster.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="ucHoofdvenster.resx">
+      <DependentUpon>ucHoofdvenster.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="WaitForm1.resx">
+      <DependentUpon>WaitForm1.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="WaitForm2.resx">
+      <DependentUpon>WaitForm2.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Website\ucProductToevoegen.resx">
+      <DependentUpon>ucProductToevoegen.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Werven\FrmNieuweWerf.resx">
+      <DependentUpon>FrmNieuweWerf.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Werven\FrmNieuweWerfPrefab.resx">
+      <DependentUpon>FrmNieuweWerfPrefab.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Werven\FrmWerfVerwijderen.resx">
+      <DependentUpon>FrmWerfVerwijderen.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Werven\FrmWijzigenWerf.resx">
+      <DependentUpon>FrmWijzigenWerf.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Werven\ucWerven.resx">
+      <DependentUpon>ucWerven.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="XtraForm1.resx">
+      <DependentUpon>XtraForm1.cs</DependentUpon>
+    </EmbeddedResource>
+    <None Include="DhuyvetbestellingDataSet.xsc">
+      <DependentUpon>DhuyvetbestellingDataSet.xsd</DependentUpon>
+    </None>
+    <None Include="DhuyvetbestellingDataSet.xsd">
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>DhuyvetbestellingDataSet.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="DhuyvetbestellingDataSet.xss">
+      <DependentUpon>DhuyvetbestellingDataSet.xsd</DependentUpon>
+    </None>
+    <None Include="packages.config" />
+    <None Include="Properties\Settings.settings">
+      <Generator>SettingsSingleFileGenerator</Generator>
+      <LastGenOutput>Settings.Designer.cs</LastGenOutput>
+    </None>
+    <Compile Include="Properties\Settings.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Settings.settings</DependentUpon>
+      <DesignTimeSharedInput>True</DesignTimeSharedInput>
+    </Compile>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="App.config">
+      <SubType>Designer</SubType>
+    </None>
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\BL\BL.csproj">
+      <Project>{0b591f27-c1c4-47f1-8565-3143e558005f}</Project>
+      <Name>BL</Name>
+    </ProjectReference>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\step3.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\bgnav.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\42580824_2097509096946809_792215561084862464.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\bgnav2.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\bgnav3.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="Cornmanthe3rd-Squareplex-Utilities-google-calendar.ico" />
+    <Content Include="DH.ico" />
+    <Content Include="Firefox\AccessibleMarshal.dll" />
+    <Content Include="Firefox\breakpadinjector.dll" />
+    <Content Include="Firefox\d3dcompiler_47.dll" />
+    <Content Include="Firefox\freebl3.dll" />
+    <Content Include="Firefox\icudt58.dll" />
+    <Content Include="Firefox\icuin58.dll" />
+    <Content Include="Firefox\icuuc58.dll" />
+    <Content Include="Firefox\lgpllibs.dll" />
+    <Content Include="Firefox\libEGL.dll" />
+    <Content Include="Firefox\libGLESv2.dll" />
+    <Content Include="Firefox\mozglue.dll" />
+    <Content Include="Firefox\nss3.dll" />
+    <Content Include="Firefox\nssckbi.dll" />
+    <Content Include="Firefox\nssdbm3.dll" />
+    <Content Include="Firefox\plugin-container.exe" />
+    <Content Include="Firefox\plugin-hang-ui.exe" />
+    <Content Include="Firefox\sandboxbroker.dll" />
+    <Content Include="Firefox\softokn3.dll" />
+    <Content Include="Firefox\xul.dll" />
+    <Content Include="logo.ico" />
+    <None Include="Resources\logo.png" />
+    <None Include="Resources\customersales.svg" />
+    <None Include="Resources\mr.svg" />
+    <None Include="Resources\customerlocation.svg" />
+    <None Include="Resources\productshipments.svg" />
+    <None Include="Resources\editicon2.png" />
+    <None Include="Resources\OfferteKlantWijzigen.png" />
+    <None Include="Resources\OfferteKlantToevoegn.png" />
+    <None Include="Resources\OfferteProductWerfToevoegen.png" />
+    <None Include="Resources\OfferteProducttToevoegen.png" />
+    <None Include="Resources\OfferteKlantToevoegen.png" />
+    <None Include="Resources\WerfOfferteToevoegen.png" />
+    <None Include="Resources\Fabien.png" />
+    <None Include="Resources\giphy.gif" />
+    <None Include="Resources\Pedro.png" />
+    <None Include="Resources\Excel-icon %281%29.png" />
+    <None Include="Resources\kisspng-responsive-web-design-social-media-google-maps-com-map-icon-5abfaf382c12a9.8640671315225116721805.png" />
+    <None Include="Resources\Cindy.png" />
+    <None Include="Resources\Image1.bmp" />
+    <None Include="Resources\Loes.png" />
+    <None Include="Resources\Tania.png" />
+    <None Include="Resources\Jan.png" />
+    <None Include="Resources\YaraD.png" />
+    <None Include="Resources\DH_transparant.png" />
+    <None Include="Resources\adobe-pdf-icon.png" />
+    <None Include="Resources\kisspng-responsive-web-design-social-media-google-maps-com-map-icon-5abfaf382c12a9.86406713152251167218051.png" />
+    <None Include="Resources\reload.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <Service Include="{C0C07587-41A7-46C8-8FBD-3F9C8EBE2DDC}" />
+  </ItemGroup>
+  <ItemGroup>
+    <BootstrapperPackage Include=".NETFramework,Version=v4.6">
+      <Visible>False</Visible>
+      <ProductName>Microsoft .NET Framework 4.6 %28x86 and x64%29</ProductName>
+      <Install>true</Install>
+    </BootstrapperPackage>
+    <BootstrapperPackage Include="Microsoft.Net.Framework.3.5.SP1">
+      <Visible>False</Visible>
+      <ProductName>.NET Framework 3.5 SP1</ProductName>
+      <Install>false</Install>
+    </BootstrapperPackage>
+  </ItemGroup>
+  <ItemGroup>
+    <WCFMetadata Include="Connected Services\" />
+  </ItemGroup>
+  <ItemGroup>
+    <WCFMetadataStorage Include="Connected Services\alacarteservice\" />
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+  <Import Project="..\packages\System.Data.SQLite.Core.1.0.110.0\build\net46\System.Data.SQLite.Core.targets" Condition="Exists('..\packages\System.Data.SQLite.Core.1.0.110.0\build\net46\System.Data.SQLite.Core.targets')" />
+  <Target Name="EnsureNuGetPackageBuildImports" BeforeTargets="PrepareForBuild">
+    <PropertyGroup>
+      <ErrorText>This project references NuGet package(s) that are missing on this computer. Use NuGet Package Restore to download them.  For more information, see http://go.microsoft.com/fwlink/?LinkID=322105. The missing file is {0}.</ErrorText>
+    </PropertyGroup>
+    <Error Condition="!Exists('..\packages\System.Data.SQLite.Core.1.0.110.0\build\net46\System.Data.SQLite.Core.targets')" Text="$([System.String]::Format('$(ErrorText)', '..\packages\System.Data.SQLite.Core.1.0.110.0\build\net46\System.Data.SQLite.Core.targets'))" />
+    <Error Condition="!Exists('..\packages\EmptyLicensesLicx.2.0.0\build\EmptyLicensesLicx.targets')" Text="$([System.String]::Format('$(ErrorText)', '..\packages\EmptyLicensesLicx.2.0.0\build\EmptyLicensesLicx.targets'))" />
+    <Error Condition="!Exists('..\packages\Grpc.Core.2.31.0\build\net45\Grpc.Core.targets')" Text="$([System.String]::Format('$(ErrorText)', '..\packages\Grpc.Core.2.31.0\build\net45\Grpc.Core.targets'))" />
+    <Error Condition="!Exists('..\packages\Microsoft.Web.WebView2.1.0.961.33\build\Microsoft.Web.WebView2.targets')" Text="$([System.String]::Format('$(ErrorText)', '..\packages\Microsoft.Web.WebView2.1.0.961.33\build\Microsoft.Web.WebView2.targets'))" />
+    <Error Condition="!Exists('..\packages\System.Text.Json.6.0.0\build\System.Text.Json.targets')" Text="$([System.String]::Format('$(ErrorText)', '..\packages\System.Text.Json.6.0.0\build\System.Text.Json.targets'))" />
+    <Error Condition="!Exists('..\packages\Geckofx45.45.0.34\build\Geckofx45.targets')" Text="$([System.String]::Format('$(ErrorText)', '..\packages\Geckofx45.45.0.34\build\Geckofx45.targets'))" />
+    <Error Condition="!Exists('..\packages\cef.redist.x64.96.0.14\build\cef.redist.x64.props')" Text="$([System.String]::Format('$(ErrorText)', '..\packages\cef.redist.x64.96.0.14\build\cef.redist.x64.props'))" />
+    <Error Condition="!Exists('..\packages\cef.redist.x86.96.0.14\build\cef.redist.x86.props')" Text="$([System.String]::Format('$(ErrorText)', '..\packages\cef.redist.x86.96.0.14\build\cef.redist.x86.props'))" />
+    <Error Condition="!Exists('..\packages\CefSharp.Common.96.0.141\build\CefSharp.Common.props')" Text="$([System.String]::Format('$(ErrorText)', '..\packages\CefSharp.Common.96.0.141\build\CefSharp.Common.props'))" />
+    <Error Condition="!Exists('..\packages\CefSharp.Common.96.0.141\build\CefSharp.Common.targets')" Text="$([System.String]::Format('$(ErrorText)', '..\packages\CefSharp.Common.96.0.141\build\CefSharp.Common.targets'))" />
+  </Target>
+  <Import Project="..\packages\EmptyLicensesLicx.2.0.0\build\EmptyLicensesLicx.targets" Condition="Exists('..\packages\EmptyLicensesLicx.2.0.0\build\EmptyLicensesLicx.targets')" />
+  <Import Project="..\packages\Grpc.Core.2.31.0\build\net45\Grpc.Core.targets" Condition="Exists('..\packages\Grpc.Core.2.31.0\build\net45\Grpc.Core.targets')" />
+  <Import Project="..\packages\Microsoft.Web.WebView2.1.0.961.33\build\Microsoft.Web.WebView2.targets" Condition="Exists('..\packages\Microsoft.Web.WebView2.1.0.961.33\build\Microsoft.Web.WebView2.targets')" />
+  <Import Project="..\packages\System.Text.Json.6.0.0\build\System.Text.Json.targets" Condition="Exists('..\packages\System.Text.Json.6.0.0\build\System.Text.Json.targets')" />
+  <Import Project="..\packages\Geckofx45.45.0.34\build\Geckofx45.targets" Condition="Exists('..\packages\Geckofx45.45.0.34\build\Geckofx45.targets')" />
+  <Import Project="..\packages\CefSharp.Common.96.0.141\build\CefSharp.Common.targets" Condition="Exists('..\packages\CefSharp.Common.96.0.141\build\CefSharp.Common.targets')" />
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+</Project>

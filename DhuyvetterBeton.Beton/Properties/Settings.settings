@@ -1,0 +1,52 @@
+﻿<?xml version='1.0' encoding='utf-8'?>
+<SettingsFile xmlns="http://schemas.microsoft.com/VisualStudio/2004/01/settings" CurrentProfile="(Default)" GeneratedClassNamespace="DhuyvetterBeton.Beton.Properties" GeneratedClassName="Settings">
+  <Profiles />
+  <Settings>
+    <Setting Name="Dhuyvetter_StraatNamenConnectie" Type="(Connection string)" Scope="Application">
+      <DesignTimeValue Profile="(Default)">&lt;?xml version="1.0" encoding="utf-16"?&gt;
+&lt;SerializableConnectionString xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"&gt;
+  &lt;ConnectionString&gt;Data Source=(LocalDB)\MSSQLLocalDB;AttachDbFilename=C:\Users\jan\Desktop\DB\DB_STRAATNAMEN.mdf;Integrated Security=True&lt;/ConnectionString&gt;
+&lt;/SerializableConnectionString&gt;</DesignTimeValue>
+      <Value Profile="(Default)">Data Source=(LocalDB)\MSSQLLocalDB;AttachDbFilename=C:\Users\jan\Desktop\DB\DB_STRAATNAMEN.mdf;Integrated Security=True</Value>
+    </Setting>
+    <Setting Name="Dhuyvetter_BestellingConnectie" Type="(Connection string)" Scope="Application">
+      <DesignTimeValue Profile="(Default)">&lt;?xml version="1.0" encoding="utf-16"?&gt;
+&lt;SerializableConnectionString xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"&gt;
+  &lt;ConnectionString&gt;Data Source=192.168.10.22,1434\SQLEXPRESS;Initial Catalog=Dhuyvetbestelling;User ID=sa;Password=nYHZgDE5hG3rttU3;&lt;/ConnectionString&gt;
+  &lt;ProviderName&gt;System.Data.SqlClient&lt;/ProviderName&gt;
+&lt;/SerializableConnectionString&gt;</DesignTimeValue>
+      <Value Profile="(Default)">Data Source=192.168.10.22,1434\SQLEXPRESS;Initial Catalog=Dhuyvetbestelling;User ID=sa;Password=nYHZgDE5hG3rttU3;</Value>
+    </Setting>
+    <Setting Name="Dhuyvetter_LeveringConnectie" Type="(Connection string)" Scope="Application">
+      <DesignTimeValue Profile="(Default)">&lt;?xml version="1.0" encoding="utf-16"?&gt;
+&lt;SerializableConnectionString xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"&gt;
+  &lt;ConnectionString&gt;Data Source=DHUAPP02\SQLEXPRESS;Initial Catalog=DhuyvetLevering;User ID=sa;Password=nYHZgDE5hG3rttU3;&lt;/ConnectionString&gt;
+&lt;/SerializableConnectionString&gt;</DesignTimeValue>
+      <Value Profile="(Default)">Data Source=DHUAPP02\SQLEXPRESS;Initial Catalog=DhuyvetLevering;User ID=sa;Password=nYHZgDE5hG3rttU3;</Value>
+    </Setting>
+    <Setting Name="DhuyvetBestelllingConnectionString" Type="(Connection string)" Scope="Application">
+      <DesignTimeValue Profile="(Default)">&lt;?xml version="1.0" encoding="utf-16"?&gt;
+&lt;SerializableConnectionString xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"&gt;
+  &lt;ConnectionString&gt;Data Source=DHUAPP02\SQLEXPRESS;Initial Catalog=Dhuyvetbestellling;User ID=sa;Password=nYHZgDE5hG3rttU3&lt;/ConnectionString&gt;
+  &lt;ProviderName&gt;System.Data.SqlClient&lt;/ProviderName&gt;
+&lt;/SerializableConnectionString&gt;</DesignTimeValue>
+      <Value Profile="(Default)">Data Source=DHUAPP02\SQLEXPRESS;Initial Catalog=Dhuyvetbestellling;User ID=sa;Password=nYHZgDE5hG3rttU3</Value>
+    </Setting>
+    <Setting Name="DhuyvetLeveringConnectionString" Type="(Connection string)" Scope="Application">
+      <DesignTimeValue Profile="(Default)">&lt;?xml version="1.0" encoding="utf-16"?&gt;
+&lt;SerializableConnectionString xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"&gt;
+  &lt;ConnectionString&gt;Data Source=DHUAPP02\SQLEXPRESS;Initial Catalog=DhuyvetLevering;User ID=sa;Password=nYHZgDE5hG3rttU3&lt;/ConnectionString&gt;
+  &lt;ProviderName&gt;System.Data.SqlClient&lt;/ProviderName&gt;
+&lt;/SerializableConnectionString&gt;</DesignTimeValue>
+      <Value Profile="(Default)">Data Source=DHUAPP02\SQLEXPRESS;Initial Catalog=DhuyvetLevering;User ID=sa;Password=nYHZgDE5hG3rttU3</Value>
+    </Setting>
+    <Setting Name="DhuyvetbestellingConnectionStringtest" Type="(Connection string)" Scope="Application">
+      <DesignTimeValue Profile="(Default)">&lt;?xml version="1.0" encoding="utf-16"?&gt;
+&lt;SerializableConnectionString xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"&gt;
+  &lt;ConnectionString&gt;Data Source=DHUAPP02\SQLEXPRESS;Initial Catalog=Dhuyvetbestelling;User ID=sa;Password=nYHZgDE5hG3rttU3&lt;/ConnectionString&gt;
+  &lt;ProviderName&gt;System.Data.SqlClient&lt;/ProviderName&gt;
+&lt;/SerializableConnectionString&gt;</DesignTimeValue>
+      <Value Profile="(Default)">Data Source=DHUAPP02\SQLEXPRESS;Initial Catalog=Dhuyvetbestelling;User ID=sa;Password=nYHZgDE5hG3rttU3</Value>
+    </Setting>
+  </Settings>
+</SettingsFile>

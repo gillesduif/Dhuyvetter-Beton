@@ -1,0 +1,177 @@
+C:\Users\Gebruiker\Documents\Visual Studio 2015\Projects\DhuyvetterBeton.Beton\DAL\bin\Debug\DAL.dll.config
+C:\Users\Gebruiker\Documents\Visual Studio 2015\Projects\DhuyvetterBeton.Beton\DAL\bin\Debug\DAL.dll
+C:\Users\Gebruiker\Documents\Visual Studio 2015\Projects\DhuyvetterBeton.Beton\DAL\bin\Debug\DAL.pdb
+C:\Users\Gebruiker\Documents\Visual Studio 2015\Projects\DhuyvetterBeton.Beton\DAL\bin\Debug\RL.dll
+C:\Users\Gebruiker\Documents\Visual Studio 2015\Projects\DhuyvetterBeton.Beton\DAL\bin\Debug\RL.pdb
+C:\Users\Gebruiker\Documents\Visual Studio 2015\Projects\DhuyvetterBeton.Beton\DAL\obj\Debug\DAL.csprojResolveAssemblyReference.cache
+C:\Users\Gebruiker\Documents\Visual Studio 2015\Projects\DhuyvetterBeton.Beton\DAL\obj\Debug\DAL.dll
+C:\Users\Gebruiker\Documents\Visual Studio 2015\Projects\DhuyvetterBeton.Beton\DAL\obj\Debug\DAL.pdb
+C:\Users\Gebruiker\Documents\Visual Studio 2015\Projects\DhuyvetterBeton.Beton.Bestellingen\DAL\bin\Debug\DAL.dll.config
+C:\Users\Gebruiker\Documents\Visual Studio 2015\Projects\DhuyvetterBeton.Beton.Bestellingen\DAL\bin\Debug\DAL.dll
+C:\Users\Gebruiker\Documents\Visual Studio 2015\Projects\DhuyvetterBeton.Beton.Bestellingen\DAL\bin\Debug\DAL.pdb
+C:\Users\Gebruiker\Documents\Visual Studio 2015\Projects\DhuyvetterBeton.Beton.Bestellingen\DAL\bin\Debug\RL.dll
+C:\Users\Gebruiker\Documents\Visual Studio 2015\Projects\DhuyvetterBeton.Beton.Bestellingen\DAL\bin\Debug\RL.pdb
+C:\Users\Gebruiker\Documents\Visual Studio 2015\Projects\DhuyvetterBeton.Beton.Bestellingen\DAL\obj\Debug\DAL.csprojResolveAssemblyReference.cache
+C:\Users\Gebruiker\Documents\Visual Studio 2015\Projects\DhuyvetterBeton.Beton.Bestellingen\DAL\obj\Debug\DAL.dll
+C:\Users\Gebruiker\Documents\Visual Studio 2015\Projects\DhuyvetterBeton.Beton.Bestellingen\DAL\obj\Debug\DAL.pdb
+F:\bureaublad\usb gilles\DHBestellingen\DAL\obj\Debug\DAL.csprojResolveAssemblyReference.cache
+F:\bureaublad\usb gilles\DHBestellingen\DAL\obj\Debug\DAL.dll
+F:\bureaublad\usb gilles\DHBestellingen\DAL\obj\Debug\DAL.pdb
+F:\bureaublad\usb gilles\DHBestellingen\DAL\bin\Debug\DAL.dll.config
+F:\bureaublad\usb gilles\DHBestellingen\DAL\bin\Debug\DAL.dll
+F:\bureaublad\usb gilles\DHBestellingen\DAL\bin\Debug\DAL.pdb
+F:\bureaublad\usb gilles\DHBestellingen\DAL\bin\Debug\MySql.Data.dll
+F:\bureaublad\usb gilles\DHBestellingen\DAL\bin\Debug\RL.dll
+F:\bureaublad\usb gilles\DHBestellingen\DAL\bin\Debug\RL.pdb
+E:\usb gilles\DHBestellingen\DAL\bin\Debug\DAL.dll.config
+E:\usb gilles\DHBestellingen\DAL\bin\Debug\DAL.dll
+E:\usb gilles\DHBestellingen\DAL\bin\Debug\DAL.pdb
+E:\usb gilles\DHBestellingen\DAL\bin\Debug\RL.dll
+E:\usb gilles\DHBestellingen\DAL\bin\Debug\RL.pdb
+E:\usb gilles\DHBestellingen\DAL\obj\Debug\DAL.csprojAssemblyReference.cache
+E:\usb gilles\DHBestellingen\DAL\obj\Debug\DAL.csproj.CoreCompileInputs.cache
+E:\usb gilles\DHBestellingen\DAL\obj\Debug\DAL.csproj.CopyComplete
+E:\usb gilles\DHBestellingen\DAL\obj\Debug\DAL.dll
+E:\usb gilles\DHBestellingen\DAL\obj\Debug\DAL.pdb
+C:\Users\Gilles\Desktop\usb gilles\DHBestellingen\DAL\bin\Debug\DAL.dll.config
+C:\Users\Gilles\Desktop\usb gilles\DHBestellingen\DAL\bin\Debug\DAL.dll
+C:\Users\Gilles\Desktop\usb gilles\DHBestellingen\DAL\bin\Debug\DAL.pdb
+C:\Users\Gilles\Desktop\usb gilles\DHBestellingen\DAL\bin\Debug\MySql.Data.dll
+C:\Users\Gilles\Desktop\usb gilles\DHBestellingen\DAL\bin\Debug\RL.dll
+C:\Users\Gilles\Desktop\usb gilles\DHBestellingen\DAL\bin\Debug\Google.Protobuf.dll
+C:\Users\Gilles\Desktop\usb gilles\DHBestellingen\DAL\bin\Debug\RL.pdb
+C:\Users\Gilles\Desktop\usb gilles\DHBestellingen\DAL\bin\Debug\MySql.Data.xml
+C:\Users\Gilles\Desktop\usb gilles\DHBestellingen\DAL\obj\Debug\DAL.csprojAssemblyReference.cache
+C:\Users\Gilles\Desktop\usb gilles\DHBestellingen\DAL\obj\Debug\DAL.csproj.CoreCompileInputs.cache
+C:\Users\Gilles\Desktop\usb gilles\DHBestellingen\DAL\obj\Debug\DAL.csproj.CopyComplete
+C:\Users\Gilles\Desktop\usb gilles\DHBestellingen\DAL\obj\Debug\DAL.dll
+C:\Users\Gilles\Desktop\usb gilles\DHBestellingen\DAL\obj\Debug\DAL.pdb
+G:\usb gilles\DHBestellingen\DAL\bin\Debug\DAL.dll.config
+G:\usb gilles\DHBestellingen\DAL\bin\Debug\DAL.dll
+G:\usb gilles\DHBestellingen\DAL\bin\Debug\DAL.pdb
+G:\usb gilles\DHBestellingen\DAL\bin\Debug\MySql.Data.dll
+G:\usb gilles\DHBestellingen\DAL\bin\Debug\RL.dll
+G:\usb gilles\DHBestellingen\DAL\bin\Debug\Google.Protobuf.dll
+G:\usb gilles\DHBestellingen\DAL\bin\Debug\RL.pdb
+G:\usb gilles\DHBestellingen\DAL\bin\Debug\MySql.Data.xml
+G:\usb gilles\DHBestellingen\DAL\obj\Debug\DAL.csprojAssemblyReference.cache
+G:\usb gilles\DHBestellingen\DAL\obj\Debug\DAL.csproj.CoreCompileInputs.cache
+G:\usb gilles\DHBestellingen\DAL\obj\Debug\DAL.csproj.CopyComplete
+G:\usb gilles\DHBestellingen\DAL\obj\Debug\DAL.dll
+G:\usb gilles\DHBestellingen\DAL\obj\Debug\DAL.pdb
+G:\usb gilles\DHFacturatie\DAL\bin\Debug\DAL.dll.config
+G:\usb gilles\DHFacturatie\DAL\bin\Debug\DAL.dll
+G:\usb gilles\DHFacturatie\DAL\bin\Debug\DAL.pdb
+G:\usb gilles\DHFacturatie\DAL\bin\Debug\MySql.Data.dll
+G:\usb gilles\DHFacturatie\DAL\bin\Debug\RL.dll
+G:\usb gilles\DHFacturatie\DAL\bin\Debug\Google.Protobuf.dll
+G:\usb gilles\DHFacturatie\DAL\bin\Debug\RL.pdb
+G:\usb gilles\DHFacturatie\DAL\bin\Debug\MySql.Data.xml
+G:\usb gilles\DHFacturatie\DAL\obj\Debug\DAL.csprojAssemblyReference.cache
+G:\usb gilles\DHFacturatie\DAL\obj\Debug\DAL.csproj.CoreCompileInputs.cache
+G:\usb gilles\DHFacturatie\DAL\obj\Debug\DAL.csproj.CopyComplete
+G:\usb gilles\DHFacturatie\DAL\obj\Debug\DAL.dll
+G:\usb gilles\DHFacturatie\DAL\obj\Debug\DAL.pdb
+C:\Users\Gilles\Desktop\DHFacturatie\DAL\bin\Debug\DAL.dll.config
+C:\Users\Gilles\Desktop\DHFacturatie\DAL\bin\Debug\DAL.dll
+C:\Users\Gilles\Desktop\DHFacturatie\DAL\bin\Debug\DAL.pdb
+C:\Users\Gilles\Desktop\DHFacturatie\DAL\bin\Debug\RL.dll
+C:\Users\Gilles\Desktop\DHFacturatie\DAL\bin\Debug\RL.pdb
+C:\Users\Gilles\Desktop\DHFacturatie\DAL\obj\Debug\DAL.csprojAssemblyReference.cache
+C:\Users\Gilles\Desktop\DHFacturatie\DAL\obj\Debug\DAL.csproj.CopyComplete
+C:\Users\Gilles\Desktop\DHFacturatie\DAL\obj\Debug\DAL.dll
+C:\Users\Gilles\Desktop\DHFacturatie\DAL\obj\Debug\DAL.pdb
+C:\Users\GillesD\Documents\DHFacturatie\DAL\bin\Debug\DAL.dll.config
+C:\Users\GillesD\Documents\DHFacturatie\DAL\bin\Debug\DAL.dll
+C:\Users\GillesD\Documents\DHFacturatie\DAL\bin\Debug\DAL.pdb
+C:\Users\GillesD\Documents\DHFacturatie\DAL\bin\Debug\RL.dll
+C:\Users\GillesD\Documents\DHFacturatie\DAL\bin\Debug\RL.pdb
+C:\Users\GillesD\Documents\DHFacturatie\DAL\obj\Debug\DAL.csprojAssemblyReference.cache
+C:\Users\GillesD\Documents\DHFacturatie\DAL\obj\Debug\DAL.csproj.CoreCompileInputs.cache
+C:\Users\GillesD\Documents\DHFacturatie\DAL\obj\Debug\DAL.csproj.CopyComplete
+C:\Users\GillesD\Documents\DHFacturatie\DAL\obj\Debug\DAL.dll
+C:\Users\GillesD\Documents\DHFacturatie\DAL\obj\Debug\DAL.pdb
+C:\Users\GillesD\Desktop\DHFacturatie\DAL\bin\Debug\DAL.dll.config
+C:\Users\GillesD\Desktop\DHFacturatie\DAL\bin\Debug\DAL.dll
+C:\Users\GillesD\Desktop\DHFacturatie\DAL\bin\Debug\DAL.pdb
+C:\Users\GillesD\Desktop\DHFacturatie\DAL\bin\Debug\RL.dll
+C:\Users\GillesD\Desktop\DHFacturatie\DAL\bin\Debug\RL.pdb
+C:\Users\GillesD\Desktop\DHFacturatie\DAL\obj\Debug\DAL.csprojAssemblyReference.cache
+C:\Users\GillesD\Desktop\DHFacturatie\DAL\obj\Debug\DAL.csproj.CoreCompileInputs.cache
+C:\Users\GillesD\Desktop\DHFacturatie\DAL\obj\Debug\DAL.csproj.CopyComplete
+C:\Users\GillesD\Desktop\DHFacturatie\DAL\obj\Debug\DAL.dll
+C:\Users\GillesD\Desktop\DHFacturatie\DAL\obj\Debug\DAL.pdb
+C:\Users\gille\Desktop\DHFacturatie\DAL\bin\Debug\DAL.dll.config
+C:\Users\gille\Desktop\DHFacturatie\DAL\bin\Debug\DAL.dll
+C:\Users\gille\Desktop\DHFacturatie\DAL\bin\Debug\DAL.pdb
+C:\Users\gille\Desktop\DHFacturatie\DAL\bin\Debug\RL.dll
+C:\Users\gille\Desktop\DHFacturatie\DAL\bin\Debug\RL.pdb
+C:\Users\gille\Desktop\DHFacturatie\DAL\obj\Debug\DAL.csprojAssemblyReference.cache
+C:\Users\gille\Desktop\DHFacturatie\DAL\obj\Debug\DAL.csproj.CoreCompileInputs.cache
+C:\Users\gille\Desktop\DHFacturatie\DAL\obj\Debug\DAL.csproj.CopyComplete
+C:\Users\gille\Desktop\DHFacturatie\DAL\obj\Debug\DAL.dll
+C:\Users\gille\Desktop\DHFacturatie\DAL\obj\Debug\DAL.pdb
+C:\Users\gille\Desktop\DHFacturatie\DAL\bin\Debug\FireSharp.dll
+C:\Users\gille\Desktop\DHFacturatie\DAL\bin\Debug\Newtonsoft.Json.dll
+C:\Users\gille\Desktop\DHFacturatie\DAL\bin\Debug\RestSharp.dll
+C:\Users\gille\Desktop\DHFacturatie\DAL\bin\Debug\Newtonsoft.Json.xml
+C:\Users\gille\Desktop\DHFacturatie\DAL\bin\Debug\RestSharp.xml
+C:\Users\gille\Desktop\DHbestellingen\DAL\bin\Debug\DAL.dll.config
+C:\Users\gille\Desktop\DHbestellingen\DAL\bin\Debug\DAL.dll
+C:\Users\gille\Desktop\DHbestellingen\DAL\bin\Debug\DAL.pdb
+C:\Users\gille\Desktop\DHbestellingen\DAL\bin\Debug\FireSharp.dll
+C:\Users\gille\Desktop\DHbestellingen\DAL\bin\Debug\Newtonsoft.Json.dll
+C:\Users\gille\Desktop\DHbestellingen\DAL\bin\Debug\RestSharp.dll
+C:\Users\gille\Desktop\DHbestellingen\DAL\bin\Debug\RL.dll
+C:\Users\gille\Desktop\DHbestellingen\DAL\bin\Debug\RL.pdb
+C:\Users\gille\Desktop\DHbestellingen\DAL\bin\Debug\Newtonsoft.Json.xml
+C:\Users\gille\Desktop\DHbestellingen\DAL\bin\Debug\RestSharp.xml
+C:\Users\gille\Desktop\DHbestellingen\DAL\obj\Debug\DAL.csprojAssemblyReference.cache
+C:\Users\gille\Desktop\DHbestellingen\DAL\obj\Debug\DAL.csproj.CoreCompileInputs.cache
+C:\Users\gille\Desktop\DHbestellingen\DAL\obj\Debug\DAL.csproj.CopyComplete
+C:\Users\gille\Desktop\DHbestellingen\DAL\obj\Debug\DAL.dll
+C:\Users\gille\Desktop\DHbestellingen\DAL\obj\Debug\DAL.pdb
+C:\Users\Gilles D'huyvetter\Desktop\DHbestellingen\DAL\bin\Debug\DAL.dll.config
+C:\Users\Gilles D'huyvetter\Desktop\DHbestellingen\DAL\bin\Debug\DAL.dll
+C:\Users\Gilles D'huyvetter\Desktop\DHbestellingen\DAL\bin\Debug\DAL.pdb
+C:\Users\Gilles D'huyvetter\Desktop\DHbestellingen\DAL\bin\Debug\FireSharp.dll
+C:\Users\Gilles D'huyvetter\Desktop\DHbestellingen\DAL\bin\Debug\Newtonsoft.Json.dll
+C:\Users\Gilles D'huyvetter\Desktop\DHbestellingen\DAL\bin\Debug\RestSharp.dll
+C:\Users\Gilles D'huyvetter\Desktop\DHbestellingen\DAL\bin\Debug\RL.dll
+C:\Users\Gilles D'huyvetter\Desktop\DHbestellingen\DAL\bin\Debug\RL.pdb
+C:\Users\Gilles D'huyvetter\Desktop\DHbestellingen\DAL\bin\Debug\Newtonsoft.Json.xml
+C:\Users\Gilles D'huyvetter\Desktop\DHbestellingen\DAL\bin\Debug\RestSharp.xml
+C:\Users\Gilles D'huyvetter\Desktop\DHbestellingen\DAL\obj\Debug\DAL.csproj.AssemblyReference.cache
+C:\Users\Gilles D'huyvetter\Desktop\DHbestellingen\DAL\obj\Debug\DAL.csproj.CoreCompileInputs.cache
+C:\Users\Gilles D'huyvetter\Desktop\DHbestellingen\DAL\obj\Debug\DAL.csproj.CopyComplete
+C:\Users\Gilles D'huyvetter\Desktop\DHbestellingen\DAL\obj\Debug\DAL.dll
+C:\Users\Gilles D'huyvetter\Desktop\DHbestellingen\DAL\obj\Debug\DAL.pdb
+C:\Users\Gilles D'huyvetter\Desktop\DHbestellingen\DAL\bin\Debug\runtimes\win-x86\native\WebView2Loader.dll
+C:\Users\Gilles D'huyvetter\Desktop\DHbestellingen\DAL\bin\Debug\Microsoft.Web.WebView2.Core.dll
+C:\Users\Gilles D'huyvetter\Desktop\DHbestellingen\DAL\bin\Debug\Microsoft.Web.WebView2.WinForms.dll
+C:\Users\Gilles D'huyvetter\Desktop\DHbestellingen\DAL\bin\Debug\Microsoft.Web.WebView2.Wpf.dll
+C:\Users\Gilles D'huyvetter\Desktop\DHbestellingen\DAL\bin\Debug\Microsoft.Web.WebView2.Core.xml
+C:\Users\Gilles D'huyvetter\Desktop\DHbestellingen\DAL\bin\Debug\Microsoft.Web.WebView2.WinForms.xml
+C:\Users\Gilles D'huyvetter\Desktop\DHbestellingen\DAL\bin\Debug\Microsoft.Web.WebView2.Wpf.xml
+C:\Users\Gilles D'huyvetter\Desktop\Software D'huyvetter Beton\Bestellingen\DAL\bin\Debug\runtimes\win-x86\native\WebView2Loader.dll
+C:\Users\Gilles D'huyvetter\Desktop\Software D'huyvetter Beton\Bestellingen\DAL\bin\Debug\DAL.dll.config
+C:\Users\Gilles D'huyvetter\Desktop\Software D'huyvetter Beton\Bestellingen\DAL\bin\Debug\DAL.dll
+C:\Users\Gilles D'huyvetter\Desktop\Software D'huyvetter Beton\Bestellingen\DAL\bin\Debug\DAL.pdb
+C:\Users\Gilles D'huyvetter\Desktop\Software D'huyvetter Beton\Bestellingen\DAL\bin\Debug\FireSharp.dll
+C:\Users\Gilles D'huyvetter\Desktop\Software D'huyvetter Beton\Bestellingen\DAL\bin\Debug\Microsoft.Web.WebView2.Core.dll
+C:\Users\Gilles D'huyvetter\Desktop\Software D'huyvetter Beton\Bestellingen\DAL\bin\Debug\Microsoft.Web.WebView2.WinForms.dll
+C:\Users\Gilles D'huyvetter\Desktop\Software D'huyvetter Beton\Bestellingen\DAL\bin\Debug\Microsoft.Web.WebView2.Wpf.dll
+C:\Users\Gilles D'huyvetter\Desktop\Software D'huyvetter Beton\Bestellingen\DAL\bin\Debug\Newtonsoft.Json.dll
+C:\Users\Gilles D'huyvetter\Desktop\Software D'huyvetter Beton\Bestellingen\DAL\bin\Debug\RestSharp.dll
+C:\Users\Gilles D'huyvetter\Desktop\Software D'huyvetter Beton\Bestellingen\DAL\bin\Debug\RL.dll
+C:\Users\Gilles D'huyvetter\Desktop\Software D'huyvetter Beton\Bestellingen\DAL\bin\Debug\RL.pdb
+C:\Users\Gilles D'huyvetter\Desktop\Software D'huyvetter Beton\Bestellingen\DAL\bin\Debug\Microsoft.Web.WebView2.Core.xml
+C:\Users\Gilles D'huyvetter\Desktop\Software D'huyvetter Beton\Bestellingen\DAL\bin\Debug\Microsoft.Web.WebView2.WinForms.xml
+C:\Users\Gilles D'huyvetter\Desktop\Software D'huyvetter Beton\Bestellingen\DAL\bin\Debug\Microsoft.Web.WebView2.Wpf.xml
+C:\Users\Gilles D'huyvetter\Desktop\Software D'huyvetter Beton\Bestellingen\DAL\bin\Debug\Newtonsoft.Json.xml
+C:\Users\Gilles D'huyvetter\Desktop\Software D'huyvetter Beton\Bestellingen\DAL\bin\Debug\RestSharp.xml
+C:\Users\Gilles D'huyvetter\Desktop\Software D'huyvetter Beton\Bestellingen\DAL\obj\Debug\DAL.csproj.AssemblyReference.cache
+C:\Users\Gilles D'huyvetter\Desktop\Software D'huyvetter Beton\Bestellingen\DAL\obj\Debug\DAL.csproj.CoreCompileInputs.cache
+C:\Users\Gilles D'huyvetter\Desktop\Software D'huyvetter Beton\Bestellingen\DAL\obj\Debug\DAL.csproj.CopyComplete
+C:\Users\Gilles D'huyvetter\Desktop\Software D'huyvetter Beton\Bestellingen\DAL\obj\Debug\DAL.dll
+C:\Users\Gilles D'huyvetter\Desktop\Software D'huyvetter Beton\Bestellingen\DAL\obj\Debug\DAL.pdb

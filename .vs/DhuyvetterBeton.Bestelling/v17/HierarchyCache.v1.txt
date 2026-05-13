@@ -1,0 +1,1363 @@
+﻿++Solution 'DhuyvetterBeton.Bestelling' ‎(4 of 4 projects)
+i:{00000000-0000-0000-0000-000000000000}:DhuyvetterBeton.Bestelling.sln
+++Solution Items
+i:{00000000-0000-0000-0000-000000000000}:Solution Items
+++dbintern-56185-firebase-adminsdk-50c46-700d8feb2f.json
+i:{2d0b594f-ad43-412a-b6c5-723e370e2000}:C:\Users\Gilles D'huyvetter\Downloads\dbintern-56185-firebase-adminsdk-50c46-700d8feb2f.json
+i:{2fc40076-dce1-466d-8136-cb1e31db5c9b}:c:\users\gilles d'huyvetter\desktop\software d'huyvetter beton\bestellingen\dhuyvetterbeton.beton\dbintern-56185-firebase-adminsdk-50c46-700d8feb2f.json
+++BL
+i:{00000000-0000-0000-0000-000000000000}:BL
+i:{2fc40076-dce1-466d-8136-cb1e31db5c9b}:
+++Properties
+i:{0b591f27-c1c4-47f1-8565-3143e558005f}:c:\users\gilles d'huyvetter\desktop\software d'huyvetter beton\bestellingen\bl\properties\
+i:{b34ecfda-1a44-4595-a62f-e30e2c993b40}:c:\users\gilles d'huyvetter\desktop\software d'huyvetter beton\bestellingen\rl\properties\
+i:{de33c011-1562-4e8b-85c4-00e47293c8e6}:c:\users\gilles d'huyvetter\desktop\software d'huyvetter beton\bestellingen\dal\properties\
+i:{2fc40076-dce1-466d-8136-cb1e31db5c9b}:c:\users\gilles d'huyvetter\desktop\software d'huyvetter beton\bestellingen\dhuyvetterbeton.beton\properties\
+++References
+i:{0b591f27-c1c4-47f1-8565-3143e558005f}:
+i:{b34ecfda-1a44-4595-a62f-e30e2c993b40}:
+i:{de33c011-1562-4e8b-85c4-00e47293c8e6}:
+i:{2fc40076-dce1-466d-8136-cb1e31db5c9b}:
+++Account.cs
+i:{0b591f27-c1c4-47f1-8565-3143e558005f}:c:\users\gilles d'huyvetter\desktop\software d'huyvetter beton\bestellingen\bl\account.cs
+++AccountUpdate.cs
+i:{0b591f27-c1c4-47f1-8565-3143e558005f}:c:\users\gilles d'huyvetter\desktop\software d'huyvetter beton\bestellingen\bl\accountupdate.cs
+++AfdrukWachtRij.cs
+i:{0b591f27-c1c4-47f1-8565-3143e558005f}:c:\users\gilles d'huyvetter\desktop\software d'huyvetter beton\bestellingen\bl\afdrukwachtrij.cs
+++AfvoerInvoer.cs
+i:{0b591f27-c1c4-47f1-8565-3143e558005f}:c:\users\gilles d'huyvetter\desktop\software d'huyvetter beton\bestellingen\bl\afvoerinvoer.cs
+++AgendaLeveringen.cs
+i:{0b591f27-c1c4-47f1-8565-3143e558005f}:c:\users\gilles d'huyvetter\desktop\software d'huyvetter beton\bestellingen\bl\agendaleveringen.cs
+++BedrijfsData.cs
+i:{0b591f27-c1c4-47f1-8565-3143e558005f}:c:\users\gilles d'huyvetter\desktop\software d'huyvetter beton\bestellingen\bl\bedrijfsdata.cs
+++BenorCategorie.cs
+i:{0b591f27-c1c4-47f1-8565-3143e558005f}:c:\users\gilles d'huyvetter\desktop\software d'huyvetter beton\bestellingen\bl\benorcategorie.cs
+++Bestelling.cs
+i:{0b591f27-c1c4-47f1-8565-3143e558005f}:c:\users\gilles d'huyvetter\desktop\software d'huyvetter beton\bestellingen\bl\bestelling.cs
+++BestellingPrefab.cs
+i:{0b591f27-c1c4-47f1-8565-3143e558005f}:c:\users\gilles d'huyvetter\desktop\software d'huyvetter beton\bestellingen\bl\bestellingprefab.cs
+++BestellingWebsite.cs
+i:{0b591f27-c1c4-47f1-8565-3143e558005f}:c:\users\gilles d'huyvetter\desktop\software d'huyvetter beton\bestellingen\bl\bestellingwebsite.cs
+++BugReport.cs
+i:{0b591f27-c1c4-47f1-8565-3143e558005f}:c:\users\gilles d'huyvetter\desktop\software d'huyvetter beton\bestellingen\bl\bugreport.cs
+++Categorie.cs
+i:{0b591f27-c1c4-47f1-8565-3143e558005f}:c:\users\gilles d'huyvetter\desktop\software d'huyvetter beton\bestellingen\bl\categorie.cs
+++Chauffeur.cs
+i:{0b591f27-c1c4-47f1-8565-3143e558005f}:c:\users\gilles d'huyvetter\desktop\software d'huyvetter beton\bestellingen\bl\chauffeur.cs
+++CodeRood.cs
+i:{0b591f27-c1c4-47f1-8565-3143e558005f}:c:\users\gilles d'huyvetter\desktop\software d'huyvetter beton\bestellingen\bl\coderood.cs
+++ContactPersoonPrefab.cs
+i:{0b591f27-c1c4-47f1-8565-3143e558005f}:c:\users\gilles d'huyvetter\desktop\software d'huyvetter beton\bestellingen\bl\contactpersoonprefab.cs
+++EuropeanVatInformation.cs
+i:{0b591f27-c1c4-47f1-8565-3143e558005f}:c:\users\gilles d'huyvetter\desktop\software d'huyvetter beton\bestellingen\bl\europeanvatinformation.cs
+++Excell1.cs
+i:{0b591f27-c1c4-47f1-8565-3143e558005f}:c:\users\gilles d'huyvetter\desktop\software d'huyvetter beton\bestellingen\bl\excell1.cs
+++ExcellAanvoer.cs
+i:{0b591f27-c1c4-47f1-8565-3143e558005f}:c:\users\gilles d'huyvetter\desktop\software d'huyvetter beton\bestellingen\bl\excellaanvoer.cs
+++ExcellAfvoer.cs
+i:{0b591f27-c1c4-47f1-8565-3143e558005f}:c:\users\gilles d'huyvetter\desktop\software d'huyvetter beton\bestellingen\bl\excellafvoer.cs
+++ExcellCreator.cs
+i:{0b591f27-c1c4-47f1-8565-3143e558005f}:c:\users\gilles d'huyvetter\desktop\software d'huyvetter beton\bestellingen\bl\excellcreator.cs
+++ExcellFactuur.cs
+i:{0b591f27-c1c4-47f1-8565-3143e558005f}:c:\users\gilles d'huyvetter\desktop\software d'huyvetter beton\bestellingen\bl\excellfactuur.cs
+++ExcellFactuur10.cs
+i:{0b591f27-c1c4-47f1-8565-3143e558005f}:c:\users\gilles d'huyvetter\desktop\software d'huyvetter beton\bestellingen\bl\excellfactuur10.cs
+++ExcelLijstPrijs.cs
+i:{0b591f27-c1c4-47f1-8565-3143e558005f}:c:\users\gilles d'huyvetter\desktop\software d'huyvetter beton\bestellingen\bl\excellijstprijs.cs
+++ExcellPomp.cs
+i:{0b591f27-c1c4-47f1-8565-3143e558005f}:c:\users\gilles d'huyvetter\desktop\software d'huyvetter beton\bestellingen\bl\excellpomp.cs
+++ExcellPrefab.cs
+i:{0b591f27-c1c4-47f1-8565-3143e558005f}:c:\users\gilles d'huyvetter\desktop\software d'huyvetter beton\bestellingen\bl\excellprefab.cs
+++Factuur.cs
+i:{0b591f27-c1c4-47f1-8565-3143e558005f}:c:\users\gilles d'huyvetter\desktop\software d'huyvetter beton\bestellingen\bl\factuur.cs
+++Factuur_Item.cs
+i:{0b591f27-c1c4-47f1-8565-3143e558005f}:c:\users\gilles d'huyvetter\desktop\software d'huyvetter beton\bestellingen\bl\factuur_item.cs
+++Formule.cs
+i:{0b591f27-c1c4-47f1-8565-3143e558005f}:c:\users\gilles d'huyvetter\desktop\software d'huyvetter beton\bestellingen\bl\formule.cs
+++Hasher.cs
+i:{0b591f27-c1c4-47f1-8565-3143e558005f}:c:\users\gilles d'huyvetter\desktop\software d'huyvetter beton\bestellingen\bl\hasher.cs
+++Hulpstof.cs
+i:{0b591f27-c1c4-47f1-8565-3143e558005f}:c:\users\gilles d'huyvetter\desktop\software d'huyvetter beton\bestellingen\bl\hulpstof.cs
+++Hulpstof_Factuur_Item.cs
+i:{0b591f27-c1c4-47f1-8565-3143e558005f}:c:\users\gilles d'huyvetter\desktop\software d'huyvetter beton\bestellingen\bl\hulpstof_factuur_item.cs
+++HulpstofPrijs.cs
+i:{0b591f27-c1c4-47f1-8565-3143e558005f}:c:\users\gilles d'huyvetter\desktop\software d'huyvetter beton\bestellingen\bl\hulpstofprijs.cs
+++Interne_Bestelling.cs
+i:{0b591f27-c1c4-47f1-8565-3143e558005f}:c:\users\gilles d'huyvetter\desktop\software d'huyvetter beton\bestellingen\bl\interne_bestelling.cs
+++Klant.cs
+i:{0b591f27-c1c4-47f1-8565-3143e558005f}:c:\users\gilles d'huyvetter\desktop\software d'huyvetter beton\bestellingen\bl\klant.cs
+++KlantNotitie.cs
+i:{0b591f27-c1c4-47f1-8565-3143e558005f}:c:\users\gilles d'huyvetter\desktop\software d'huyvetter beton\bestellingen\bl\klantnotitie.cs
+++KlantPrefab.cs
+i:{0b591f27-c1c4-47f1-8565-3143e558005f}:c:\users\gilles d'huyvetter\desktop\software d'huyvetter beton\bestellingen\bl\klantprefab.cs
+++Korting_Klant.cs
+i:{0b591f27-c1c4-47f1-8565-3143e558005f}:c:\users\gilles d'huyvetter\desktop\software d'huyvetter beton\bestellingen\bl\korting_klant.cs
+++Korting_Product.cs
+i:{0b591f27-c1c4-47f1-8565-3143e558005f}:c:\users\gilles d'huyvetter\desktop\software d'huyvetter beton\bestellingen\bl\korting_product.cs
+++Korting_Product_Werf.cs
+i:{0b591f27-c1c4-47f1-8565-3143e558005f}:c:\users\gilles d'huyvetter\desktop\software d'huyvetter beton\bestellingen\bl\korting_product_werf.cs
+++Korting_Werf.cs
+i:{0b591f27-c1c4-47f1-8565-3143e558005f}:c:\users\gilles d'huyvetter\desktop\software d'huyvetter beton\bestellingen\bl\korting_werf.cs
+++Logboek.cs
+i:{0b591f27-c1c4-47f1-8565-3143e558005f}:c:\users\gilles d'huyvetter\desktop\software d'huyvetter beton\bestellingen\bl\logboek.cs
+++NormaleLeveringBon.cs
+i:{0b591f27-c1c4-47f1-8565-3143e558005f}:c:\users\gilles d'huyvetter\desktop\software d'huyvetter beton\bestellingen\bl\normaleleveringbon.cs
+++OfferteKlant.cs
+i:{0b591f27-c1c4-47f1-8565-3143e558005f}:c:\users\gilles d'huyvetter\desktop\software d'huyvetter beton\bestellingen\bl\offerteklant.cs
+++OfferteProduct.cs
+i:{0b591f27-c1c4-47f1-8565-3143e558005f}:c:\users\gilles d'huyvetter\desktop\software d'huyvetter beton\bestellingen\bl\offerteproduct.cs
+++OfferteWerf.cs
+i:{0b591f27-c1c4-47f1-8565-3143e558005f}:c:\users\gilles d'huyvetter\desktop\software d'huyvetter beton\bestellingen\bl\offertewerf.cs
+++OfferteWerfProduct.cs
+i:{0b591f27-c1c4-47f1-8565-3143e558005f}:c:\users\gilles d'huyvetter\desktop\software d'huyvetter beton\bestellingen\bl\offertewerfproduct.cs
+++OmschrijvingProduct.cs
+i:{0b591f27-c1c4-47f1-8565-3143e558005f}:c:\users\gilles d'huyvetter\desktop\software d'huyvetter beton\bestellingen\bl\omschrijvingproduct.cs
+++packages.config
+i:{0b591f27-c1c4-47f1-8565-3143e558005f}:c:\users\gilles d'huyvetter\desktop\software d'huyvetter beton\bestellingen\bl\packages.config
+i:{b34ecfda-1a44-4595-a62f-e30e2c993b40}:c:\users\gilles d'huyvetter\desktop\software d'huyvetter beton\bestellingen\rl\packages.config
+i:{de33c011-1562-4e8b-85c4-00e47293c8e6}:c:\users\gilles d'huyvetter\desktop\software d'huyvetter beton\bestellingen\dal\packages.config
+i:{2fc40076-dce1-466d-8136-cb1e31db5c9b}:c:\users\gilles d'huyvetter\desktop\software d'huyvetter beton\bestellingen\dhuyvetterbeton.beton\packages.config
+++Personeel.cs
+i:{0b591f27-c1c4-47f1-8565-3143e558005f}:c:\users\gilles d'huyvetter\desktop\software d'huyvetter beton\bestellingen\bl\personeel.cs
+++Pomp.cs
+i:{0b591f27-c1c4-47f1-8565-3143e558005f}:c:\users\gilles d'huyvetter\desktop\software d'huyvetter beton\bestellingen\bl\pomp.cs
+++PompPrijs.cs
+i:{0b591f27-c1c4-47f1-8565-3143e558005f}:c:\users\gilles d'huyvetter\desktop\software d'huyvetter beton\bestellingen\bl\pompprijs.cs
+++PostcodeGemeente.cs
+i:{0b591f27-c1c4-47f1-8565-3143e558005f}:c:\users\gilles d'huyvetter\desktop\software d'huyvetter beton\bestellingen\bl\postcodegemeente.cs
+++PrijsLijst.cs
+i:{0b591f27-c1c4-47f1-8565-3143e558005f}:c:\users\gilles d'huyvetter\desktop\software d'huyvetter beton\bestellingen\bl\prijslijst.cs
+++PrijsSetting.cs
+i:{0b591f27-c1c4-47f1-8565-3143e558005f}:c:\users\gilles d'huyvetter\desktop\software d'huyvetter beton\bestellingen\bl\prijssetting.cs
+++ProductPrefab.cs
+i:{0b591f27-c1c4-47f1-8565-3143e558005f}:c:\users\gilles d'huyvetter\desktop\software d'huyvetter beton\bestellingen\bl\productprefab.cs
+++ProductWebshop.cs
+i:{0b591f27-c1c4-47f1-8565-3143e558005f}:c:\users\gilles d'huyvetter\desktop\software d'huyvetter beton\bestellingen\bl\productwebshop.cs
+++Saldo.cs
+i:{0b591f27-c1c4-47f1-8565-3143e558005f}:c:\users\gilles d'huyvetter\desktop\software d'huyvetter beton\bestellingen\bl\saldo.cs
+++SoortenHulpstof.cs
+i:{0b591f27-c1c4-47f1-8565-3143e558005f}:c:\users\gilles d'huyvetter\desktop\software d'huyvetter beton\bestellingen\bl\soortenhulpstof.cs
+++Straatnaam.cs
+i:{0b591f27-c1c4-47f1-8565-3143e558005f}:c:\users\gilles d'huyvetter\desktop\software d'huyvetter beton\bestellingen\bl\straatnaam.cs
+++Verlof.cs
+i:{0b591f27-c1c4-47f1-8565-3143e558005f}:c:\users\gilles d'huyvetter\desktop\software d'huyvetter beton\bestellingen\bl\verlof.cs
+++Voertuig.cs
+i:{0b591f27-c1c4-47f1-8565-3143e558005f}:c:\users\gilles d'huyvetter\desktop\software d'huyvetter beton\bestellingen\bl\voertuig.cs
+++Werf.cs
+i:{0b591f27-c1c4-47f1-8565-3143e558005f}:c:\users\gilles d'huyvetter\desktop\software d'huyvetter beton\bestellingen\bl\werf.cs
+++WerfPrefab.cs
+i:{0b591f27-c1c4-47f1-8565-3143e558005f}:c:\users\gilles d'huyvetter\desktop\software d'huyvetter beton\bestellingen\bl\werfprefab.cs
+++AssemblyInfo.cs
+i:{0b591f27-c1c4-47f1-8565-3143e558005f}:c:\users\gilles d'huyvetter\desktop\software d'huyvetter beton\bestellingen\bl\properties\assemblyinfo.cs
+i:{b34ecfda-1a44-4595-a62f-e30e2c993b40}:c:\users\gilles d'huyvetter\desktop\software d'huyvetter beton\bestellingen\rl\properties\assemblyinfo.cs
+i:{de33c011-1562-4e8b-85c4-00e47293c8e6}:c:\users\gilles d'huyvetter\desktop\software d'huyvetter beton\bestellingen\dal\properties\assemblyinfo.cs
+i:{2fc40076-dce1-466d-8136-cb1e31db5c9b}:c:\users\gilles d'huyvetter\desktop\software d'huyvetter beton\bestellingen\dhuyvetterbeton.beton\properties\assemblyinfo.cs
+++C:\Users\Gilles D'huyvetter\Desktop\Software D'huyvetter Beton\Bestellingen\packages\Microsoft.Web.WebView2.1.0.961.33\build\..\lib\Microsoft.Web.WebView2.Core.winmd
+i:{0b591f27-c1c4-47f1-8565-3143e558005f}:
+i:{b34ecfda-1a44-4595-a62f-e30e2c993b40}:
+i:{de33c011-1562-4e8b-85c4-00e47293c8e6}:
+i:{2fc40076-dce1-466d-8136-cb1e31db5c9b}:
+++DAL
+i:{0b591f27-c1c4-47f1-8565-3143e558005f}:
+i:{00000000-0000-0000-0000-000000000000}:DAL
+++DocumentFormat.OpenXml
+i:{0b591f27-c1c4-47f1-8565-3143e558005f}:
+++FireSharp
+i:{0b591f27-c1c4-47f1-8565-3143e558005f}:
+i:{b34ecfda-1a44-4595-a62f-e30e2c993b40}:
+i:{de33c011-1562-4e8b-85c4-00e47293c8e6}:
+i:{2fc40076-dce1-466d-8136-cb1e31db5c9b}:
+++Microsoft.CSharp
+i:{0b591f27-c1c4-47f1-8565-3143e558005f}:
+i:{b34ecfda-1a44-4595-a62f-e30e2c993b40}:
+i:{de33c011-1562-4e8b-85c4-00e47293c8e6}:
+i:{2fc40076-dce1-466d-8136-cb1e31db5c9b}:
+++Microsoft.VCLibs.Desktop
+i:{0b591f27-c1c4-47f1-8565-3143e558005f}:
+i:{b34ecfda-1a44-4595-a62f-e30e2c993b40}:
+i:{de33c011-1562-4e8b-85c4-00e47293c8e6}:
+i:{2fc40076-dce1-466d-8136-cb1e31db5c9b}:
+++Microsoft.Web.WebView2.Core
+i:{0b591f27-c1c4-47f1-8565-3143e558005f}:
+i:{b34ecfda-1a44-4595-a62f-e30e2c993b40}:
+i:{de33c011-1562-4e8b-85c4-00e47293c8e6}:
+i:{2fc40076-dce1-466d-8136-cb1e31db5c9b}:
+++Microsoft.Web.WebView2.WinForms
+i:{0b591f27-c1c4-47f1-8565-3143e558005f}:
+i:{b34ecfda-1a44-4595-a62f-e30e2c993b40}:
+i:{de33c011-1562-4e8b-85c4-00e47293c8e6}:
+i:{2fc40076-dce1-466d-8136-cb1e31db5c9b}:
+++Microsoft.Web.WebView2.Wpf
+i:{0b591f27-c1c4-47f1-8565-3143e558005f}:
+i:{b34ecfda-1a44-4595-a62f-e30e2c993b40}:
+i:{de33c011-1562-4e8b-85c4-00e47293c8e6}:
+i:{2fc40076-dce1-466d-8136-cb1e31db5c9b}:
+++Newtonsoft.Json
+i:{0b591f27-c1c4-47f1-8565-3143e558005f}:
+i:{b34ecfda-1a44-4595-a62f-e30e2c993b40}:
+i:{de33c011-1562-4e8b-85c4-00e47293c8e6}:
+i:{2fc40076-dce1-466d-8136-cb1e31db5c9b}:
+++RestSharp
+i:{0b591f27-c1c4-47f1-8565-3143e558005f}:
+i:{b34ecfda-1a44-4595-a62f-e30e2c993b40}:
+i:{de33c011-1562-4e8b-85c4-00e47293c8e6}:
+i:{2fc40076-dce1-466d-8136-cb1e31db5c9b}:
+++RL
+i:{0b591f27-c1c4-47f1-8565-3143e558005f}:
+i:{00000000-0000-0000-0000-000000000000}:RL
+i:{de33c011-1562-4e8b-85c4-00e47293c8e6}:
+++System
+i:{0b591f27-c1c4-47f1-8565-3143e558005f}:
+i:{b34ecfda-1a44-4595-a62f-e30e2c993b40}:
+i:{de33c011-1562-4e8b-85c4-00e47293c8e6}:
+i:{2fc40076-dce1-466d-8136-cb1e31db5c9b}:
+++System.Core
+i:{0b591f27-c1c4-47f1-8565-3143e558005f}:
+i:{b34ecfda-1a44-4595-a62f-e30e2c993b40}:
+i:{de33c011-1562-4e8b-85c4-00e47293c8e6}:
+i:{2fc40076-dce1-466d-8136-cb1e31db5c9b}:
+++System.Data
+i:{0b591f27-c1c4-47f1-8565-3143e558005f}:
+i:{b34ecfda-1a44-4595-a62f-e30e2c993b40}:
+i:{de33c011-1562-4e8b-85c4-00e47293c8e6}:
+i:{2fc40076-dce1-466d-8136-cb1e31db5c9b}:
+++System.Data.DataSetExtensions
+i:{0b591f27-c1c4-47f1-8565-3143e558005f}:
+i:{b34ecfda-1a44-4595-a62f-e30e2c993b40}:
+i:{de33c011-1562-4e8b-85c4-00e47293c8e6}:
+i:{2fc40076-dce1-466d-8136-cb1e31db5c9b}:
+++System.Xml
+i:{0b591f27-c1c4-47f1-8565-3143e558005f}:
+i:{b34ecfda-1a44-4595-a62f-e30e2c993b40}:
+i:{de33c011-1562-4e8b-85c4-00e47293c8e6}:
+i:{2fc40076-dce1-466d-8136-cb1e31db5c9b}:
+++System.Xml.Linq
+i:{0b591f27-c1c4-47f1-8565-3143e558005f}:
+i:{b34ecfda-1a44-4595-a62f-e30e2c993b40}:
+i:{de33c011-1562-4e8b-85c4-00e47293c8e6}:
+i:{2fc40076-dce1-466d-8136-cb1e31db5c9b}:
+++WindowsBase
+i:{0b591f27-c1c4-47f1-8565-3143e558005f}:
+i:{2fc40076-dce1-466d-8136-cb1e31db5c9b}:
+++AccountDO.cs
+i:{b34ecfda-1a44-4595-a62f-e30e2c993b40}:c:\users\gilles d'huyvetter\desktop\software d'huyvetter beton\bestellingen\rl\accountdo.cs
+++AccountUpdateDO.cs
+i:{b34ecfda-1a44-4595-a62f-e30e2c993b40}:c:\users\gilles d'huyvetter\desktop\software d'huyvetter beton\bestellingen\rl\accountupdatedo.cs
+++AfdrukWachtRijDO.cs
+i:{b34ecfda-1a44-4595-a62f-e30e2c993b40}:c:\users\gilles d'huyvetter\desktop\software d'huyvetter beton\bestellingen\rl\afdrukwachtrijdo.cs
+++AfvoerInvoerDO.cs
+i:{b34ecfda-1a44-4595-a62f-e30e2c993b40}:c:\users\gilles d'huyvetter\desktop\software d'huyvetter beton\bestellingen\rl\afvoerinvoerdo.cs
+++AgendaLeveringenDO.cs
+i:{b34ecfda-1a44-4595-a62f-e30e2c993b40}:c:\users\gilles d'huyvetter\desktop\software d'huyvetter beton\bestellingen\rl\agendaleveringendo.cs
+++BenorCategorieDO.cs
+i:{b34ecfda-1a44-4595-a62f-e30e2c993b40}:c:\users\gilles d'huyvetter\desktop\software d'huyvetter beton\bestellingen\rl\benorcategoriedo.cs
+++BestellingDO.cs
+i:{b34ecfda-1a44-4595-a62f-e30e2c993b40}:c:\users\gilles d'huyvetter\desktop\software d'huyvetter beton\bestellingen\rl\bestellingdo.cs
+++BestellingPrefabDO.cs
+i:{b34ecfda-1a44-4595-a62f-e30e2c993b40}:c:\users\gilles d'huyvetter\desktop\software d'huyvetter beton\bestellingen\rl\bestellingprefabdo.cs
+++BestellingWebsiteDO.cs
+i:{b34ecfda-1a44-4595-a62f-e30e2c993b40}:c:\users\gilles d'huyvetter\desktop\software d'huyvetter beton\bestellingen\rl\bestellingwebsitedo.cs
+++BugReportDO.cs
+i:{b34ecfda-1a44-4595-a62f-e30e2c993b40}:c:\users\gilles d'huyvetter\desktop\software d'huyvetter beton\bestellingen\rl\bugreportdo.cs
+++CategorieDO.cs
+i:{b34ecfda-1a44-4595-a62f-e30e2c993b40}:c:\users\gilles d'huyvetter\desktop\software d'huyvetter beton\bestellingen\rl\categoriedo.cs
+++ChauffeurDO.cs
+i:{b34ecfda-1a44-4595-a62f-e30e2c993b40}:c:\users\gilles d'huyvetter\desktop\software d'huyvetter beton\bestellingen\rl\chauffeurdo.cs
+++CodeRoodDO.cs
+i:{b34ecfda-1a44-4595-a62f-e30e2c993b40}:c:\users\gilles d'huyvetter\desktop\software d'huyvetter beton\bestellingen\rl\coderooddo.cs
+++ContactPersoonPrefabDO.cs
+i:{b34ecfda-1a44-4595-a62f-e30e2c993b40}:c:\users\gilles d'huyvetter\desktop\software d'huyvetter beton\bestellingen\rl\contactpersoonprefabdo.cs
+++Factuur_ItemDO.cs
+i:{b34ecfda-1a44-4595-a62f-e30e2c993b40}:c:\users\gilles d'huyvetter\desktop\software d'huyvetter beton\bestellingen\rl\factuur_itemdo.cs
+++FactuurDO.cs
+i:{b34ecfda-1a44-4595-a62f-e30e2c993b40}:c:\users\gilles d'huyvetter\desktop\software d'huyvetter beton\bestellingen\rl\factuurdo.cs
+++FormuleDO.cs
+i:{b34ecfda-1a44-4595-a62f-e30e2c993b40}:c:\users\gilles d'huyvetter\desktop\software d'huyvetter beton\bestellingen\rl\formuledo.cs
+++Hulpstof_Factuur_ItemDO.cs
+i:{b34ecfda-1a44-4595-a62f-e30e2c993b40}:c:\users\gilles d'huyvetter\desktop\software d'huyvetter beton\bestellingen\rl\hulpstof_factuur_itemdo.cs
+++HulpstofDO.cs
+i:{b34ecfda-1a44-4595-a62f-e30e2c993b40}:c:\users\gilles d'huyvetter\desktop\software d'huyvetter beton\bestellingen\rl\hulpstofdo.cs
+++HulpstofPrijsDO.cs
+i:{b34ecfda-1a44-4595-a62f-e30e2c993b40}:c:\users\gilles d'huyvetter\desktop\software d'huyvetter beton\bestellingen\rl\hulpstofprijsdo.cs
+++KlantDO.cs
+i:{b34ecfda-1a44-4595-a62f-e30e2c993b40}:c:\users\gilles d'huyvetter\desktop\software d'huyvetter beton\bestellingen\rl\klantdo.cs
+++KlantNotitieDO.cs
+i:{b34ecfda-1a44-4595-a62f-e30e2c993b40}:c:\users\gilles d'huyvetter\desktop\software d'huyvetter beton\bestellingen\rl\klantnotitiedo.cs
+++KlantPrefabDO.cs
+i:{b34ecfda-1a44-4595-a62f-e30e2c993b40}:c:\users\gilles d'huyvetter\desktop\software d'huyvetter beton\bestellingen\rl\klantprefabdo.cs
+++Korting_KlantDO.cs
+i:{b34ecfda-1a44-4595-a62f-e30e2c993b40}:c:\users\gilles d'huyvetter\desktop\software d'huyvetter beton\bestellingen\rl\korting_klantdo.cs
+++Korting_Product_WerfDO.cs
+i:{b34ecfda-1a44-4595-a62f-e30e2c993b40}:c:\users\gilles d'huyvetter\desktop\software d'huyvetter beton\bestellingen\rl\korting_product_werfdo.cs
+++Korting_ProductDO.cs
+i:{b34ecfda-1a44-4595-a62f-e30e2c993b40}:c:\users\gilles d'huyvetter\desktop\software d'huyvetter beton\bestellingen\rl\korting_productdo.cs
+++Korting_WerfDO.cs
+i:{b34ecfda-1a44-4595-a62f-e30e2c993b40}:c:\users\gilles d'huyvetter\desktop\software d'huyvetter beton\bestellingen\rl\korting_werfdo.cs
+++LogboekDO.cs
+i:{b34ecfda-1a44-4595-a62f-e30e2c993b40}:c:\users\gilles d'huyvetter\desktop\software d'huyvetter beton\bestellingen\rl\logboekdo.cs
+++NormaleLeveringBonDO.cs
+i:{b34ecfda-1a44-4595-a62f-e30e2c993b40}:c:\users\gilles d'huyvetter\desktop\software d'huyvetter beton\bestellingen\rl\normaleleveringbondo.cs
+++OfferteKlantDO.cs
+i:{b34ecfda-1a44-4595-a62f-e30e2c993b40}:c:\users\gilles d'huyvetter\desktop\software d'huyvetter beton\bestellingen\rl\offerteklantdo.cs
+++OfferteProductDO.cs
+i:{b34ecfda-1a44-4595-a62f-e30e2c993b40}:c:\users\gilles d'huyvetter\desktop\software d'huyvetter beton\bestellingen\rl\offerteproductdo.cs
+++OfferteWerfDO.cs
+i:{b34ecfda-1a44-4595-a62f-e30e2c993b40}:c:\users\gilles d'huyvetter\desktop\software d'huyvetter beton\bestellingen\rl\offertewerfdo.cs
+++OfferteWerfProductDO.cs
+i:{b34ecfda-1a44-4595-a62f-e30e2c993b40}:c:\users\gilles d'huyvetter\desktop\software d'huyvetter beton\bestellingen\rl\offertewerfproductdo.cs
+++OmschrijvingProductDO.cs
+i:{b34ecfda-1a44-4595-a62f-e30e2c993b40}:c:\users\gilles d'huyvetter\desktop\software d'huyvetter beton\bestellingen\rl\omschrijvingproductdo.cs
+++PersoneelDO.cs
+i:{b34ecfda-1a44-4595-a62f-e30e2c993b40}:c:\users\gilles d'huyvetter\desktop\software d'huyvetter beton\bestellingen\rl\personeeldo.cs
+++PompDO.cs
+i:{b34ecfda-1a44-4595-a62f-e30e2c993b40}:c:\users\gilles d'huyvetter\desktop\software d'huyvetter beton\bestellingen\rl\pompdo.cs
+++PompPrijsDO.cs
+i:{b34ecfda-1a44-4595-a62f-e30e2c993b40}:c:\users\gilles d'huyvetter\desktop\software d'huyvetter beton\bestellingen\rl\pompprijsdo.cs
+++PostcodeGemeenteDO.cs
+i:{b34ecfda-1a44-4595-a62f-e30e2c993b40}:c:\users\gilles d'huyvetter\desktop\software d'huyvetter beton\bestellingen\rl\postcodegemeentedo.cs
+++PrijsLijstDO.cs
+i:{b34ecfda-1a44-4595-a62f-e30e2c993b40}:c:\users\gilles d'huyvetter\desktop\software d'huyvetter beton\bestellingen\rl\prijslijstdo.cs
+++PrijsSettingDO.cs
+i:{b34ecfda-1a44-4595-a62f-e30e2c993b40}:c:\users\gilles d'huyvetter\desktop\software d'huyvetter beton\bestellingen\rl\prijssettingdo.cs
+++ProductPrefabDO.cs
+i:{b34ecfda-1a44-4595-a62f-e30e2c993b40}:c:\users\gilles d'huyvetter\desktop\software d'huyvetter beton\bestellingen\rl\productprefabdo.cs
+++ProductWebshopDO.cs
+i:{b34ecfda-1a44-4595-a62f-e30e2c993b40}:c:\users\gilles d'huyvetter\desktop\software d'huyvetter beton\bestellingen\rl\productwebshopdo.cs
+++SaldoDO.cs
+i:{b34ecfda-1a44-4595-a62f-e30e2c993b40}:c:\users\gilles d'huyvetter\desktop\software d'huyvetter beton\bestellingen\rl\saldodo.cs
+++SoortenHulpstofDO.cs
+i:{b34ecfda-1a44-4595-a62f-e30e2c993b40}:c:\users\gilles d'huyvetter\desktop\software d'huyvetter beton\bestellingen\rl\soortenhulpstofdo.cs
+++StraatnaamDO.cs
+i:{b34ecfda-1a44-4595-a62f-e30e2c993b40}:c:\users\gilles d'huyvetter\desktop\software d'huyvetter beton\bestellingen\rl\straatnaamdo.cs
+++VerlofDO.cs
+i:{b34ecfda-1a44-4595-a62f-e30e2c993b40}:c:\users\gilles d'huyvetter\desktop\software d'huyvetter beton\bestellingen\rl\verlofdo.cs
+++VoertuigDO.cs
+i:{b34ecfda-1a44-4595-a62f-e30e2c993b40}:c:\users\gilles d'huyvetter\desktop\software d'huyvetter beton\bestellingen\rl\voertuigdo.cs
+++Web.config
+i:{b34ecfda-1a44-4595-a62f-e30e2c993b40}:c:\users\gilles d'huyvetter\desktop\software d'huyvetter beton\bestellingen\rl\web.config
+++Web.Debug.config
+i:{b34ecfda-1a44-4595-a62f-e30e2c993b40}:c:\users\gilles d'huyvetter\desktop\software d'huyvetter beton\bestellingen\rl\web.debug.config
+++WerfDO.cs
+i:{b34ecfda-1a44-4595-a62f-e30e2c993b40}:c:\users\gilles d'huyvetter\desktop\software d'huyvetter beton\bestellingen\rl\werfdo.cs
+++WerfPrefabDO.cs
+i:{b34ecfda-1a44-4595-a62f-e30e2c993b40}:c:\users\gilles d'huyvetter\desktop\software d'huyvetter beton\bestellingen\rl\werfprefabdo.cs
+++MySql.Data
+i:{b34ecfda-1a44-4595-a62f-e30e2c993b40}:
+i:{de33c011-1562-4e8b-85c4-00e47293c8e6}:
+++app.config
+i:{de33c011-1562-4e8b-85c4-00e47293c8e6}:c:\users\gilles d'huyvetter\desktop\software d'huyvetter beton\bestellingen\dal\app.config
+++DataAccess.cs
+i:{de33c011-1562-4e8b-85c4-00e47293c8e6}:c:\users\gilles d'huyvetter\desktop\software d'huyvetter beton\bestellingen\dal\dataaccess.cs
+++DhuyvetbestellingDataSet.xsd
+i:{de33c011-1562-4e8b-85c4-00e47293c8e6}:c:\users\gilles d'huyvetter\desktop\software d'huyvetter beton\bestellingen\dal\dhuyvetbestellingdataset.xsd
+i:{2fc40076-dce1-466d-8136-cb1e31db5c9b}:c:\users\gilles d'huyvetter\desktop\software d'huyvetter beton\bestellingen\dhuyvetterbeton.beton\dhuyvetbestellingdataset.xsd
+++DhuyvetbestellingDataSet.Designer.cs
+i:{de33c011-1562-4e8b-85c4-00e47293c8e6}:c:\users\gilles d'huyvetter\desktop\software d'huyvetter beton\bestellingen\dal\dhuyvetbestellingdataset.designer.cs
+i:{2fc40076-dce1-466d-8136-cb1e31db5c9b}:c:\users\gilles d'huyvetter\desktop\software d'huyvetter beton\bestellingen\dhuyvetterbeton.beton\dhuyvetbestellingdataset.designer.cs
+++DhuyvetbestellingDataSet.xsc
+i:{de33c011-1562-4e8b-85c4-00e47293c8e6}:c:\users\gilles d'huyvetter\desktop\software d'huyvetter beton\bestellingen\dal\dhuyvetbestellingdataset.xsc
+i:{2fc40076-dce1-466d-8136-cb1e31db5c9b}:c:\users\gilles d'huyvetter\desktop\software d'huyvetter beton\bestellingen\dhuyvetterbeton.beton\dhuyvetbestellingdataset.xsc
+++DhuyvetbestellingDataSet.xss
+i:{de33c011-1562-4e8b-85c4-00e47293c8e6}:c:\users\gilles d'huyvetter\desktop\software d'huyvetter beton\bestellingen\dal\dhuyvetbestellingdataset.xss
+i:{2fc40076-dce1-466d-8136-cb1e31db5c9b}:c:\users\gilles d'huyvetter\desktop\software d'huyvetter beton\bestellingen\dhuyvetterbeton.beton\dhuyvetbestellingdataset.xss
+++DhuyvetBestelllingDataSet.xsd
+i:{de33c011-1562-4e8b-85c4-00e47293c8e6}:c:\users\gilles d'huyvetter\desktop\software d'huyvetter beton\bestellingen\dal\dhuyvetbestelllingdataset.xsd
+i:{2fc40076-dce1-466d-8136-cb1e31db5c9b}:c:\users\gilles d'huyvetter\desktop\software d'huyvetter beton\bestellingen\dhuyvetterbeton.beton\dhuyvetbestelllingdataset.xsd
+++DhuyvetBestelllingDataSet.Designer.cs
+i:{de33c011-1562-4e8b-85c4-00e47293c8e6}:c:\users\gilles d'huyvetter\desktop\software d'huyvetter beton\bestellingen\dal\dhuyvetbestelllingdataset.designer.cs
+i:{2fc40076-dce1-466d-8136-cb1e31db5c9b}:c:\users\gilles d'huyvetter\desktop\software d'huyvetter beton\bestellingen\dhuyvetterbeton.beton\dhuyvetbestelllingdataset.designer.cs
+++DhuyvetBestelllingDataSet.xsc
+i:{de33c011-1562-4e8b-85c4-00e47293c8e6}:c:\users\gilles d'huyvetter\desktop\software d'huyvetter beton\bestellingen\dal\dhuyvetbestelllingdataset.xsc
+i:{2fc40076-dce1-466d-8136-cb1e31db5c9b}:c:\users\gilles d'huyvetter\desktop\software d'huyvetter beton\bestellingen\dhuyvetterbeton.beton\dhuyvetbestelllingdataset.xsc
+++DhuyvetBestelllingDataSet.xss
+i:{de33c011-1562-4e8b-85c4-00e47293c8e6}:c:\users\gilles d'huyvetter\desktop\software d'huyvetter beton\bestellingen\dal\dhuyvetbestelllingdataset.xss
+i:{2fc40076-dce1-466d-8136-cb1e31db5c9b}:c:\users\gilles d'huyvetter\desktop\software d'huyvetter beton\bestellingen\dhuyvetterbeton.beton\dhuyvetbestelllingdataset.xss
+++Settings.settings
+i:{de33c011-1562-4e8b-85c4-00e47293c8e6}:c:\users\gilles d'huyvetter\desktop\software d'huyvetter beton\bestellingen\dal\properties\settings.settings
+i:{2fc40076-dce1-466d-8136-cb1e31db5c9b}:c:\users\gilles d'huyvetter\desktop\software d'huyvetter beton\bestellingen\dhuyvetterbeton.beton\properties\settings.settings
+++System.Configuration
+i:{de33c011-1562-4e8b-85c4-00e47293c8e6}:
+++Settings.Designer.cs
+i:{de33c011-1562-4e8b-85c4-00e47293c8e6}:c:\users\gilles d'huyvetter\desktop\software d'huyvetter beton\bestellingen\dal\properties\settings.designer.cs
+i:{2fc40076-dce1-466d-8136-cb1e31db5c9b}:c:\users\gilles d'huyvetter\desktop\software d'huyvetter beton\bestellingen\dhuyvetterbeton.beton\properties\settings.designer.cs
+++DhuyvetterBeton.Bestellingen
+i:{00000000-0000-0000-0000-000000000000}:DhuyvetterBeton.Bestellingen
+++Connected Services
+i:{2fc40076-dce1-466d-8136-cb1e31db5c9b}:c:\users\gilles d'huyvetter\desktop\software d'huyvetter beton\bestellingen\dhuyvetterbeton.beton\connected services\
+++Agenda
+i:{2fc40076-dce1-466d-8136-cb1e31db5c9b}:c:\users\gilles d'huyvetter\desktop\software d'huyvetter beton\bestellingen\dhuyvetterbeton.beton\agenda\
+++Bestelling
+i:{2fc40076-dce1-466d-8136-cb1e31db5c9b}:c:\users\gilles d'huyvetter\desktop\software d'huyvetter beton\bestellingen\dhuyvetterbeton.beton\bestelling\
+++Tools
+i:{2fc40076-dce1-466d-8136-cb1e31db5c9b}:c:\users\gilles d'huyvetter\desktop\software d'huyvetter beton\bestellingen\dhuyvetterbeton.beton\bestelling\tools\
+i:{2fc40076-dce1-466d-8136-cb1e31db5c9b}:c:\users\gilles d'huyvetter\desktop\software d'huyvetter beton\bestellingen\dhuyvetterbeton.beton\klanten\tools\
+++FrmTakenAfdrukken.cs
+i:{2fc40076-dce1-466d-8136-cb1e31db5c9b}:c:\users\gilles d'huyvetter\desktop\software d'huyvetter beton\bestellingen\dhuyvetterbeton.beton\bestelling\frmtakenafdrukken.cs
+++ucBestellingenLijst.cs
+i:{2fc40076-dce1-466d-8136-cb1e31db5c9b}:c:\users\gilles d'huyvetter\desktop\software d'huyvetter beton\bestellingen\dhuyvetterbeton.beton\bestelling\ucbestellingenlijst.cs
+++ucNieuweBestelling.cs
+i:{2fc40076-dce1-466d-8136-cb1e31db5c9b}:c:\users\gilles d'huyvetter\desktop\software d'huyvetter beton\bestellingen\dhuyvetterbeton.beton\bestelling\ucnieuwebestelling.cs
+++ucNieuweBestellingPrefab.cs
+i:{2fc40076-dce1-466d-8136-cb1e31db5c9b}:c:\users\gilles d'huyvetter\desktop\software d'huyvetter beton\bestellingen\dhuyvetterbeton.beton\bestelling\ucnieuwebestellingprefab.cs
+++ucVerwijderBestelling.cs
+i:{2fc40076-dce1-466d-8136-cb1e31db5c9b}:c:\users\gilles d'huyvetter\desktop\software d'huyvetter beton\bestellingen\dhuyvetterbeton.beton\bestelling\ucverwijderbestelling.cs
+++ucWijzigBestelling.cs
+i:{2fc40076-dce1-466d-8136-cb1e31db5c9b}:c:\users\gilles d'huyvetter\desktop\software d'huyvetter beton\bestellingen\dhuyvetterbeton.beton\bestelling\ucwijzigbestelling.cs
+++ucWijzigPrefabBestelling.cs
+i:{2fc40076-dce1-466d-8136-cb1e31db5c9b}:c:\users\gilles d'huyvetter\desktop\software d'huyvetter beton\bestellingen\dhuyvetterbeton.beton\bestelling\ucwijzigprefabbestelling.cs
+++Facturen
+i:{2fc40076-dce1-466d-8136-cb1e31db5c9b}:c:\users\gilles d'huyvetter\desktop\software d'huyvetter beton\bestellingen\dhuyvetterbeton.beton\facturen\
+++FrmMailFacturen.cs
+i:{2fc40076-dce1-466d-8136-cb1e31db5c9b}:c:\users\gilles d'huyvetter\desktop\software d'huyvetter beton\bestellingen\dhuyvetterbeton.beton\facturen\frmmailfacturen.cs
+++FrmNieuweFactuur.cs
+i:{2fc40076-dce1-466d-8136-cb1e31db5c9b}:c:\users\gilles d'huyvetter\desktop\software d'huyvetter beton\bestellingen\dhuyvetterbeton.beton\facturen\frmnieuwefactuur.cs
+++FrmOpenFacturen.cs
+i:{2fc40076-dce1-466d-8136-cb1e31db5c9b}:c:\users\gilles d'huyvetter\desktop\software d'huyvetter beton\bestellingen\dhuyvetterbeton.beton\facturen\frmopenfacturen.cs
+++FrmWijzigFactuur.cs
+i:{2fc40076-dce1-466d-8136-cb1e31db5c9b}:c:\users\gilles d'huyvetter\desktop\software d'huyvetter beton\bestellingen\dhuyvetterbeton.beton\facturen\frmwijzigfactuur.cs
+++ucFactuurWijzigen.cs
+i:{2fc40076-dce1-466d-8136-cb1e31db5c9b}:c:\users\gilles d'huyvetter\desktop\software d'huyvetter beton\bestellingen\dhuyvetterbeton.beton\facturen\ucfactuurwijzigen.cs
+++ucMailFacturen.cs
+i:{2fc40076-dce1-466d-8136-cb1e31db5c9b}:c:\users\gilles d'huyvetter\desktop\software d'huyvetter beton\bestellingen\dhuyvetterbeton.beton\facturen\ucmailfacturen.cs
+++ucOverzichtFacturen.cs
+i:{2fc40076-dce1-466d-8136-cb1e31db5c9b}:c:\users\gilles d'huyvetter\desktop\software d'huyvetter beton\bestellingen\dhuyvetterbeton.beton\facturen\ucoverzichtfacturen.cs
+++Firefox
+i:{2fc40076-dce1-466d-8136-cb1e31db5c9b}:c:\users\gilles d'huyvetter\desktop\software d'huyvetter beton\bestellingen\dhuyvetterbeton.beton\firefox\
+++Klanten
+i:{2fc40076-dce1-466d-8136-cb1e31db5c9b}:c:\users\gilles d'huyvetter\desktop\software d'huyvetter beton\bestellingen\dhuyvetterbeton.beton\klanten\
+++Kortingen
+i:{2fc40076-dce1-466d-8136-cb1e31db5c9b}:c:\users\gilles d'huyvetter\desktop\software d'huyvetter beton\bestellingen\dhuyvetterbeton.beton\kortingen\
+++Offertes
+i:{2fc40076-dce1-466d-8136-cb1e31db5c9b}:c:\users\gilles d'huyvetter\desktop\software d'huyvetter beton\bestellingen\dhuyvetterbeton.beton\offertes\
+++PersoneelD
+i:{2fc40076-dce1-466d-8136-cb1e31db5c9b}:c:\users\gilles d'huyvetter\desktop\software d'huyvetter beton\bestellingen\dhuyvetterbeton.beton\personeeld\
+++Pompen
+i:{2fc40076-dce1-466d-8136-cb1e31db5c9b}:c:\users\gilles d'huyvetter\desktop\software d'huyvetter beton\bestellingen\dhuyvetterbeton.beton\pompen\
+++PrijsLijst
+i:{2fc40076-dce1-466d-8136-cb1e31db5c9b}:c:\users\gilles d'huyvetter\desktop\software d'huyvetter beton\bestellingen\dhuyvetterbeton.beton\prijslijst\
+++Producten
+i:{2fc40076-dce1-466d-8136-cb1e31db5c9b}:c:\users\gilles d'huyvetter\desktop\software d'huyvetter beton\bestellingen\dhuyvetterbeton.beton\producten\
+++Resources
+i:{2fc40076-dce1-466d-8136-cb1e31db5c9b}:c:\users\gilles d'huyvetter\desktop\software d'huyvetter beton\bestellingen\dhuyvetterbeton.beton\resources\
+++Website
+i:{2fc40076-dce1-466d-8136-cb1e31db5c9b}:c:\users\gilles d'huyvetter\desktop\software d'huyvetter beton\bestellingen\dhuyvetterbeton.beton\website\
+++Werven
+i:{2fc40076-dce1-466d-8136-cb1e31db5c9b}:c:\users\gilles d'huyvetter\desktop\software d'huyvetter beton\bestellingen\dhuyvetterbeton.beton\werven\
+++AboutBox1.cs
+i:{2fc40076-dce1-466d-8136-cb1e31db5c9b}:c:\users\gilles d'huyvetter\desktop\software d'huyvetter beton\bestellingen\dhuyvetterbeton.beton\aboutbox1.cs
+++App.config
+i:{2fc40076-dce1-466d-8136-cb1e31db5c9b}:c:\users\gilles d'huyvetter\desktop\software d'huyvetter beton\bestellingen\dhuyvetterbeton.beton\app.config
+++Cornmanthe3rd-Squareplex-Utilities-google-calendar.ico
+i:{2fc40076-dce1-466d-8136-cb1e31db5c9b}:c:\users\gilles d'huyvetter\desktop\software d'huyvetter beton\bestellingen\dhuyvetterbeton.beton\cornmanthe3rd-squareplex-utilities-google-calendar.ico
+++DH.ico
+i:{2fc40076-dce1-466d-8136-cb1e31db5c9b}:c:\users\gilles d'huyvetter\desktop\software d'huyvetter beton\bestellingen\dhuyvetterbeton.beton\dh.ico
+++DhuyvetbestellingDataSet1.xsd
+i:{2fc40076-dce1-466d-8136-cb1e31db5c9b}:c:\users\gilles d'huyvetter\desktop\software d'huyvetter beton\bestellingen\dhuyvetterbeton.beton\dhuyvetbestellingdataset1.xsd
+++DhuyvetLeveringDataSet.xsd
+i:{2fc40076-dce1-466d-8136-cb1e31db5c9b}:c:\users\gilles d'huyvetter\desktop\software d'huyvetter beton\bestellingen\dhuyvetterbeton.beton\dhuyvetleveringdataset.xsd
+++Extensions.cs
+i:{2fc40076-dce1-466d-8136-cb1e31db5c9b}:c:\users\gilles d'huyvetter\desktop\software d'huyvetter beton\bestellingen\dhuyvetterbeton.beton\extensions.cs
+++FrmGoogleMaps.cs
+i:{2fc40076-dce1-466d-8136-cb1e31db5c9b}:c:\users\gilles d'huyvetter\desktop\software d'huyvetter beton\bestellingen\dhuyvetterbeton.beton\frmgooglemaps.cs
+++FrmHoofdVenster.cs
+i:{2fc40076-dce1-466d-8136-cb1e31db5c9b}:c:\users\gilles d'huyvetter\desktop\software d'huyvetter beton\bestellingen\dhuyvetterbeton.beton\frmhoofdvenster.cs
+++FrmMessage.cs
+i:{2fc40076-dce1-466d-8136-cb1e31db5c9b}:c:\users\gilles d'huyvetter\desktop\software d'huyvetter beton\bestellingen\dhuyvetterbeton.beton\frmmessage.cs
+++FrmPrijsSetting.cs
+i:{2fc40076-dce1-466d-8136-cb1e31db5c9b}:c:\users\gilles d'huyvetter\desktop\software d'huyvetter beton\bestellingen\dhuyvetterbeton.beton\frmprijssetting.cs
+++FrmWelkom.cs
+i:{2fc40076-dce1-466d-8136-cb1e31db5c9b}:c:\users\gilles d'huyvetter\desktop\software d'huyvetter beton\bestellingen\dhuyvetterbeton.beton\frmwelkom.cs
+++Laadvenster.cs
+i:{2fc40076-dce1-466d-8136-cb1e31db5c9b}:c:\users\gilles d'huyvetter\desktop\software d'huyvetter beton\bestellingen\dhuyvetterbeton.beton\laadvenster.cs
+++logo.ico
+i:{2fc40076-dce1-466d-8136-cb1e31db5c9b}:c:\users\gilles d'huyvetter\desktop\software d'huyvetter beton\bestellingen\dhuyvetterbeton.beton\logo.ico
+++OrderApp.cs
+i:{2fc40076-dce1-466d-8136-cb1e31db5c9b}:c:\users\gilles d'huyvetter\desktop\software d'huyvetter beton\bestellingen\dhuyvetterbeton.beton\orderapp.cs
+++Program.cs
+i:{2fc40076-dce1-466d-8136-cb1e31db5c9b}:c:\users\gilles d'huyvetter\desktop\software d'huyvetter beton\bestellingen\dhuyvetterbeton.beton\program.cs
+++SmsController.cs
+i:{2fc40076-dce1-466d-8136-cb1e31db5c9b}:c:\users\gilles d'huyvetter\desktop\software d'huyvetter beton\bestellingen\dhuyvetterbeton.beton\smscontroller.cs
+++ucHoofdvenster.cs
+i:{2fc40076-dce1-466d-8136-cb1e31db5c9b}:c:\users\gilles d'huyvetter\desktop\software d'huyvetter beton\bestellingen\dhuyvetterbeton.beton\uchoofdvenster.cs
+++WaitForm1.cs
+i:{2fc40076-dce1-466d-8136-cb1e31db5c9b}:c:\users\gilles d'huyvetter\desktop\software d'huyvetter beton\bestellingen\dhuyvetterbeton.beton\waitform1.cs
+++WaitForm2.cs
+i:{2fc40076-dce1-466d-8136-cb1e31db5c9b}:c:\users\gilles d'huyvetter\desktop\software d'huyvetter beton\bestellingen\dhuyvetterbeton.beton\waitform2.cs
+++XtraForm1.cs
+i:{2fc40076-dce1-466d-8136-cb1e31db5c9b}:c:\users\gilles d'huyvetter\desktop\software d'huyvetter beton\bestellingen\dhuyvetterbeton.beton\xtraform1.cs
+++alacarteservice
+i:{2fc40076-dce1-466d-8136-cb1e31db5c9b}:c:\users\gilles d'huyvetter\desktop\software d'huyvetter beton\bestellingen\dhuyvetterbeton.beton\connected services\alacarteservice\
+++licenses.licx
+i:{2fc40076-dce1-466d-8136-cb1e31db5c9b}:c:\users\gilles d'huyvetter\desktop\software d'huyvetter beton\bestellingen\dhuyvetterbeton.beton\properties\licenses.licx
+++Resources.resx
+i:{2fc40076-dce1-466d-8136-cb1e31db5c9b}:c:\users\gilles d'huyvetter\desktop\software d'huyvetter beton\bestellingen\dhuyvetterbeton.beton\properties\resources.resx
+++BouncyCastle.Crypto
+i:{2fc40076-dce1-466d-8136-cb1e31db5c9b}:
+++Bunifu_UI_v1.52
+i:{2fc40076-dce1-466d-8136-cb1e31db5c9b}:
+++CefSharp
+i:{2fc40076-dce1-466d-8136-cb1e31db5c9b}:
+++CefSharp.Core
+i:{2fc40076-dce1-466d-8136-cb1e31db5c9b}:
+++DevExpress.Data.Desktop.v20.2
+i:{2fc40076-dce1-466d-8136-cb1e31db5c9b}:
+++DevExpress.Data.v20.2
+i:{2fc40076-dce1-466d-8136-cb1e31db5c9b}:
+++DevExpress.Images.v20.2
+i:{2fc40076-dce1-466d-8136-cb1e31db5c9b}:
+++DevExpress.Map.v20.2.Core
+i:{2fc40076-dce1-466d-8136-cb1e31db5c9b}:
+++DevExpress.Office.v20.2.Core
+i:{2fc40076-dce1-466d-8136-cb1e31db5c9b}:
+++DevExpress.Pdf.v20.2.Core
+i:{2fc40076-dce1-466d-8136-cb1e31db5c9b}:
+++DevExpress.Pdf.v20.2.Drawing
+i:{2fc40076-dce1-466d-8136-cb1e31db5c9b}:
+++DevExpress.Printing.v20.2.Core
+i:{2fc40076-dce1-466d-8136-cb1e31db5c9b}:
+++DevExpress.RichEdit.v20.2.Core
+i:{2fc40076-dce1-466d-8136-cb1e31db5c9b}:
+++DevExpress.Utils.v20.2
+i:{2fc40076-dce1-466d-8136-cb1e31db5c9b}:
+++DevExpress.Utils.v20.2.UI
+i:{2fc40076-dce1-466d-8136-cb1e31db5c9b}:
+++DevExpress.XtraBars.v20.2
+i:{2fc40076-dce1-466d-8136-cb1e31db5c9b}:
+++DevExpress.XtraEditors.v20.2
+i:{2fc40076-dce1-466d-8136-cb1e31db5c9b}:
+++DevExpress.XtraGrid.v20.2
+i:{2fc40076-dce1-466d-8136-cb1e31db5c9b}:
+++DevExpress.XtraLayout.v20.2
+i:{2fc40076-dce1-466d-8136-cb1e31db5c9b}:
+++DevExpress.XtraMap.v20.2
+i:{2fc40076-dce1-466d-8136-cb1e31db5c9b}:
+++DevExpress.XtraPdfViewer.v20.2
+i:{2fc40076-dce1-466d-8136-cb1e31db5c9b}:
+++DevExpress.XtraPrinting.v20.2
+i:{2fc40076-dce1-466d-8136-cb1e31db5c9b}:
+++DevExpress.XtraRichEdit.v20.2
+i:{2fc40076-dce1-466d-8136-cb1e31db5c9b}:
+++DevExpress.XtraScheduler.v20.2
+i:{2fc40076-dce1-466d-8136-cb1e31db5c9b}:
+++DevExpress.XtraScheduler.v20.2.Core
+i:{2fc40076-dce1-466d-8136-cb1e31db5c9b}:
+++DevExpress.XtraScheduler.v20.2.Core.Desktop
+i:{2fc40076-dce1-466d-8136-cb1e31db5c9b}:
+++DevExpress.XtraScheduler.v20.2.Extensions
+i:{2fc40076-dce1-466d-8136-cb1e31db5c9b}:
+++DevExpress.XtraScheduler.v20.2.Reporting
+i:{2fc40076-dce1-466d-8136-cb1e31db5c9b}:
+++DevExpress.XtraScheduler.v20.2.Reporting.Extensions
+i:{2fc40076-dce1-466d-8136-cb1e31db5c9b}:
+++DevExpress.XtraTreeList.v20.2
+i:{2fc40076-dce1-466d-8136-cb1e31db5c9b}:
+++DevExpress.XtraTreeMap.v20.2
+i:{2fc40076-dce1-466d-8136-cb1e31db5c9b}:
+++DevExpress.XtraTreeMap.v20.2.UI
+i:{2fc40076-dce1-466d-8136-cb1e31db5c9b}:
+++EntityFramework
+i:{2fc40076-dce1-466d-8136-cb1e31db5c9b}:
+++EntityFramework.SqlServer
+i:{2fc40076-dce1-466d-8136-cb1e31db5c9b}:
+++Geckofx-Core
+i:{2fc40076-dce1-466d-8136-cb1e31db5c9b}:
+++Geckofx-Winforms
+i:{2fc40076-dce1-466d-8136-cb1e31db5c9b}:
+++Google.Api.CommonProtos
+i:{2fc40076-dce1-466d-8136-cb1e31db5c9b}:
+++Google.Api.Gax
+i:{2fc40076-dce1-466d-8136-cb1e31db5c9b}:
+++Google.Api.Gax.Grpc
+i:{2fc40076-dce1-466d-8136-cb1e31db5c9b}:
+++Google.Api.Gax.Grpc.GrpcCore
+i:{2fc40076-dce1-466d-8136-cb1e31db5c9b}:
+++Google.Apis
+i:{2fc40076-dce1-466d-8136-cb1e31db5c9b}:
+++Google.Apis.Auth
+i:{2fc40076-dce1-466d-8136-cb1e31db5c9b}:
+++Google.Apis.Auth.PlatformServices
+i:{2fc40076-dce1-466d-8136-cb1e31db5c9b}:
+++Google.Apis.Core
+i:{2fc40076-dce1-466d-8136-cb1e31db5c9b}:
+++Google.Apis.PlatformServices
+i:{2fc40076-dce1-466d-8136-cb1e31db5c9b}:
+++Google.Cloud.Firestore
+i:{2fc40076-dce1-466d-8136-cb1e31db5c9b}:
+++Google.Cloud.Firestore.V1
+i:{2fc40076-dce1-466d-8136-cb1e31db5c9b}:
+++Google.LongRunning
+i:{2fc40076-dce1-466d-8136-cb1e31db5c9b}:
+++Google.Protobuf
+i:{2fc40076-dce1-466d-8136-cb1e31db5c9b}:
+++GoogleApi
+i:{2fc40076-dce1-466d-8136-cb1e31db5c9b}:
+++Grpc.Auth
+i:{2fc40076-dce1-466d-8136-cb1e31db5c9b}:
+++Grpc.Core
+i:{2fc40076-dce1-466d-8136-cb1e31db5c9b}:
+++Grpc.Core.Api
+i:{2fc40076-dce1-466d-8136-cb1e31db5c9b}:
+++Microsoft.Bcl.AsyncInterfaces
+i:{2fc40076-dce1-466d-8136-cb1e31db5c9b}:
+++Microsoft.IdentityModel.Logging
+i:{2fc40076-dce1-466d-8136-cb1e31db5c9b}:
+++Microsoft.IdentityModel.Tokens
+i:{2fc40076-dce1-466d-8136-cb1e31db5c9b}:
+++Microsoft.Office.Interop.Excel
+i:{2fc40076-dce1-466d-8136-cb1e31db5c9b}:
+++Microsoft.Office.Interop.Outlook
+i:{2fc40076-dce1-466d-8136-cb1e31db5c9b}:
+++Microsoft.Office.Tools.Outlook
+i:{2fc40076-dce1-466d-8136-cb1e31db5c9b}:
+++Microsoft.VisualBasic
+i:{2fc40076-dce1-466d-8136-cb1e31db5c9b}:
+++Microsoft.WindowsAPICodePack
+i:{2fc40076-dce1-466d-8136-cb1e31db5c9b}:
+++Microsoft.WindowsAPICodePack.ExtendedLinguisticServices
+i:{2fc40076-dce1-466d-8136-cb1e31db5c9b}:
+++Microsoft.WindowsAPICodePack.Sensors
+i:{2fc40076-dce1-466d-8136-cb1e31db5c9b}:
+++Microsoft.WindowsAPICodePack.Shell
+i:{2fc40076-dce1-466d-8136-cb1e31db5c9b}:
+++Microsoft.WindowsAPICodePack.ShellExtensions
+i:{2fc40076-dce1-466d-8136-cb1e31db5c9b}:
+++PresentationCore
+i:{2fc40076-dce1-466d-8136-cb1e31db5c9b}:
+++PresentationFramework
+i:{2fc40076-dce1-466d-8136-cb1e31db5c9b}:
+++System.Buffers
+i:{2fc40076-dce1-466d-8136-cb1e31db5c9b}:
+++System.Collections.Immutable
+i:{2fc40076-dce1-466d-8136-cb1e31db5c9b}:
+++System.ComponentModel.DataAnnotations
+i:{2fc40076-dce1-466d-8136-cb1e31db5c9b}:
+++System.Data.Linq
+i:{2fc40076-dce1-466d-8136-cb1e31db5c9b}:
+++System.Data.SQLite
+i:{2fc40076-dce1-466d-8136-cb1e31db5c9b}:
+++System.Data.SQLite.EF6
+i:{2fc40076-dce1-466d-8136-cb1e31db5c9b}:
+++System.Data.SQLite.Linq
+i:{2fc40076-dce1-466d-8136-cb1e31db5c9b}:
+++System.Deployment
+i:{2fc40076-dce1-466d-8136-cb1e31db5c9b}:
+++System.Drawing
+i:{2fc40076-dce1-466d-8136-cb1e31db5c9b}:
+++System.IdentityModel.Tokens.Jwt
+i:{2fc40076-dce1-466d-8136-cb1e31db5c9b}:
+++System.Linq.Async
+i:{2fc40076-dce1-466d-8136-cb1e31db5c9b}:
+++System.Management
+i:{2fc40076-dce1-466d-8136-cb1e31db5c9b}:
+++System.Memory
+i:{2fc40076-dce1-466d-8136-cb1e31db5c9b}:
+++System.Messaging
+i:{2fc40076-dce1-466d-8136-cb1e31db5c9b}:
+++System.Net
+i:{2fc40076-dce1-466d-8136-cb1e31db5c9b}:
+++System.Net.Http
+i:{2fc40076-dce1-466d-8136-cb1e31db5c9b}:
+++System.Numerics
+i:{2fc40076-dce1-466d-8136-cb1e31db5c9b}:
+++System.Numerics.Vectors
+i:{2fc40076-dce1-466d-8136-cb1e31db5c9b}:
+++System.Printing
+i:{2fc40076-dce1-466d-8136-cb1e31db5c9b}:
+++System.Runtime.CompilerServices.Unsafe
+i:{2fc40076-dce1-466d-8136-cb1e31db5c9b}:
+++System.Runtime.Remoting
+i:{2fc40076-dce1-466d-8136-cb1e31db5c9b}:
+++System.Runtime.Serialization
+i:{2fc40076-dce1-466d-8136-cb1e31db5c9b}:
+++System.ServiceModel
+i:{2fc40076-dce1-466d-8136-cb1e31db5c9b}:
+++System.Text.Encodings.Web
+i:{2fc40076-dce1-466d-8136-cb1e31db5c9b}:
+++System.Text.Json
+i:{2fc40076-dce1-466d-8136-cb1e31db5c9b}:
+++System.Threading.Tasks.Extensions
+i:{2fc40076-dce1-466d-8136-cb1e31db5c9b}:
+++System.ValueTuple
+i:{2fc40076-dce1-466d-8136-cb1e31db5c9b}:
+++System.Web
+i:{2fc40076-dce1-466d-8136-cb1e31db5c9b}:
+++System.Web.Services
+i:{2fc40076-dce1-466d-8136-cb1e31db5c9b}:
+++System.Windows
+i:{2fc40076-dce1-466d-8136-cb1e31db5c9b}:
+++System.Windows.Forms
+i:{2fc40076-dce1-466d-8136-cb1e31db5c9b}:
+++System.Xaml
+i:{2fc40076-dce1-466d-8136-cb1e31db5c9b}:
+++Tulpep.NotificationWindow
+i:{2fc40076-dce1-466d-8136-cb1e31db5c9b}:
+++Twilio
+i:{2fc40076-dce1-466d-8136-cb1e31db5c9b}:
+++UIAutomationClient
+i:{2fc40076-dce1-466d-8136-cb1e31db5c9b}:
+++zxing
+i:{2fc40076-dce1-466d-8136-cb1e31db5c9b}:
+++zxing.presentation
+i:{2fc40076-dce1-466d-8136-cb1e31db5c9b}:
+++FrmBugReport.cs
+i:{2fc40076-dce1-466d-8136-cb1e31db5c9b}:c:\users\gilles d'huyvetter\desktop\software d'huyvetter beton\bestellingen\dhuyvetterbeton.beton\agenda\frmbugreport.cs
+++FrmBugReportOverzicht.cs
+i:{2fc40076-dce1-466d-8136-cb1e31db5c9b}:c:\users\gilles d'huyvetter\desktop\software d'huyvetter beton\bestellingen\dhuyvetterbeton.beton\agenda\frmbugreportoverzicht.cs
+++FrmLogboek.cs
+i:{2fc40076-dce1-466d-8136-cb1e31db5c9b}:c:\users\gilles d'huyvetter\desktop\software d'huyvetter beton\bestellingen\dhuyvetterbeton.beton\agenda\frmlogboek.cs
+++FrmPersoneelToevoegen.cs
+i:{2fc40076-dce1-466d-8136-cb1e31db5c9b}:c:\users\gilles d'huyvetter\desktop\software d'huyvetter beton\bestellingen\dhuyvetterbeton.beton\agenda\frmpersoneeltoevoegen.cs
+++FrmVerlofAgenda.cs
+i:{2fc40076-dce1-466d-8136-cb1e31db5c9b}:c:\users\gilles d'huyvetter\desktop\software d'huyvetter beton\bestellingen\dhuyvetterbeton.beton\agenda\frmverlofagenda.cs
+++ucAgendaBeton.cs
+i:{2fc40076-dce1-466d-8136-cb1e31db5c9b}:c:\users\gilles d'huyvetter\desktop\software d'huyvetter beton\bestellingen\dhuyvetterbeton.beton\agenda\ucagendabeton.cs
+++ucAgendaPrefab.cs
+i:{2fc40076-dce1-466d-8136-cb1e31db5c9b}:c:\users\gilles d'huyvetter\desktop\software d'huyvetter beton\bestellingen\dhuyvetterbeton.beton\agenda\ucagendaprefab.cs
+++ucLogboek.cs
+i:{2fc40076-dce1-466d-8136-cb1e31db5c9b}:c:\users\gilles d'huyvetter\desktop\software d'huyvetter beton\bestellingen\dhuyvetterbeton.beton\agenda\uclogboek.cs
+++FrmHulpstofWijzigen.cs
+i:{2fc40076-dce1-466d-8136-cb1e31db5c9b}:c:\users\gilles d'huyvetter\desktop\software d'huyvetter beton\bestellingen\dhuyvetterbeton.beton\bestelling\tools\frmhulpstofwijzigen.cs
+++FrmInformatieAanpassen.cs
+i:{2fc40076-dce1-466d-8136-cb1e31db5c9b}:c:\users\gilles d'huyvetter\desktop\software d'huyvetter beton\bestellingen\dhuyvetterbeton.beton\bestelling\tools\frminformatieaanpassen.cs
+++FrmPompWijzigen.cs
+i:{2fc40076-dce1-466d-8136-cb1e31db5c9b}:c:\users\gilles d'huyvetter\desktop\software d'huyvetter beton\bestellingen\dhuyvetterbeton.beton\bestelling\tools\frmpompwijzigen.cs
+++FrmProductWijzigen.cs
+i:{2fc40076-dce1-466d-8136-cb1e31db5c9b}:c:\users\gilles d'huyvetter\desktop\software d'huyvetter beton\bestellingen\dhuyvetterbeton.beton\bestelling\tools\frmproductwijzigen.cs
+++frmSMSBerichten.cs
+i:{2fc40076-dce1-466d-8136-cb1e31db5c9b}:c:\users\gilles d'huyvetter\desktop\software d'huyvetter beton\bestellingen\dhuyvetterbeton.beton\bestelling\tools\frmsmsberichten.cs
+++FrmWerfWijzigen.cs
+i:{2fc40076-dce1-466d-8136-cb1e31db5c9b}:c:\users\gilles d'huyvetter\desktop\software d'huyvetter beton\bestellingen\dhuyvetterbeton.beton\bestelling\tools\frmwerfwijzigen.cs
+++SMS.cs
+i:{2fc40076-dce1-466d-8136-cb1e31db5c9b}:c:\users\gilles d'huyvetter\desktop\software d'huyvetter beton\bestellingen\dhuyvetterbeton.beton\bestelling\tools\sms.cs
+++FrmTakenAfdrukken.Designer.cs
+i:{2fc40076-dce1-466d-8136-cb1e31db5c9b}:c:\users\gilles d'huyvetter\desktop\software d'huyvetter beton\bestellingen\dhuyvetterbeton.beton\bestelling\frmtakenafdrukken.designer.cs
+++FrmTakenAfdrukken.resx
+i:{2fc40076-dce1-466d-8136-cb1e31db5c9b}:c:\users\gilles d'huyvetter\desktop\software d'huyvetter beton\bestellingen\dhuyvetterbeton.beton\bestelling\frmtakenafdrukken.resx
+++ucBestellingenLijst.Designer.cs
+i:{2fc40076-dce1-466d-8136-cb1e31db5c9b}:c:\users\gilles d'huyvetter\desktop\software d'huyvetter beton\bestellingen\dhuyvetterbeton.beton\bestelling\ucbestellingenlijst.designer.cs
+++ucBestellingenLijst.resx
+i:{2fc40076-dce1-466d-8136-cb1e31db5c9b}:c:\users\gilles d'huyvetter\desktop\software d'huyvetter beton\bestellingen\dhuyvetterbeton.beton\bestelling\ucbestellingenlijst.resx
+++ucNieuweBestelling.Designer.cs
+i:{2fc40076-dce1-466d-8136-cb1e31db5c9b}:c:\users\gilles d'huyvetter\desktop\software d'huyvetter beton\bestellingen\dhuyvetterbeton.beton\bestelling\ucnieuwebestelling.designer.cs
+++ucNieuweBestelling.resx
+i:{2fc40076-dce1-466d-8136-cb1e31db5c9b}:c:\users\gilles d'huyvetter\desktop\software d'huyvetter beton\bestellingen\dhuyvetterbeton.beton\bestelling\ucnieuwebestelling.resx
+++ucNieuweBestellingPrefab.Designer.cs
+i:{2fc40076-dce1-466d-8136-cb1e31db5c9b}:c:\users\gilles d'huyvetter\desktop\software d'huyvetter beton\bestellingen\dhuyvetterbeton.beton\bestelling\ucnieuwebestellingprefab.designer.cs
+++ucNieuweBestellingPrefab.resx
+i:{2fc40076-dce1-466d-8136-cb1e31db5c9b}:c:\users\gilles d'huyvetter\desktop\software d'huyvetter beton\bestellingen\dhuyvetterbeton.beton\bestelling\ucnieuwebestellingprefab.resx
+++ucVerwijderBestelling.Designer.cs
+i:{2fc40076-dce1-466d-8136-cb1e31db5c9b}:c:\users\gilles d'huyvetter\desktop\software d'huyvetter beton\bestellingen\dhuyvetterbeton.beton\bestelling\ucverwijderbestelling.designer.cs
+++ucVerwijderBestelling.resx
+i:{2fc40076-dce1-466d-8136-cb1e31db5c9b}:c:\users\gilles d'huyvetter\desktop\software d'huyvetter beton\bestellingen\dhuyvetterbeton.beton\bestelling\ucverwijderbestelling.resx
+++ucWijzigBestelling.Designer.cs
+i:{2fc40076-dce1-466d-8136-cb1e31db5c9b}:c:\users\gilles d'huyvetter\desktop\software d'huyvetter beton\bestellingen\dhuyvetterbeton.beton\bestelling\ucwijzigbestelling.designer.cs
+++ucWijzigBestelling.resx
+i:{2fc40076-dce1-466d-8136-cb1e31db5c9b}:c:\users\gilles d'huyvetter\desktop\software d'huyvetter beton\bestellingen\dhuyvetterbeton.beton\bestelling\ucwijzigbestelling.resx
+++ucWijzigPrefabBestelling.Designer.cs
+i:{2fc40076-dce1-466d-8136-cb1e31db5c9b}:c:\users\gilles d'huyvetter\desktop\software d'huyvetter beton\bestellingen\dhuyvetterbeton.beton\bestelling\ucwijzigprefabbestelling.designer.cs
+++ucWijzigPrefabBestelling.resx
+i:{2fc40076-dce1-466d-8136-cb1e31db5c9b}:c:\users\gilles d'huyvetter\desktop\software d'huyvetter beton\bestellingen\dhuyvetterbeton.beton\bestelling\ucwijzigprefabbestelling.resx
+++FrmMailFacturen.Designer.cs
+i:{2fc40076-dce1-466d-8136-cb1e31db5c9b}:c:\users\gilles d'huyvetter\desktop\software d'huyvetter beton\bestellingen\dhuyvetterbeton.beton\facturen\frmmailfacturen.designer.cs
+++FrmMailFacturen.resx
+i:{2fc40076-dce1-466d-8136-cb1e31db5c9b}:c:\users\gilles d'huyvetter\desktop\software d'huyvetter beton\bestellingen\dhuyvetterbeton.beton\facturen\frmmailfacturen.resx
+++FrmNieuweFactuur.Designer.cs
+i:{2fc40076-dce1-466d-8136-cb1e31db5c9b}:c:\users\gilles d'huyvetter\desktop\software d'huyvetter beton\bestellingen\dhuyvetterbeton.beton\facturen\frmnieuwefactuur.designer.cs
+++FrmNieuweFactuur.resx
+i:{2fc40076-dce1-466d-8136-cb1e31db5c9b}:c:\users\gilles d'huyvetter\desktop\software d'huyvetter beton\bestellingen\dhuyvetterbeton.beton\facturen\frmnieuwefactuur.resx
+++FrmOpenFacturen.Designer.cs
+i:{2fc40076-dce1-466d-8136-cb1e31db5c9b}:c:\users\gilles d'huyvetter\desktop\software d'huyvetter beton\bestellingen\dhuyvetterbeton.beton\facturen\frmopenfacturen.designer.cs
+++FrmOpenFacturen.resx
+i:{2fc40076-dce1-466d-8136-cb1e31db5c9b}:c:\users\gilles d'huyvetter\desktop\software d'huyvetter beton\bestellingen\dhuyvetterbeton.beton\facturen\frmopenfacturen.resx
+++FrmWijzigFactuur.Designer.cs
+i:{2fc40076-dce1-466d-8136-cb1e31db5c9b}:c:\users\gilles d'huyvetter\desktop\software d'huyvetter beton\bestellingen\dhuyvetterbeton.beton\facturen\frmwijzigfactuur.designer.cs
+++FrmWijzigFactuur.resx
+i:{2fc40076-dce1-466d-8136-cb1e31db5c9b}:c:\users\gilles d'huyvetter\desktop\software d'huyvetter beton\bestellingen\dhuyvetterbeton.beton\facturen\frmwijzigfactuur.resx
+++ucFactuurWijzigen.Designer.cs
+i:{2fc40076-dce1-466d-8136-cb1e31db5c9b}:c:\users\gilles d'huyvetter\desktop\software d'huyvetter beton\bestellingen\dhuyvetterbeton.beton\facturen\ucfactuurwijzigen.designer.cs
+++ucFactuurWijzigen.resx
+i:{2fc40076-dce1-466d-8136-cb1e31db5c9b}:c:\users\gilles d'huyvetter\desktop\software d'huyvetter beton\bestellingen\dhuyvetterbeton.beton\facturen\ucfactuurwijzigen.resx
+++ucMailFacturen.Designer.cs
+i:{2fc40076-dce1-466d-8136-cb1e31db5c9b}:c:\users\gilles d'huyvetter\desktop\software d'huyvetter beton\bestellingen\dhuyvetterbeton.beton\facturen\ucmailfacturen.designer.cs
+++ucMailFacturen.resx
+i:{2fc40076-dce1-466d-8136-cb1e31db5c9b}:c:\users\gilles d'huyvetter\desktop\software d'huyvetter beton\bestellingen\dhuyvetterbeton.beton\facturen\ucmailfacturen.resx
+++ucOverzichtFacturen.Designer.cs
+i:{2fc40076-dce1-466d-8136-cb1e31db5c9b}:c:\users\gilles d'huyvetter\desktop\software d'huyvetter beton\bestellingen\dhuyvetterbeton.beton\facturen\ucoverzichtfacturen.designer.cs
+++ucOverzichtFacturen.resx
+i:{2fc40076-dce1-466d-8136-cb1e31db5c9b}:c:\users\gilles d'huyvetter\desktop\software d'huyvetter beton\bestellingen\dhuyvetterbeton.beton\facturen\ucoverzichtfacturen.resx
+++AccessibleMarshal.dll
+i:{2fc40076-dce1-466d-8136-cb1e31db5c9b}:c:\users\gilles d'huyvetter\desktop\software d'huyvetter beton\bestellingen\dhuyvetterbeton.beton\firefox\accessiblemarshal.dll
+++breakpadinjector.dll
+i:{2fc40076-dce1-466d-8136-cb1e31db5c9b}:c:\users\gilles d'huyvetter\desktop\software d'huyvetter beton\bestellingen\dhuyvetterbeton.beton\firefox\breakpadinjector.dll
+++d3dcompiler_47.dll
+i:{2fc40076-dce1-466d-8136-cb1e31db5c9b}:c:\users\gilles d'huyvetter\desktop\software d'huyvetter beton\bestellingen\dhuyvetterbeton.beton\firefox\d3dcompiler_47.dll
+++freebl3.dll
+i:{2fc40076-dce1-466d-8136-cb1e31db5c9b}:c:\users\gilles d'huyvetter\desktop\software d'huyvetter beton\bestellingen\dhuyvetterbeton.beton\firefox\freebl3.dll
+++icudt58.dll
+i:{2fc40076-dce1-466d-8136-cb1e31db5c9b}:c:\users\gilles d'huyvetter\desktop\software d'huyvetter beton\bestellingen\dhuyvetterbeton.beton\firefox\icudt58.dll
+++icuin58.dll
+i:{2fc40076-dce1-466d-8136-cb1e31db5c9b}:c:\users\gilles d'huyvetter\desktop\software d'huyvetter beton\bestellingen\dhuyvetterbeton.beton\firefox\icuin58.dll
+++icuuc58.dll
+i:{2fc40076-dce1-466d-8136-cb1e31db5c9b}:c:\users\gilles d'huyvetter\desktop\software d'huyvetter beton\bestellingen\dhuyvetterbeton.beton\firefox\icuuc58.dll
+++lgpllibs.dll
+i:{2fc40076-dce1-466d-8136-cb1e31db5c9b}:c:\users\gilles d'huyvetter\desktop\software d'huyvetter beton\bestellingen\dhuyvetterbeton.beton\firefox\lgpllibs.dll
+++libEGL.dll
+i:{2fc40076-dce1-466d-8136-cb1e31db5c9b}:c:\users\gilles d'huyvetter\desktop\software d'huyvetter beton\bestellingen\dhuyvetterbeton.beton\firefox\libegl.dll
+++libGLESv2.dll
+i:{2fc40076-dce1-466d-8136-cb1e31db5c9b}:c:\users\gilles d'huyvetter\desktop\software d'huyvetter beton\bestellingen\dhuyvetterbeton.beton\firefox\libglesv2.dll
+++mozglue.dll
+i:{2fc40076-dce1-466d-8136-cb1e31db5c9b}:c:\users\gilles d'huyvetter\desktop\software d'huyvetter beton\bestellingen\dhuyvetterbeton.beton\firefox\mozglue.dll
+++nss3.dll
+i:{2fc40076-dce1-466d-8136-cb1e31db5c9b}:c:\users\gilles d'huyvetter\desktop\software d'huyvetter beton\bestellingen\dhuyvetterbeton.beton\firefox\nss3.dll
+++nssckbi.dll
+i:{2fc40076-dce1-466d-8136-cb1e31db5c9b}:c:\users\gilles d'huyvetter\desktop\software d'huyvetter beton\bestellingen\dhuyvetterbeton.beton\firefox\nssckbi.dll
+++nssdbm3.dll
+i:{2fc40076-dce1-466d-8136-cb1e31db5c9b}:c:\users\gilles d'huyvetter\desktop\software d'huyvetter beton\bestellingen\dhuyvetterbeton.beton\firefox\nssdbm3.dll
+++omni.ja
+i:{2fc40076-dce1-466d-8136-cb1e31db5c9b}:c:\users\gilles d'huyvetter\desktop\software d'huyvetter beton\bestellingen\dhuyvetterbeton.beton\firefox\omni.ja
+++plugin-container.exe
+i:{2fc40076-dce1-466d-8136-cb1e31db5c9b}:c:\users\gilles d'huyvetter\desktop\software d'huyvetter beton\bestellingen\dhuyvetterbeton.beton\firefox\plugin-container.exe
+++plugin-hang-ui.exe
+i:{2fc40076-dce1-466d-8136-cb1e31db5c9b}:c:\users\gilles d'huyvetter\desktop\software d'huyvetter beton\bestellingen\dhuyvetterbeton.beton\firefox\plugin-hang-ui.exe
+++sandboxbroker.dll
+i:{2fc40076-dce1-466d-8136-cb1e31db5c9b}:c:\users\gilles d'huyvetter\desktop\software d'huyvetter beton\bestellingen\dhuyvetterbeton.beton\firefox\sandboxbroker.dll
+++softokn3.dll
+i:{2fc40076-dce1-466d-8136-cb1e31db5c9b}:c:\users\gilles d'huyvetter\desktop\software d'huyvetter beton\bestellingen\dhuyvetterbeton.beton\firefox\softokn3.dll
+++xul.dll
+i:{2fc40076-dce1-466d-8136-cb1e31db5c9b}:c:\users\gilles d'huyvetter\desktop\software d'huyvetter beton\bestellingen\dhuyvetterbeton.beton\firefox\xul.dll
+++FrmKlantNotitie.cs
+i:{2fc40076-dce1-466d-8136-cb1e31db5c9b}:c:\users\gilles d'huyvetter\desktop\software d'huyvetter beton\bestellingen\dhuyvetterbeton.beton\klanten\frmklantnotitie.cs
+++FrmKlantNotitie.Designer.cs
+i:{2fc40076-dce1-466d-8136-cb1e31db5c9b}:c:\users\gilles d'huyvetter\desktop\software d'huyvetter beton\bestellingen\dhuyvetterbeton.beton\klanten\frmklantnotitie.designer.cs
+++FrmKlantNotitie.resx
+i:{2fc40076-dce1-466d-8136-cb1e31db5c9b}:c:\users\gilles d'huyvetter\desktop\software d'huyvetter beton\bestellingen\dhuyvetterbeton.beton\klanten\frmklantnotitie.resx
+++ucToevoegenKlant.cs
+i:{2fc40076-dce1-466d-8136-cb1e31db5c9b}:c:\users\gilles d'huyvetter\desktop\software d'huyvetter beton\bestellingen\dhuyvetterbeton.beton\klanten\uctoevoegenklant.cs
+++ucWijzigenKlant.cs
+i:{2fc40076-dce1-466d-8136-cb1e31db5c9b}:c:\users\gilles d'huyvetter\desktop\software d'huyvetter beton\bestellingen\dhuyvetterbeton.beton\klanten\ucwijzigenklant.cs
+++FrmNieuweKortingProduct.cs
+i:{2fc40076-dce1-466d-8136-cb1e31db5c9b}:c:\users\gilles d'huyvetter\desktop\software d'huyvetter beton\bestellingen\dhuyvetterbeton.beton\kortingen\frmnieuwekortingproduct.cs
+++FrmNieuweKortingProductWerf.cs
+i:{2fc40076-dce1-466d-8136-cb1e31db5c9b}:c:\users\gilles d'huyvetter\desktop\software d'huyvetter beton\bestellingen\dhuyvetterbeton.beton\kortingen\frmnieuwekortingproductwerf.cs
+++FrmNieuweKortingWerf.cs
+i:{2fc40076-dce1-466d-8136-cb1e31db5c9b}:c:\users\gilles d'huyvetter\desktop\software d'huyvetter beton\bestellingen\dhuyvetterbeton.beton\kortingen\frmnieuwekortingwerf.cs
+++FrmSoortKorting.cs
+i:{2fc40076-dce1-466d-8136-cb1e31db5c9b}:c:\users\gilles d'huyvetter\desktop\software d'huyvetter beton\bestellingen\dhuyvetterbeton.beton\kortingen\frmsoortkorting.cs
+++FrmNieuweOfferte.cs
+i:{2fc40076-dce1-466d-8136-cb1e31db5c9b}:c:\users\gilles d'huyvetter\desktop\software d'huyvetter beton\bestellingen\dhuyvetterbeton.beton\offertes\frmnieuweofferte.cs
+++FrmWijzigOfferte.cs
+i:{2fc40076-dce1-466d-8136-cb1e31db5c9b}:c:\users\gilles d'huyvetter\desktop\software d'huyvetter beton\bestellingen\dhuyvetterbeton.beton\offertes\frmwijzigofferte.cs
+++FrmCalendarView.cs
+i:{2fc40076-dce1-466d-8136-cb1e31db5c9b}:c:\users\gilles d'huyvetter\desktop\software d'huyvetter beton\bestellingen\dhuyvetterbeton.beton\personeeld\frmcalendarview.cs
+++ucPersoneel.cs
+i:{2fc40076-dce1-466d-8136-cb1e31db5c9b}:c:\users\gilles d'huyvetter\desktop\software d'huyvetter beton\bestellingen\dhuyvetterbeton.beton\personeeld\ucpersoneel.cs
+++ucVerlofDag.cs
+i:{2fc40076-dce1-466d-8136-cb1e31db5c9b}:c:\users\gilles d'huyvetter\desktop\software d'huyvetter beton\bestellingen\dhuyvetterbeton.beton\personeeld\ucverlofdag.cs
+++ucPompen.cs
+i:{2fc40076-dce1-466d-8136-cb1e31db5c9b}:c:\users\gilles d'huyvetter\desktop\software d'huyvetter beton\bestellingen\dhuyvetterbeton.beton\pompen\ucpompen.cs
+++FrmHulpstofPrijzen.cs
+i:{2fc40076-dce1-466d-8136-cb1e31db5c9b}:c:\users\gilles d'huyvetter\desktop\software d'huyvetter beton\bestellingen\dhuyvetterbeton.beton\prijslijst\frmhulpstofprijzen.cs
+++FrmPompPrijzen.cs
+i:{2fc40076-dce1-466d-8136-cb1e31db5c9b}:c:\users\gilles d'huyvetter\desktop\software d'huyvetter beton\bestellingen\dhuyvetterbeton.beton\prijslijst\frmpompprijzen.cs
+++FrmPrijsBeheer.cs
+i:{2fc40076-dce1-466d-8136-cb1e31db5c9b}:c:\users\gilles d'huyvetter\desktop\software d'huyvetter beton\bestellingen\dhuyvetterbeton.beton\prijslijst\frmprijsbeheer.cs
+++ucProductenBeheer.cs
+i:{2fc40076-dce1-466d-8136-cb1e31db5c9b}:c:\users\gilles d'huyvetter\desktop\software d'huyvetter beton\bestellingen\dhuyvetterbeton.beton\producten\ucproductenbeheer.cs
+++42580824_2097509096946809_792215561084862464.png
+i:{2fc40076-dce1-466d-8136-cb1e31db5c9b}:c:\users\gilles d'huyvetter\desktop\software d'huyvetter beton\bestellingen\dhuyvetterbeton.beton\resources\42580824_2097509096946809_792215561084862464.png
+++adobe-pdf-icon.png
+i:{2fc40076-dce1-466d-8136-cb1e31db5c9b}:c:\users\gilles d'huyvetter\desktop\software d'huyvetter beton\bestellingen\dhuyvetterbeton.beton\resources\adobe-pdf-icon.png
+++bgnav.png
+i:{2fc40076-dce1-466d-8136-cb1e31db5c9b}:c:\users\gilles d'huyvetter\desktop\software d'huyvetter beton\bestellingen\dhuyvetterbeton.beton\resources\bgnav.png
+++bgnav2.png
+i:{2fc40076-dce1-466d-8136-cb1e31db5c9b}:c:\users\gilles d'huyvetter\desktop\software d'huyvetter beton\bestellingen\dhuyvetterbeton.beton\resources\bgnav2.png
+++bgnav3.png
+i:{2fc40076-dce1-466d-8136-cb1e31db5c9b}:c:\users\gilles d'huyvetter\desktop\software d'huyvetter beton\bestellingen\dhuyvetterbeton.beton\resources\bgnav3.png
+++blanco.png
+i:{2fc40076-dce1-466d-8136-cb1e31db5c9b}:c:\users\gilles d'huyvetter\desktop\software d'huyvetter beton\bestellingen\dhuyvetterbeton.beton\resources\blanco.png
+++cancel.png
+i:{2fc40076-dce1-466d-8136-cb1e31db5c9b}:c:\users\gilles d'huyvetter\desktop\software d'huyvetter beton\bestellingen\dhuyvetterbeton.beton\resources\cancel.png
+++Cindy.png
+i:{2fc40076-dce1-466d-8136-cb1e31db5c9b}:c:\users\gilles d'huyvetter\desktop\software d'huyvetter beton\bestellingen\dhuyvetterbeton.beton\resources\cindy.png
+++customerlocation.svg
+i:{2fc40076-dce1-466d-8136-cb1e31db5c9b}:c:\users\gilles d'huyvetter\desktop\software d'huyvetter beton\bestellingen\dhuyvetterbeton.beton\resources\customerlocation.svg
+++customersales.svg
+i:{2fc40076-dce1-466d-8136-cb1e31db5c9b}:c:\users\gilles d'huyvetter\desktop\software d'huyvetter beton\bestellingen\dhuyvetterbeton.beton\resources\customersales.svg
+++DBLogo.png
+i:{2fc40076-dce1-466d-8136-cb1e31db5c9b}:c:\users\gilles d'huyvetter\desktop\software d'huyvetter beton\bestellingen\dhuyvetterbeton.beton\resources\dblogo.png
+++DH_transparant.png
+i:{2fc40076-dce1-466d-8136-cb1e31db5c9b}:c:\users\gilles d'huyvetter\desktop\software d'huyvetter beton\bestellingen\dhuyvetterbeton.beton\resources\dh_transparant.png
+++editicon2.png
+i:{2fc40076-dce1-466d-8136-cb1e31db5c9b}:c:\users\gilles d'huyvetter\desktop\software d'huyvetter beton\bestellingen\dhuyvetterbeton.beton\resources\editicon2.png
+++Excel-icon (1).png
+i:{2fc40076-dce1-466d-8136-cb1e31db5c9b}:c:\users\gilles d'huyvetter\desktop\software d'huyvetter beton\bestellingen\dhuyvetterbeton.beton\resources\excel-icon (1).png
+++Fabien.png
+i:{2fc40076-dce1-466d-8136-cb1e31db5c9b}:c:\users\gilles d'huyvetter\desktop\software d'huyvetter beton\bestellingen\dhuyvetterbeton.beton\resources\fabien.png
+++failliet.png
+i:{2fc40076-dce1-466d-8136-cb1e31db5c9b}:c:\users\gilles d'huyvetter\desktop\software d'huyvetter beton\bestellingen\dhuyvetterbeton.beton\resources\failliet.png
+++giphy.gif
+i:{2fc40076-dce1-466d-8136-cb1e31db5c9b}:c:\users\gilles d'huyvetter\desktop\software d'huyvetter beton\bestellingen\dhuyvetterbeton.beton\resources\giphy.gif
+++Image1.bmp
+i:{2fc40076-dce1-466d-8136-cb1e31db5c9b}:c:\users\gilles d'huyvetter\desktop\software d'huyvetter beton\bestellingen\dhuyvetterbeton.beton\resources\image1.bmp
+++Jan.png
+i:{2fc40076-dce1-466d-8136-cb1e31db5c9b}:c:\users\gilles d'huyvetter\desktop\software d'huyvetter beton\bestellingen\dhuyvetterbeton.beton\resources\jan.png
+++kisspng-responsive-web-design-social-media-google-maps-com-map-icon-5abfaf382c12a9.8640671315225116721805.png
+i:{2fc40076-dce1-466d-8136-cb1e31db5c9b}:c:\users\gilles d'huyvetter\desktop\software d'huyvetter beton\bestellingen\dhuyvetterbeton.beton\resources\kisspng-responsive-web-design-social-media-google-maps-com-map-icon-5abfaf382c12a9.8640671315225116721805.png
+++kisspng-responsive-web-design-social-media-google-maps-com-map-icon-5abfaf382c12a9.86406713152251167218051.png
+i:{2fc40076-dce1-466d-8136-cb1e31db5c9b}:c:\users\gilles d'huyvetter\desktop\software d'huyvetter beton\bestellingen\dhuyvetterbeton.beton\resources\kisspng-responsive-web-design-social-media-google-maps-com-map-icon-5abfaf382c12a9.86406713152251167218051.png
+++Loes.png
+i:{2fc40076-dce1-466d-8136-cb1e31db5c9b}:c:\users\gilles d'huyvetter\desktop\software d'huyvetter beton\bestellingen\dhuyvetterbeton.beton\resources\loes.png
+++logo.png
+i:{2fc40076-dce1-466d-8136-cb1e31db5c9b}:c:\users\gilles d'huyvetter\desktop\software d'huyvetter beton\bestellingen\dhuyvetterbeton.beton\resources\logo.png
+++mr.svg
+i:{2fc40076-dce1-466d-8136-cb1e31db5c9b}:c:\users\gilles d'huyvetter\desktop\software d'huyvetter beton\bestellingen\dhuyvetterbeton.beton\resources\mr.svg
+++neg-01.png
+i:{2fc40076-dce1-466d-8136-cb1e31db5c9b}:c:\users\gilles d'huyvetter\desktop\software d'huyvetter beton\bestellingen\dhuyvetterbeton.beton\resources\neg-01.png
+++neg-02.png
+i:{2fc40076-dce1-466d-8136-cb1e31db5c9b}:c:\users\gilles d'huyvetter\desktop\software d'huyvetter beton\bestellingen\dhuyvetterbeton.beton\resources\neg-02.png
+++neg-03.png
+i:{2fc40076-dce1-466d-8136-cb1e31db5c9b}:c:\users\gilles d'huyvetter\desktop\software d'huyvetter beton\bestellingen\dhuyvetterbeton.beton\resources\neg-03.png
+++neg-04.png
+i:{2fc40076-dce1-466d-8136-cb1e31db5c9b}:c:\users\gilles d'huyvetter\desktop\software d'huyvetter beton\bestellingen\dhuyvetterbeton.beton\resources\neg-04.png
+++neg-05.png
+i:{2fc40076-dce1-466d-8136-cb1e31db5c9b}:c:\users\gilles d'huyvetter\desktop\software d'huyvetter beton\bestellingen\dhuyvetterbeton.beton\resources\neg-05.png
+++neg-06.png
+i:{2fc40076-dce1-466d-8136-cb1e31db5c9b}:c:\users\gilles d'huyvetter\desktop\software d'huyvetter beton\bestellingen\dhuyvetterbeton.beton\resources\neg-06.png
+++neg-07.png
+i:{2fc40076-dce1-466d-8136-cb1e31db5c9b}:c:\users\gilles d'huyvetter\desktop\software d'huyvetter beton\bestellingen\dhuyvetterbeton.beton\resources\neg-07.png
+++neg-08.png
+i:{2fc40076-dce1-466d-8136-cb1e31db5c9b}:c:\users\gilles d'huyvetter\desktop\software d'huyvetter beton\bestellingen\dhuyvetterbeton.beton\resources\neg-08.png
+++neg-09.png
+i:{2fc40076-dce1-466d-8136-cb1e31db5c9b}:c:\users\gilles d'huyvetter\desktop\software d'huyvetter beton\bestellingen\dhuyvetterbeton.beton\resources\neg-09.png
+++neg-10.png
+i:{2fc40076-dce1-466d-8136-cb1e31db5c9b}:c:\users\gilles d'huyvetter\desktop\software d'huyvetter beton\bestellingen\dhuyvetterbeton.beton\resources\neg-10.png
+++neg-11.png
+i:{2fc40076-dce1-466d-8136-cb1e31db5c9b}:c:\users\gilles d'huyvetter\desktop\software d'huyvetter beton\bestellingen\dhuyvetterbeton.beton\resources\neg-11.png
+++neg-12.png
+i:{2fc40076-dce1-466d-8136-cb1e31db5c9b}:c:\users\gilles d'huyvetter\desktop\software d'huyvetter beton\bestellingen\dhuyvetterbeton.beton\resources\neg-12.png
+++neg-13.png
+i:{2fc40076-dce1-466d-8136-cb1e31db5c9b}:c:\users\gilles d'huyvetter\desktop\software d'huyvetter beton\bestellingen\dhuyvetterbeton.beton\resources\neg-13.png
+++neg-14.png
+i:{2fc40076-dce1-466d-8136-cb1e31db5c9b}:c:\users\gilles d'huyvetter\desktop\software d'huyvetter beton\bestellingen\dhuyvetterbeton.beton\resources\neg-14.png
+++neg-15.png
+i:{2fc40076-dce1-466d-8136-cb1e31db5c9b}:c:\users\gilles d'huyvetter\desktop\software d'huyvetter beton\bestellingen\dhuyvetterbeton.beton\resources\neg-15.png
+++neg-16.png
+i:{2fc40076-dce1-466d-8136-cb1e31db5c9b}:c:\users\gilles d'huyvetter\desktop\software d'huyvetter beton\bestellingen\dhuyvetterbeton.beton\resources\neg-16.png
+++neg-17.png
+i:{2fc40076-dce1-466d-8136-cb1e31db5c9b}:c:\users\gilles d'huyvetter\desktop\software d'huyvetter beton\bestellingen\dhuyvetterbeton.beton\resources\neg-17.png
+++neg-18.png
+i:{2fc40076-dce1-466d-8136-cb1e31db5c9b}:c:\users\gilles d'huyvetter\desktop\software d'huyvetter beton\bestellingen\dhuyvetterbeton.beton\resources\neg-18.png
+++neg-19.png
+i:{2fc40076-dce1-466d-8136-cb1e31db5c9b}:c:\users\gilles d'huyvetter\desktop\software d'huyvetter beton\bestellingen\dhuyvetterbeton.beton\resources\neg-19.png
+++neg-20.png
+i:{2fc40076-dce1-466d-8136-cb1e31db5c9b}:c:\users\gilles d'huyvetter\desktop\software d'huyvetter beton\bestellingen\dhuyvetterbeton.beton\resources\neg-20.png
+++neg-21.png
+i:{2fc40076-dce1-466d-8136-cb1e31db5c9b}:c:\users\gilles d'huyvetter\desktop\software d'huyvetter beton\bestellingen\dhuyvetterbeton.beton\resources\neg-21.png
+++neg-22.png
+i:{2fc40076-dce1-466d-8136-cb1e31db5c9b}:c:\users\gilles d'huyvetter\desktop\software d'huyvetter beton\bestellingen\dhuyvetterbeton.beton\resources\neg-22.png
+++neg-23.png
+i:{2fc40076-dce1-466d-8136-cb1e31db5c9b}:c:\users\gilles d'huyvetter\desktop\software d'huyvetter beton\bestellingen\dhuyvetterbeton.beton\resources\neg-23.png
+++neg-24.png
+i:{2fc40076-dce1-466d-8136-cb1e31db5c9b}:c:\users\gilles d'huyvetter\desktop\software d'huyvetter beton\bestellingen\dhuyvetterbeton.beton\resources\neg-24.png
+++neg-25.png
+i:{2fc40076-dce1-466d-8136-cb1e31db5c9b}:c:\users\gilles d'huyvetter\desktop\software d'huyvetter beton\bestellingen\dhuyvetterbeton.beton\resources\neg-25.png
+++neg-26.png
+i:{2fc40076-dce1-466d-8136-cb1e31db5c9b}:c:\users\gilles d'huyvetter\desktop\software d'huyvetter beton\bestellingen\dhuyvetterbeton.beton\resources\neg-26.png
+++neg-27.png
+i:{2fc40076-dce1-466d-8136-cb1e31db5c9b}:c:\users\gilles d'huyvetter\desktop\software d'huyvetter beton\bestellingen\dhuyvetterbeton.beton\resources\neg-27.png
+++neg-28.png
+i:{2fc40076-dce1-466d-8136-cb1e31db5c9b}:c:\users\gilles d'huyvetter\desktop\software d'huyvetter beton\bestellingen\dhuyvetterbeton.beton\resources\neg-28.png
+++neg-29.png
+i:{2fc40076-dce1-466d-8136-cb1e31db5c9b}:c:\users\gilles d'huyvetter\desktop\software d'huyvetter beton\bestellingen\dhuyvetterbeton.beton\resources\neg-29.png
+++neg-30.png
+i:{2fc40076-dce1-466d-8136-cb1e31db5c9b}:c:\users\gilles d'huyvetter\desktop\software d'huyvetter beton\bestellingen\dhuyvetterbeton.beton\resources\neg-30.png
+++neg-31.png
+i:{2fc40076-dce1-466d-8136-cb1e31db5c9b}:c:\users\gilles d'huyvetter\desktop\software d'huyvetter beton\bestellingen\dhuyvetterbeton.beton\resources\neg-31.png
+++neg-32.png
+i:{2fc40076-dce1-466d-8136-cb1e31db5c9b}:c:\users\gilles d'huyvetter\desktop\software d'huyvetter beton\bestellingen\dhuyvetterbeton.beton\resources\neg-32.png
+++neg-33.png
+i:{2fc40076-dce1-466d-8136-cb1e31db5c9b}:c:\users\gilles d'huyvetter\desktop\software d'huyvetter beton\bestellingen\dhuyvetterbeton.beton\resources\neg-33.png
+++neg-34.png
+i:{2fc40076-dce1-466d-8136-cb1e31db5c9b}:c:\users\gilles d'huyvetter\desktop\software d'huyvetter beton\bestellingen\dhuyvetterbeton.beton\resources\neg-34.png
+++neg-35.png
+i:{2fc40076-dce1-466d-8136-cb1e31db5c9b}:c:\users\gilles d'huyvetter\desktop\software d'huyvetter beton\bestellingen\dhuyvetterbeton.beton\resources\neg-35.png
+++neg-36.png
+i:{2fc40076-dce1-466d-8136-cb1e31db5c9b}:c:\users\gilles d'huyvetter\desktop\software d'huyvetter beton\bestellingen\dhuyvetterbeton.beton\resources\neg-36.png
+++neg-37.png
+i:{2fc40076-dce1-466d-8136-cb1e31db5c9b}:c:\users\gilles d'huyvetter\desktop\software d'huyvetter beton\bestellingen\dhuyvetterbeton.beton\resources\neg-37.png
+++neg-38.png
+i:{2fc40076-dce1-466d-8136-cb1e31db5c9b}:c:\users\gilles d'huyvetter\desktop\software d'huyvetter beton\bestellingen\dhuyvetterbeton.beton\resources\neg-38.png
+++neg-39.png
+i:{2fc40076-dce1-466d-8136-cb1e31db5c9b}:c:\users\gilles d'huyvetter\desktop\software d'huyvetter beton\bestellingen\dhuyvetterbeton.beton\resources\neg-39.png
+++neg-40.png
+i:{2fc40076-dce1-466d-8136-cb1e31db5c9b}:c:\users\gilles d'huyvetter\desktop\software d'huyvetter beton\bestellingen\dhuyvetterbeton.beton\resources\neg-40.png
+++neg-41.png
+i:{2fc40076-dce1-466d-8136-cb1e31db5c9b}:c:\users\gilles d'huyvetter\desktop\software d'huyvetter beton\bestellingen\dhuyvetterbeton.beton\resources\neg-41.png
+++neg-42.png
+i:{2fc40076-dce1-466d-8136-cb1e31db5c9b}:c:\users\gilles d'huyvetter\desktop\software d'huyvetter beton\bestellingen\dhuyvetterbeton.beton\resources\neg-42.png
+++neg-43.png
+i:{2fc40076-dce1-466d-8136-cb1e31db5c9b}:c:\users\gilles d'huyvetter\desktop\software d'huyvetter beton\bestellingen\dhuyvetterbeton.beton\resources\neg-43.png
+++neg-44.png
+i:{2fc40076-dce1-466d-8136-cb1e31db5c9b}:c:\users\gilles d'huyvetter\desktop\software d'huyvetter beton\bestellingen\dhuyvetterbeton.beton\resources\neg-44.png
+++neg-45.png
+i:{2fc40076-dce1-466d-8136-cb1e31db5c9b}:c:\users\gilles d'huyvetter\desktop\software d'huyvetter beton\bestellingen\dhuyvetterbeton.beton\resources\neg-45.png
+++neg-46.png
+i:{2fc40076-dce1-466d-8136-cb1e31db5c9b}:c:\users\gilles d'huyvetter\desktop\software d'huyvetter beton\bestellingen\dhuyvetterbeton.beton\resources\neg-46.png
+++neg-47.png
+i:{2fc40076-dce1-466d-8136-cb1e31db5c9b}:c:\users\gilles d'huyvetter\desktop\software d'huyvetter beton\bestellingen\dhuyvetterbeton.beton\resources\neg-47.png
+++neg-48.png
+i:{2fc40076-dce1-466d-8136-cb1e31db5c9b}:c:\users\gilles d'huyvetter\desktop\software d'huyvetter beton\bestellingen\dhuyvetterbeton.beton\resources\neg-48.png
+++neg-49.png
+i:{2fc40076-dce1-466d-8136-cb1e31db5c9b}:c:\users\gilles d'huyvetter\desktop\software d'huyvetter beton\bestellingen\dhuyvetterbeton.beton\resources\neg-49.png
+++neg-50.png
+i:{2fc40076-dce1-466d-8136-cb1e31db5c9b}:c:\users\gilles d'huyvetter\desktop\software d'huyvetter beton\bestellingen\dhuyvetterbeton.beton\resources\neg-50.png
+++new.png
+i:{2fc40076-dce1-466d-8136-cb1e31db5c9b}:c:\users\gilles d'huyvetter\desktop\software d'huyvetter beton\bestellingen\dhuyvetterbeton.beton\resources\new.png
+++OfferteKlantToevoegen.png
+i:{2fc40076-dce1-466d-8136-cb1e31db5c9b}:c:\users\gilles d'huyvetter\desktop\software d'huyvetter beton\bestellingen\dhuyvetterbeton.beton\resources\offerteklanttoevoegen.png
+++OfferteKlantToevoegn.png
+i:{2fc40076-dce1-466d-8136-cb1e31db5c9b}:c:\users\gilles d'huyvetter\desktop\software d'huyvetter beton\bestellingen\dhuyvetterbeton.beton\resources\offerteklanttoevoegn.png
+++OfferteKlantWijzigen.png
+i:{2fc40076-dce1-466d-8136-cb1e31db5c9b}:c:\users\gilles d'huyvetter\desktop\software d'huyvetter beton\bestellingen\dhuyvetterbeton.beton\resources\offerteklantwijzigen.png
+++OfferteProducttToevoegen.png
+i:{2fc40076-dce1-466d-8136-cb1e31db5c9b}:c:\users\gilles d'huyvetter\desktop\software d'huyvetter beton\bestellingen\dhuyvetterbeton.beton\resources\offerteproductttoevoegen.png
+++OfferteProductWerfToevoegen.png
+i:{2fc40076-dce1-466d-8136-cb1e31db5c9b}:c:\users\gilles d'huyvetter\desktop\software d'huyvetter beton\bestellingen\dhuyvetterbeton.beton\resources\offerteproductwerftoevoegen.png
+++Pedro.png
+i:{2fc40076-dce1-466d-8136-cb1e31db5c9b}:c:\users\gilles d'huyvetter\desktop\software d'huyvetter beton\bestellingen\dhuyvetterbeton.beton\resources\pedro.png
+++pos-01.png
+i:{2fc40076-dce1-466d-8136-cb1e31db5c9b}:c:\users\gilles d'huyvetter\desktop\software d'huyvetter beton\bestellingen\dhuyvetterbeton.beton\resources\pos-01.png
+++pos-02.png
+i:{2fc40076-dce1-466d-8136-cb1e31db5c9b}:c:\users\gilles d'huyvetter\desktop\software d'huyvetter beton\bestellingen\dhuyvetterbeton.beton\resources\pos-02.png
+++pos-03.png
+i:{2fc40076-dce1-466d-8136-cb1e31db5c9b}:c:\users\gilles d'huyvetter\desktop\software d'huyvetter beton\bestellingen\dhuyvetterbeton.beton\resources\pos-03.png
+++pos-04.png
+i:{2fc40076-dce1-466d-8136-cb1e31db5c9b}:c:\users\gilles d'huyvetter\desktop\software d'huyvetter beton\bestellingen\dhuyvetterbeton.beton\resources\pos-04.png
+++pos-05.png
+i:{2fc40076-dce1-466d-8136-cb1e31db5c9b}:c:\users\gilles d'huyvetter\desktop\software d'huyvetter beton\bestellingen\dhuyvetterbeton.beton\resources\pos-05.png
+++pos-06.png
+i:{2fc40076-dce1-466d-8136-cb1e31db5c9b}:c:\users\gilles d'huyvetter\desktop\software d'huyvetter beton\bestellingen\dhuyvetterbeton.beton\resources\pos-06.png
+++pos-07.png
+i:{2fc40076-dce1-466d-8136-cb1e31db5c9b}:c:\users\gilles d'huyvetter\desktop\software d'huyvetter beton\bestellingen\dhuyvetterbeton.beton\resources\pos-07.png
+++pos-08.png
+i:{2fc40076-dce1-466d-8136-cb1e31db5c9b}:c:\users\gilles d'huyvetter\desktop\software d'huyvetter beton\bestellingen\dhuyvetterbeton.beton\resources\pos-08.png
+++pos-09.png
+i:{2fc40076-dce1-466d-8136-cb1e31db5c9b}:c:\users\gilles d'huyvetter\desktop\software d'huyvetter beton\bestellingen\dhuyvetterbeton.beton\resources\pos-09.png
+++pos-10.png
+i:{2fc40076-dce1-466d-8136-cb1e31db5c9b}:c:\users\gilles d'huyvetter\desktop\software d'huyvetter beton\bestellingen\dhuyvetterbeton.beton\resources\pos-10.png
+++pos-11.png
+i:{2fc40076-dce1-466d-8136-cb1e31db5c9b}:c:\users\gilles d'huyvetter\desktop\software d'huyvetter beton\bestellingen\dhuyvetterbeton.beton\resources\pos-11.png
+++pos-12.png
+i:{2fc40076-dce1-466d-8136-cb1e31db5c9b}:c:\users\gilles d'huyvetter\desktop\software d'huyvetter beton\bestellingen\dhuyvetterbeton.beton\resources\pos-12.png
+++pos-13.png
+i:{2fc40076-dce1-466d-8136-cb1e31db5c9b}:c:\users\gilles d'huyvetter\desktop\software d'huyvetter beton\bestellingen\dhuyvetterbeton.beton\resources\pos-13.png
+++pos-14.png
+i:{2fc40076-dce1-466d-8136-cb1e31db5c9b}:c:\users\gilles d'huyvetter\desktop\software d'huyvetter beton\bestellingen\dhuyvetterbeton.beton\resources\pos-14.png
+++pos-15.png
+i:{2fc40076-dce1-466d-8136-cb1e31db5c9b}:c:\users\gilles d'huyvetter\desktop\software d'huyvetter beton\bestellingen\dhuyvetterbeton.beton\resources\pos-15.png
+++pos-16.png
+i:{2fc40076-dce1-466d-8136-cb1e31db5c9b}:c:\users\gilles d'huyvetter\desktop\software d'huyvetter beton\bestellingen\dhuyvetterbeton.beton\resources\pos-16.png
+++pos-17.png
+i:{2fc40076-dce1-466d-8136-cb1e31db5c9b}:c:\users\gilles d'huyvetter\desktop\software d'huyvetter beton\bestellingen\dhuyvetterbeton.beton\resources\pos-17.png
+++pos-18.png
+i:{2fc40076-dce1-466d-8136-cb1e31db5c9b}:c:\users\gilles d'huyvetter\desktop\software d'huyvetter beton\bestellingen\dhuyvetterbeton.beton\resources\pos-18.png
+++pos-19.png
+i:{2fc40076-dce1-466d-8136-cb1e31db5c9b}:c:\users\gilles d'huyvetter\desktop\software d'huyvetter beton\bestellingen\dhuyvetterbeton.beton\resources\pos-19.png
+++pos-20.png
+i:{2fc40076-dce1-466d-8136-cb1e31db5c9b}:c:\users\gilles d'huyvetter\desktop\software d'huyvetter beton\bestellingen\dhuyvetterbeton.beton\resources\pos-20.png
+++pos-21.png
+i:{2fc40076-dce1-466d-8136-cb1e31db5c9b}:c:\users\gilles d'huyvetter\desktop\software d'huyvetter beton\bestellingen\dhuyvetterbeton.beton\resources\pos-21.png
+++pos-22.png
+i:{2fc40076-dce1-466d-8136-cb1e31db5c9b}:c:\users\gilles d'huyvetter\desktop\software d'huyvetter beton\bestellingen\dhuyvetterbeton.beton\resources\pos-22.png
+++pos-23.png
+i:{2fc40076-dce1-466d-8136-cb1e31db5c9b}:c:\users\gilles d'huyvetter\desktop\software d'huyvetter beton\bestellingen\dhuyvetterbeton.beton\resources\pos-23.png
+++pos-24.png
+i:{2fc40076-dce1-466d-8136-cb1e31db5c9b}:c:\users\gilles d'huyvetter\desktop\software d'huyvetter beton\bestellingen\dhuyvetterbeton.beton\resources\pos-24.png
+++pos-25.png
+i:{2fc40076-dce1-466d-8136-cb1e31db5c9b}:c:\users\gilles d'huyvetter\desktop\software d'huyvetter beton\bestellingen\dhuyvetterbeton.beton\resources\pos-25.png
+++pos-26.png
+i:{2fc40076-dce1-466d-8136-cb1e31db5c9b}:c:\users\gilles d'huyvetter\desktop\software d'huyvetter beton\bestellingen\dhuyvetterbeton.beton\resources\pos-26.png
+++pos-27.png
+i:{2fc40076-dce1-466d-8136-cb1e31db5c9b}:c:\users\gilles d'huyvetter\desktop\software d'huyvetter beton\bestellingen\dhuyvetterbeton.beton\resources\pos-27.png
+++pos-28.png
+i:{2fc40076-dce1-466d-8136-cb1e31db5c9b}:c:\users\gilles d'huyvetter\desktop\software d'huyvetter beton\bestellingen\dhuyvetterbeton.beton\resources\pos-28.png
+++pos-29.png
+i:{2fc40076-dce1-466d-8136-cb1e31db5c9b}:c:\users\gilles d'huyvetter\desktop\software d'huyvetter beton\bestellingen\dhuyvetterbeton.beton\resources\pos-29.png
+++pos-30.png
+i:{2fc40076-dce1-466d-8136-cb1e31db5c9b}:c:\users\gilles d'huyvetter\desktop\software d'huyvetter beton\bestellingen\dhuyvetterbeton.beton\resources\pos-30.png
+++pos-31.png
+i:{2fc40076-dce1-466d-8136-cb1e31db5c9b}:c:\users\gilles d'huyvetter\desktop\software d'huyvetter beton\bestellingen\dhuyvetterbeton.beton\resources\pos-31.png
+++pos-32.png
+i:{2fc40076-dce1-466d-8136-cb1e31db5c9b}:c:\users\gilles d'huyvetter\desktop\software d'huyvetter beton\bestellingen\dhuyvetterbeton.beton\resources\pos-32.png
+++pos-33.png
+i:{2fc40076-dce1-466d-8136-cb1e31db5c9b}:c:\users\gilles d'huyvetter\desktop\software d'huyvetter beton\bestellingen\dhuyvetterbeton.beton\resources\pos-33.png
+++pos-34.png
+i:{2fc40076-dce1-466d-8136-cb1e31db5c9b}:c:\users\gilles d'huyvetter\desktop\software d'huyvetter beton\bestellingen\dhuyvetterbeton.beton\resources\pos-34.png
+++pos-35.png
+i:{2fc40076-dce1-466d-8136-cb1e31db5c9b}:c:\users\gilles d'huyvetter\desktop\software d'huyvetter beton\bestellingen\dhuyvetterbeton.beton\resources\pos-35.png
+++pos-36.png
+i:{2fc40076-dce1-466d-8136-cb1e31db5c9b}:c:\users\gilles d'huyvetter\desktop\software d'huyvetter beton\bestellingen\dhuyvetterbeton.beton\resources\pos-36.png
+++pos-37.png
+i:{2fc40076-dce1-466d-8136-cb1e31db5c9b}:c:\users\gilles d'huyvetter\desktop\software d'huyvetter beton\bestellingen\dhuyvetterbeton.beton\resources\pos-37.png
+++pos-38.png
+i:{2fc40076-dce1-466d-8136-cb1e31db5c9b}:c:\users\gilles d'huyvetter\desktop\software d'huyvetter beton\bestellingen\dhuyvetterbeton.beton\resources\pos-38.png
+++pos-39.png
+i:{2fc40076-dce1-466d-8136-cb1e31db5c9b}:c:\users\gilles d'huyvetter\desktop\software d'huyvetter beton\bestellingen\dhuyvetterbeton.beton\resources\pos-39.png
+++pos-40.png
+i:{2fc40076-dce1-466d-8136-cb1e31db5c9b}:c:\users\gilles d'huyvetter\desktop\software d'huyvetter beton\bestellingen\dhuyvetterbeton.beton\resources\pos-40.png
+++pos-41.png
+i:{2fc40076-dce1-466d-8136-cb1e31db5c9b}:c:\users\gilles d'huyvetter\desktop\software d'huyvetter beton\bestellingen\dhuyvetterbeton.beton\resources\pos-41.png
+++pos-42.png
+i:{2fc40076-dce1-466d-8136-cb1e31db5c9b}:c:\users\gilles d'huyvetter\desktop\software d'huyvetter beton\bestellingen\dhuyvetterbeton.beton\resources\pos-42.png
+++pos-43.png
+i:{2fc40076-dce1-466d-8136-cb1e31db5c9b}:c:\users\gilles d'huyvetter\desktop\software d'huyvetter beton\bestellingen\dhuyvetterbeton.beton\resources\pos-43.png
+++pos-44.png
+i:{2fc40076-dce1-466d-8136-cb1e31db5c9b}:c:\users\gilles d'huyvetter\desktop\software d'huyvetter beton\bestellingen\dhuyvetterbeton.beton\resources\pos-44.png
+++pos-45.png
+i:{2fc40076-dce1-466d-8136-cb1e31db5c9b}:c:\users\gilles d'huyvetter\desktop\software d'huyvetter beton\bestellingen\dhuyvetterbeton.beton\resources\pos-45.png
+++pos-46.png
+i:{2fc40076-dce1-466d-8136-cb1e31db5c9b}:c:\users\gilles d'huyvetter\desktop\software d'huyvetter beton\bestellingen\dhuyvetterbeton.beton\resources\pos-46.png
+++pos-47.png
+i:{2fc40076-dce1-466d-8136-cb1e31db5c9b}:c:\users\gilles d'huyvetter\desktop\software d'huyvetter beton\bestellingen\dhuyvetterbeton.beton\resources\pos-47.png
+++pos-48.png
+i:{2fc40076-dce1-466d-8136-cb1e31db5c9b}:c:\users\gilles d'huyvetter\desktop\software d'huyvetter beton\bestellingen\dhuyvetterbeton.beton\resources\pos-48.png
+++pos-49.png
+i:{2fc40076-dce1-466d-8136-cb1e31db5c9b}:c:\users\gilles d'huyvetter\desktop\software d'huyvetter beton\bestellingen\dhuyvetterbeton.beton\resources\pos-49.png
+++pos-50.png
+i:{2fc40076-dce1-466d-8136-cb1e31db5c9b}:c:\users\gilles d'huyvetter\desktop\software d'huyvetter beton\bestellingen\dhuyvetterbeton.beton\resources\pos-50.png
+++productshipments.svg
+i:{2fc40076-dce1-466d-8136-cb1e31db5c9b}:c:\users\gilles d'huyvetter\desktop\software d'huyvetter beton\bestellingen\dhuyvetterbeton.beton\resources\productshipments.svg
+++reload.png
+i:{2fc40076-dce1-466d-8136-cb1e31db5c9b}:c:\users\gilles d'huyvetter\desktop\software d'huyvetter beton\bestellingen\dhuyvetterbeton.beton\resources\reload.png
+++step3.jpg
+i:{2fc40076-dce1-466d-8136-cb1e31db5c9b}:c:\users\gilles d'huyvetter\desktop\software d'huyvetter beton\bestellingen\dhuyvetterbeton.beton\resources\step3.jpg
+++stop.png
+i:{2fc40076-dce1-466d-8136-cb1e31db5c9b}:c:\users\gilles d'huyvetter\desktop\software d'huyvetter beton\bestellingen\dhuyvetterbeton.beton\resources\stop.png
+++Tania.png
+i:{2fc40076-dce1-466d-8136-cb1e31db5c9b}:c:\users\gilles d'huyvetter\desktop\software d'huyvetter beton\bestellingen\dhuyvetterbeton.beton\resources\tania.png
+++WerfOfferteToevoegen.png
+i:{2fc40076-dce1-466d-8136-cb1e31db5c9b}:c:\users\gilles d'huyvetter\desktop\software d'huyvetter beton\bestellingen\dhuyvetterbeton.beton\resources\werfoffertetoevoegen.png
+++YaraD.png
+i:{2fc40076-dce1-466d-8136-cb1e31db5c9b}:c:\users\gilles d'huyvetter\desktop\software d'huyvetter beton\bestellingen\dhuyvetterbeton.beton\resources\yarad.png
+++zero.png
+i:{2fc40076-dce1-466d-8136-cb1e31db5c9b}:c:\users\gilles d'huyvetter\desktop\software d'huyvetter beton\bestellingen\dhuyvetterbeton.beton\resources\zero.png
+++ucProductToevoegen.cs
+i:{2fc40076-dce1-466d-8136-cb1e31db5c9b}:c:\users\gilles d'huyvetter\desktop\software d'huyvetter beton\bestellingen\dhuyvetterbeton.beton\website\ucproducttoevoegen.cs
+++FrmNieuweWerf.cs
+i:{2fc40076-dce1-466d-8136-cb1e31db5c9b}:c:\users\gilles d'huyvetter\desktop\software d'huyvetter beton\bestellingen\dhuyvetterbeton.beton\werven\frmnieuwewerf.cs
+++FrmNieuweWerfPrefab.cs
+i:{2fc40076-dce1-466d-8136-cb1e31db5c9b}:c:\users\gilles d'huyvetter\desktop\software d'huyvetter beton\bestellingen\dhuyvetterbeton.beton\werven\frmnieuwewerfprefab.cs
+++FrmWerfVerwijderen.cs
+i:{2fc40076-dce1-466d-8136-cb1e31db5c9b}:c:\users\gilles d'huyvetter\desktop\software d'huyvetter beton\bestellingen\dhuyvetterbeton.beton\werven\frmwerfverwijderen.cs
+++FrmWijzigenWerf.cs
+i:{2fc40076-dce1-466d-8136-cb1e31db5c9b}:c:\users\gilles d'huyvetter\desktop\software d'huyvetter beton\bestellingen\dhuyvetterbeton.beton\werven\frmwijzigenwerf.cs
+++ucWerven.cs
+i:{2fc40076-dce1-466d-8136-cb1e31db5c9b}:c:\users\gilles d'huyvetter\desktop\software d'huyvetter beton\bestellingen\dhuyvetterbeton.beton\werven\ucwerven.cs
+++AboutBox1.Designer.cs
+i:{2fc40076-dce1-466d-8136-cb1e31db5c9b}:c:\users\gilles d'huyvetter\desktop\software d'huyvetter beton\bestellingen\dhuyvetterbeton.beton\aboutbox1.designer.cs
+++AboutBox1.resx
+i:{2fc40076-dce1-466d-8136-cb1e31db5c9b}:c:\users\gilles d'huyvetter\desktop\software d'huyvetter beton\bestellingen\dhuyvetterbeton.beton\aboutbox1.resx
+++DhuyvetbestellingDataSet1.Designer.cs
+i:{2fc40076-dce1-466d-8136-cb1e31db5c9b}:c:\users\gilles d'huyvetter\desktop\software d'huyvetter beton\bestellingen\dhuyvetterbeton.beton\dhuyvetbestellingdataset1.designer.cs
+++DhuyvetbestellingDataSet1.xsc
+i:{2fc40076-dce1-466d-8136-cb1e31db5c9b}:c:\users\gilles d'huyvetter\desktop\software d'huyvetter beton\bestellingen\dhuyvetterbeton.beton\dhuyvetbestellingdataset1.xsc
+++DhuyvetbestellingDataSet1.xss
+i:{2fc40076-dce1-466d-8136-cb1e31db5c9b}:c:\users\gilles d'huyvetter\desktop\software d'huyvetter beton\bestellingen\dhuyvetterbeton.beton\dhuyvetbestellingdataset1.xss
+++DhuyvetLeveringDataSet.Designer.cs
+i:{2fc40076-dce1-466d-8136-cb1e31db5c9b}:c:\users\gilles d'huyvetter\desktop\software d'huyvetter beton\bestellingen\dhuyvetterbeton.beton\dhuyvetleveringdataset.designer.cs
+++DhuyvetLeveringDataSet.xsc
+i:{2fc40076-dce1-466d-8136-cb1e31db5c9b}:c:\users\gilles d'huyvetter\desktop\software d'huyvetter beton\bestellingen\dhuyvetterbeton.beton\dhuyvetleveringdataset.xsc
+++DhuyvetLeveringDataSet.xss
+i:{2fc40076-dce1-466d-8136-cb1e31db5c9b}:c:\users\gilles d'huyvetter\desktop\software d'huyvetter beton\bestellingen\dhuyvetterbeton.beton\dhuyvetleveringdataset.xss
+++FrmGoogleMaps.Designer.cs
+i:{2fc40076-dce1-466d-8136-cb1e31db5c9b}:c:\users\gilles d'huyvetter\desktop\software d'huyvetter beton\bestellingen\dhuyvetterbeton.beton\frmgooglemaps.designer.cs
+++FrmGoogleMaps.resx
+i:{2fc40076-dce1-466d-8136-cb1e31db5c9b}:c:\users\gilles d'huyvetter\desktop\software d'huyvetter beton\bestellingen\dhuyvetterbeton.beton\frmgooglemaps.resx
+++FrmHoofdVenster.Designer.cs
+i:{2fc40076-dce1-466d-8136-cb1e31db5c9b}:c:\users\gilles d'huyvetter\desktop\software d'huyvetter beton\bestellingen\dhuyvetterbeton.beton\frmhoofdvenster.designer.cs
+++FrmHoofdVenster.resx
+i:{2fc40076-dce1-466d-8136-cb1e31db5c9b}:c:\users\gilles d'huyvetter\desktop\software d'huyvetter beton\bestellingen\dhuyvetterbeton.beton\frmhoofdvenster.resx
+++FrmMessage.Designer.cs
+i:{2fc40076-dce1-466d-8136-cb1e31db5c9b}:c:\users\gilles d'huyvetter\desktop\software d'huyvetter beton\bestellingen\dhuyvetterbeton.beton\frmmessage.designer.cs
+++FrmMessage.resx
+i:{2fc40076-dce1-466d-8136-cb1e31db5c9b}:c:\users\gilles d'huyvetter\desktop\software d'huyvetter beton\bestellingen\dhuyvetterbeton.beton\frmmessage.resx
+++FrmPrijsSetting.Designer.cs
+i:{2fc40076-dce1-466d-8136-cb1e31db5c9b}:c:\users\gilles d'huyvetter\desktop\software d'huyvetter beton\bestellingen\dhuyvetterbeton.beton\frmprijssetting.designer.cs
+++FrmPrijsSetting.resx
+i:{2fc40076-dce1-466d-8136-cb1e31db5c9b}:c:\users\gilles d'huyvetter\desktop\software d'huyvetter beton\bestellingen\dhuyvetterbeton.beton\frmprijssetting.resx
+++FrmWelkom.Designer.cs
+i:{2fc40076-dce1-466d-8136-cb1e31db5c9b}:c:\users\gilles d'huyvetter\desktop\software d'huyvetter beton\bestellingen\dhuyvetterbeton.beton\frmwelkom.designer.cs
+++FrmWelkom.resx
+i:{2fc40076-dce1-466d-8136-cb1e31db5c9b}:c:\users\gilles d'huyvetter\desktop\software d'huyvetter beton\bestellingen\dhuyvetterbeton.beton\frmwelkom.resx
+++Laadvenster.Designer.cs
+i:{2fc40076-dce1-466d-8136-cb1e31db5c9b}:c:\users\gilles d'huyvetter\desktop\software d'huyvetter beton\bestellingen\dhuyvetterbeton.beton\laadvenster.designer.cs
+++Laadvenster.resx
+i:{2fc40076-dce1-466d-8136-cb1e31db5c9b}:c:\users\gilles d'huyvetter\desktop\software d'huyvetter beton\bestellingen\dhuyvetterbeton.beton\laadvenster.resx
+++ucHoofdvenster.Designer.cs
+i:{2fc40076-dce1-466d-8136-cb1e31db5c9b}:c:\users\gilles d'huyvetter\desktop\software d'huyvetter beton\bestellingen\dhuyvetterbeton.beton\uchoofdvenster.designer.cs
+++ucHoofdvenster.resx
+i:{2fc40076-dce1-466d-8136-cb1e31db5c9b}:c:\users\gilles d'huyvetter\desktop\software d'huyvetter beton\bestellingen\dhuyvetterbeton.beton\uchoofdvenster.resx
+++WaitForm1.Designer.cs
+i:{2fc40076-dce1-466d-8136-cb1e31db5c9b}:c:\users\gilles d'huyvetter\desktop\software d'huyvetter beton\bestellingen\dhuyvetterbeton.beton\waitform1.designer.cs
+++WaitForm1.resx
+i:{2fc40076-dce1-466d-8136-cb1e31db5c9b}:c:\users\gilles d'huyvetter\desktop\software d'huyvetter beton\bestellingen\dhuyvetterbeton.beton\waitform1.resx
+++WaitForm2.Designer.cs
+i:{2fc40076-dce1-466d-8136-cb1e31db5c9b}:c:\users\gilles d'huyvetter\desktop\software d'huyvetter beton\bestellingen\dhuyvetterbeton.beton\waitform2.designer.cs
+++WaitForm2.resx
+i:{2fc40076-dce1-466d-8136-cb1e31db5c9b}:c:\users\gilles d'huyvetter\desktop\software d'huyvetter beton\bestellingen\dhuyvetterbeton.beton\waitform2.resx
+++XtraForm1.Designer.cs
+i:{2fc40076-dce1-466d-8136-cb1e31db5c9b}:c:\users\gilles d'huyvetter\desktop\software d'huyvetter beton\bestellingen\dhuyvetterbeton.beton\xtraform1.designer.cs
+++XtraForm1.resx
+i:{2fc40076-dce1-466d-8136-cb1e31db5c9b}:c:\users\gilles d'huyvetter\desktop\software d'huyvetter beton\bestellingen\dhuyvetterbeton.beton\xtraform1.resx
+++Resources.Designer.cs
+i:{2fc40076-dce1-466d-8136-cb1e31db5c9b}:c:\users\gilles d'huyvetter\desktop\software d'huyvetter beton\bestellingen\dhuyvetterbeton.beton\properties\resources.designer.cs
+++FrmBugReport.Designer.cs
+i:{2fc40076-dce1-466d-8136-cb1e31db5c9b}:c:\users\gilles d'huyvetter\desktop\software d'huyvetter beton\bestellingen\dhuyvetterbeton.beton\agenda\frmbugreport.designer.cs
+++FrmBugReport.resx
+i:{2fc40076-dce1-466d-8136-cb1e31db5c9b}:c:\users\gilles d'huyvetter\desktop\software d'huyvetter beton\bestellingen\dhuyvetterbeton.beton\agenda\frmbugreport.resx
+++FrmBugReportOverzicht.Designer.cs
+i:{2fc40076-dce1-466d-8136-cb1e31db5c9b}:c:\users\gilles d'huyvetter\desktop\software d'huyvetter beton\bestellingen\dhuyvetterbeton.beton\agenda\frmbugreportoverzicht.designer.cs
+++FrmBugReportOverzicht.resx
+i:{2fc40076-dce1-466d-8136-cb1e31db5c9b}:c:\users\gilles d'huyvetter\desktop\software d'huyvetter beton\bestellingen\dhuyvetterbeton.beton\agenda\frmbugreportoverzicht.resx
+++FrmLogboek.Designer.cs
+i:{2fc40076-dce1-466d-8136-cb1e31db5c9b}:c:\users\gilles d'huyvetter\desktop\software d'huyvetter beton\bestellingen\dhuyvetterbeton.beton\agenda\frmlogboek.designer.cs
+++FrmLogboek.resx
+i:{2fc40076-dce1-466d-8136-cb1e31db5c9b}:c:\users\gilles d'huyvetter\desktop\software d'huyvetter beton\bestellingen\dhuyvetterbeton.beton\agenda\frmlogboek.resx
+++FrmPersoneelToevoegen.Designer.cs
+i:{2fc40076-dce1-466d-8136-cb1e31db5c9b}:c:\users\gilles d'huyvetter\desktop\software d'huyvetter beton\bestellingen\dhuyvetterbeton.beton\agenda\frmpersoneeltoevoegen.designer.cs
+++FrmPersoneelToevoegen.resx
+i:{2fc40076-dce1-466d-8136-cb1e31db5c9b}:c:\users\gilles d'huyvetter\desktop\software d'huyvetter beton\bestellingen\dhuyvetterbeton.beton\agenda\frmpersoneeltoevoegen.resx
+++FrmVerlofAgenda.Designer.cs
+i:{2fc40076-dce1-466d-8136-cb1e31db5c9b}:c:\users\gilles d'huyvetter\desktop\software d'huyvetter beton\bestellingen\dhuyvetterbeton.beton\agenda\frmverlofagenda.designer.cs
+++FrmVerlofAgenda.resx
+i:{2fc40076-dce1-466d-8136-cb1e31db5c9b}:c:\users\gilles d'huyvetter\desktop\software d'huyvetter beton\bestellingen\dhuyvetterbeton.beton\agenda\frmverlofagenda.resx
+++ucAgendaBeton.Designer.cs
+i:{2fc40076-dce1-466d-8136-cb1e31db5c9b}:c:\users\gilles d'huyvetter\desktop\software d'huyvetter beton\bestellingen\dhuyvetterbeton.beton\agenda\ucagendabeton.designer.cs
+++ucAgendaBeton.resx
+i:{2fc40076-dce1-466d-8136-cb1e31db5c9b}:c:\users\gilles d'huyvetter\desktop\software d'huyvetter beton\bestellingen\dhuyvetterbeton.beton\agenda\ucagendabeton.resx
+++ucAgendaPrefab.Designer.cs
+i:{2fc40076-dce1-466d-8136-cb1e31db5c9b}:c:\users\gilles d'huyvetter\desktop\software d'huyvetter beton\bestellingen\dhuyvetterbeton.beton\agenda\ucagendaprefab.designer.cs
+++ucAgendaPrefab.resx
+i:{2fc40076-dce1-466d-8136-cb1e31db5c9b}:c:\users\gilles d'huyvetter\desktop\software d'huyvetter beton\bestellingen\dhuyvetterbeton.beton\agenda\ucagendaprefab.resx
+++ucLogboek.Designer.cs
+i:{2fc40076-dce1-466d-8136-cb1e31db5c9b}:c:\users\gilles d'huyvetter\desktop\software d'huyvetter beton\bestellingen\dhuyvetterbeton.beton\agenda\uclogboek.designer.cs
+++ucLogboek.resx
+i:{2fc40076-dce1-466d-8136-cb1e31db5c9b}:c:\users\gilles d'huyvetter\desktop\software d'huyvetter beton\bestellingen\dhuyvetterbeton.beton\agenda\uclogboek.resx
+++FrmHulpstofWijzigen.Designer.cs
+i:{2fc40076-dce1-466d-8136-cb1e31db5c9b}:c:\users\gilles d'huyvetter\desktop\software d'huyvetter beton\bestellingen\dhuyvetterbeton.beton\bestelling\tools\frmhulpstofwijzigen.designer.cs
+++FrmHulpstofWijzigen.resx
+i:{2fc40076-dce1-466d-8136-cb1e31db5c9b}:c:\users\gilles d'huyvetter\desktop\software d'huyvetter beton\bestellingen\dhuyvetterbeton.beton\bestelling\tools\frmhulpstofwijzigen.resx
+++FrmInformatieAanpassen.Designer.cs
+i:{2fc40076-dce1-466d-8136-cb1e31db5c9b}:c:\users\gilles d'huyvetter\desktop\software d'huyvetter beton\bestellingen\dhuyvetterbeton.beton\bestelling\tools\frminformatieaanpassen.designer.cs
+++FrmInformatieAanpassen.resx
+i:{2fc40076-dce1-466d-8136-cb1e31db5c9b}:c:\users\gilles d'huyvetter\desktop\software d'huyvetter beton\bestellingen\dhuyvetterbeton.beton\bestelling\tools\frminformatieaanpassen.resx
+++FrmPompWijzigen.Designer.cs
+i:{2fc40076-dce1-466d-8136-cb1e31db5c9b}:c:\users\gilles d'huyvetter\desktop\software d'huyvetter beton\bestellingen\dhuyvetterbeton.beton\bestelling\tools\frmpompwijzigen.designer.cs
+++FrmPompWijzigen.resx
+i:{2fc40076-dce1-466d-8136-cb1e31db5c9b}:c:\users\gilles d'huyvetter\desktop\software d'huyvetter beton\bestellingen\dhuyvetterbeton.beton\bestelling\tools\frmpompwijzigen.resx
+++FrmProductWijzigen.Designer.cs
+i:{2fc40076-dce1-466d-8136-cb1e31db5c9b}:c:\users\gilles d'huyvetter\desktop\software d'huyvetter beton\bestellingen\dhuyvetterbeton.beton\bestelling\tools\frmproductwijzigen.designer.cs
+++FrmProductWijzigen.resx
+i:{2fc40076-dce1-466d-8136-cb1e31db5c9b}:c:\users\gilles d'huyvetter\desktop\software d'huyvetter beton\bestellingen\dhuyvetterbeton.beton\bestelling\tools\frmproductwijzigen.resx
+++frmSMSBerichten.Designer.cs
+i:{2fc40076-dce1-466d-8136-cb1e31db5c9b}:c:\users\gilles d'huyvetter\desktop\software d'huyvetter beton\bestellingen\dhuyvetterbeton.beton\bestelling\tools\frmsmsberichten.designer.cs
+++frmSMSBerichten.resx
+i:{2fc40076-dce1-466d-8136-cb1e31db5c9b}:c:\users\gilles d'huyvetter\desktop\software d'huyvetter beton\bestellingen\dhuyvetterbeton.beton\bestelling\tools\frmsmsberichten.resx
+++FrmWerfWijzigen.Designer.cs
+i:{2fc40076-dce1-466d-8136-cb1e31db5c9b}:c:\users\gilles d'huyvetter\desktop\software d'huyvetter beton\bestellingen\dhuyvetterbeton.beton\bestelling\tools\frmwerfwijzigen.designer.cs
+++FrmWerfWijzigen.resx
+i:{2fc40076-dce1-466d-8136-cb1e31db5c9b}:c:\users\gilles d'huyvetter\desktop\software d'huyvetter beton\bestellingen\dhuyvetterbeton.beton\bestelling\tools\frmwerfwijzigen.resx
+++FrmDetailBedrijf.cs
+i:{2fc40076-dce1-466d-8136-cb1e31db5c9b}:c:\users\gilles d'huyvetter\desktop\software d'huyvetter beton\bestellingen\dhuyvetterbeton.beton\klanten\tools\frmdetailbedrijf.cs
+++ucToevoegenKlant.Designer.cs
+i:{2fc40076-dce1-466d-8136-cb1e31db5c9b}:c:\users\gilles d'huyvetter\desktop\software d'huyvetter beton\bestellingen\dhuyvetterbeton.beton\klanten\uctoevoegenklant.designer.cs
+++ucToevoegenKlant.resx
+i:{2fc40076-dce1-466d-8136-cb1e31db5c9b}:c:\users\gilles d'huyvetter\desktop\software d'huyvetter beton\bestellingen\dhuyvetterbeton.beton\klanten\uctoevoegenklant.resx
+++ucWijzigenKlant.Designer.cs
+i:{2fc40076-dce1-466d-8136-cb1e31db5c9b}:c:\users\gilles d'huyvetter\desktop\software d'huyvetter beton\bestellingen\dhuyvetterbeton.beton\klanten\ucwijzigenklant.designer.cs
+++ucWijzigenKlant.resx
+i:{2fc40076-dce1-466d-8136-cb1e31db5c9b}:c:\users\gilles d'huyvetter\desktop\software d'huyvetter beton\bestellingen\dhuyvetterbeton.beton\klanten\ucwijzigenklant.resx
+++FrmNieuweKortingProduct.Designer.cs
+i:{2fc40076-dce1-466d-8136-cb1e31db5c9b}:c:\users\gilles d'huyvetter\desktop\software d'huyvetter beton\bestellingen\dhuyvetterbeton.beton\kortingen\frmnieuwekortingproduct.designer.cs
+++FrmNieuweKortingProduct.resx
+i:{2fc40076-dce1-466d-8136-cb1e31db5c9b}:c:\users\gilles d'huyvetter\desktop\software d'huyvetter beton\bestellingen\dhuyvetterbeton.beton\kortingen\frmnieuwekortingproduct.resx
+++FrmNieuweKortingProductWerf.Designer.cs
+i:{2fc40076-dce1-466d-8136-cb1e31db5c9b}:c:\users\gilles d'huyvetter\desktop\software d'huyvetter beton\bestellingen\dhuyvetterbeton.beton\kortingen\frmnieuwekortingproductwerf.designer.cs
+++FrmNieuweKortingProductWerf.resx
+i:{2fc40076-dce1-466d-8136-cb1e31db5c9b}:c:\users\gilles d'huyvetter\desktop\software d'huyvetter beton\bestellingen\dhuyvetterbeton.beton\kortingen\frmnieuwekortingproductwerf.resx
+++FrmNieuweKortingWerf.Designer.cs
+i:{2fc40076-dce1-466d-8136-cb1e31db5c9b}:c:\users\gilles d'huyvetter\desktop\software d'huyvetter beton\bestellingen\dhuyvetterbeton.beton\kortingen\frmnieuwekortingwerf.designer.cs
+++FrmNieuweKortingWerf.resx
+i:{2fc40076-dce1-466d-8136-cb1e31db5c9b}:c:\users\gilles d'huyvetter\desktop\software d'huyvetter beton\bestellingen\dhuyvetterbeton.beton\kortingen\frmnieuwekortingwerf.resx
+++FrmSoortKorting.Designer.cs
+i:{2fc40076-dce1-466d-8136-cb1e31db5c9b}:c:\users\gilles d'huyvetter\desktop\software d'huyvetter beton\bestellingen\dhuyvetterbeton.beton\kortingen\frmsoortkorting.designer.cs
+++FrmSoortKorting.resx
+i:{2fc40076-dce1-466d-8136-cb1e31db5c9b}:c:\users\gilles d'huyvetter\desktop\software d'huyvetter beton\bestellingen\dhuyvetterbeton.beton\kortingen\frmsoortkorting.resx
+++FrmNieuweOfferte.Designer.cs
+i:{2fc40076-dce1-466d-8136-cb1e31db5c9b}:c:\users\gilles d'huyvetter\desktop\software d'huyvetter beton\bestellingen\dhuyvetterbeton.beton\offertes\frmnieuweofferte.designer.cs
+++FrmNieuweOfferte.resx
+i:{2fc40076-dce1-466d-8136-cb1e31db5c9b}:c:\users\gilles d'huyvetter\desktop\software d'huyvetter beton\bestellingen\dhuyvetterbeton.beton\offertes\frmnieuweofferte.resx
+++FrmWijzigOfferte.Designer.cs
+i:{2fc40076-dce1-466d-8136-cb1e31db5c9b}:c:\users\gilles d'huyvetter\desktop\software d'huyvetter beton\bestellingen\dhuyvetterbeton.beton\offertes\frmwijzigofferte.designer.cs
+++FrmWijzigOfferte.resx
+i:{2fc40076-dce1-466d-8136-cb1e31db5c9b}:c:\users\gilles d'huyvetter\desktop\software d'huyvetter beton\bestellingen\dhuyvetterbeton.beton\offertes\frmwijzigofferte.resx
+++FrmCalendarView.Designer.cs
+i:{2fc40076-dce1-466d-8136-cb1e31db5c9b}:c:\users\gilles d'huyvetter\desktop\software d'huyvetter beton\bestellingen\dhuyvetterbeton.beton\personeeld\frmcalendarview.designer.cs
+++FrmCalendarView.resx
+i:{2fc40076-dce1-466d-8136-cb1e31db5c9b}:c:\users\gilles d'huyvetter\desktop\software d'huyvetter beton\bestellingen\dhuyvetterbeton.beton\personeeld\frmcalendarview.resx
+++ucPersoneel.Designer.cs
+i:{2fc40076-dce1-466d-8136-cb1e31db5c9b}:c:\users\gilles d'huyvetter\desktop\software d'huyvetter beton\bestellingen\dhuyvetterbeton.beton\personeeld\ucpersoneel.designer.cs
+++ucPersoneel.resx
+i:{2fc40076-dce1-466d-8136-cb1e31db5c9b}:c:\users\gilles d'huyvetter\desktop\software d'huyvetter beton\bestellingen\dhuyvetterbeton.beton\personeeld\ucpersoneel.resx
+++ucVerlofDag.Designer.cs
+i:{2fc40076-dce1-466d-8136-cb1e31db5c9b}:c:\users\gilles d'huyvetter\desktop\software d'huyvetter beton\bestellingen\dhuyvetterbeton.beton\personeeld\ucverlofdag.designer.cs
+++ucVerlofDag.resx
+i:{2fc40076-dce1-466d-8136-cb1e31db5c9b}:c:\users\gilles d'huyvetter\desktop\software d'huyvetter beton\bestellingen\dhuyvetterbeton.beton\personeeld\ucverlofdag.resx
+++ucPompen.Designer.cs
+i:{2fc40076-dce1-466d-8136-cb1e31db5c9b}:c:\users\gilles d'huyvetter\desktop\software d'huyvetter beton\bestellingen\dhuyvetterbeton.beton\pompen\ucpompen.designer.cs
+++ucPompen.resx
+i:{2fc40076-dce1-466d-8136-cb1e31db5c9b}:c:\users\gilles d'huyvetter\desktop\software d'huyvetter beton\bestellingen\dhuyvetterbeton.beton\pompen\ucpompen.resx
+++FrmHulpstofPrijzen.Designer.cs
+i:{2fc40076-dce1-466d-8136-cb1e31db5c9b}:c:\users\gilles d'huyvetter\desktop\software d'huyvetter beton\bestellingen\dhuyvetterbeton.beton\prijslijst\frmhulpstofprijzen.designer.cs
+++FrmHulpstofPrijzen.resx
+i:{2fc40076-dce1-466d-8136-cb1e31db5c9b}:c:\users\gilles d'huyvetter\desktop\software d'huyvetter beton\bestellingen\dhuyvetterbeton.beton\prijslijst\frmhulpstofprijzen.resx
+++FrmPompPrijzen.Designer.cs
+i:{2fc40076-dce1-466d-8136-cb1e31db5c9b}:c:\users\gilles d'huyvetter\desktop\software d'huyvetter beton\bestellingen\dhuyvetterbeton.beton\prijslijst\frmpompprijzen.designer.cs
+++FrmPompPrijzen.resx
+i:{2fc40076-dce1-466d-8136-cb1e31db5c9b}:c:\users\gilles d'huyvetter\desktop\software d'huyvetter beton\bestellingen\dhuyvetterbeton.beton\prijslijst\frmpompprijzen.resx
+++FrmPrijsBeheer.Designer.cs
+i:{2fc40076-dce1-466d-8136-cb1e31db5c9b}:c:\users\gilles d'huyvetter\desktop\software d'huyvetter beton\bestellingen\dhuyvetterbeton.beton\prijslijst\frmprijsbeheer.designer.cs
+++FrmPrijsBeheer.resx
+i:{2fc40076-dce1-466d-8136-cb1e31db5c9b}:c:\users\gilles d'huyvetter\desktop\software d'huyvetter beton\bestellingen\dhuyvetterbeton.beton\prijslijst\frmprijsbeheer.resx
+++ucProductenBeheer.Designer.cs
+i:{2fc40076-dce1-466d-8136-cb1e31db5c9b}:c:\users\gilles d'huyvetter\desktop\software d'huyvetter beton\bestellingen\dhuyvetterbeton.beton\producten\ucproductenbeheer.designer.cs
+++ucProductenBeheer.resx
+i:{2fc40076-dce1-466d-8136-cb1e31db5c9b}:c:\users\gilles d'huyvetter\desktop\software d'huyvetter beton\bestellingen\dhuyvetterbeton.beton\producten\ucproductenbeheer.resx
+++ucProductToevoegen.Designer.cs
+i:{2fc40076-dce1-466d-8136-cb1e31db5c9b}:c:\users\gilles d'huyvetter\desktop\software d'huyvetter beton\bestellingen\dhuyvetterbeton.beton\website\ucproducttoevoegen.designer.cs
+++ucProductToevoegen.resx
+i:{2fc40076-dce1-466d-8136-cb1e31db5c9b}:c:\users\gilles d'huyvetter\desktop\software d'huyvetter beton\bestellingen\dhuyvetterbeton.beton\website\ucproducttoevoegen.resx
+++FrmNieuweWerf.Designer.cs
+i:{2fc40076-dce1-466d-8136-cb1e31db5c9b}:c:\users\gilles d'huyvetter\desktop\software d'huyvetter beton\bestellingen\dhuyvetterbeton.beton\werven\frmnieuwewerf.designer.cs
+++FrmNieuweWerf.resx
+i:{2fc40076-dce1-466d-8136-cb1e31db5c9b}:c:\users\gilles d'huyvetter\desktop\software d'huyvetter beton\bestellingen\dhuyvetterbeton.beton\werven\frmnieuwewerf.resx
+++FrmNieuweWerfPrefab.Designer.cs
+i:{2fc40076-dce1-466d-8136-cb1e31db5c9b}:c:\users\gilles d'huyvetter\desktop\software d'huyvetter beton\bestellingen\dhuyvetterbeton.beton\werven\frmnieuwewerfprefab.designer.cs
+++FrmNieuweWerfPrefab.resx
+i:{2fc40076-dce1-466d-8136-cb1e31db5c9b}:c:\users\gilles d'huyvetter\desktop\software d'huyvetter beton\bestellingen\dhuyvetterbeton.beton\werven\frmnieuwewerfprefab.resx
+++FrmWerfVerwijderen.Designer.cs
+i:{2fc40076-dce1-466d-8136-cb1e31db5c9b}:c:\users\gilles d'huyvetter\desktop\software d'huyvetter beton\bestellingen\dhuyvetterbeton.beton\werven\frmwerfverwijderen.designer.cs
+++FrmWerfVerwijderen.resx
+i:{2fc40076-dce1-466d-8136-cb1e31db5c9b}:c:\users\gilles d'huyvetter\desktop\software d'huyvetter beton\bestellingen\dhuyvetterbeton.beton\werven\frmwerfverwijderen.resx
+++FrmWijzigenWerf.Designer.cs
+i:{2fc40076-dce1-466d-8136-cb1e31db5c9b}:c:\users\gilles d'huyvetter\desktop\software d'huyvetter beton\bestellingen\dhuyvetterbeton.beton\werven\frmwijzigenwerf.designer.cs
+++FrmWijzigenWerf.resx
+i:{2fc40076-dce1-466d-8136-cb1e31db5c9b}:c:\users\gilles d'huyvetter\desktop\software d'huyvetter beton\bestellingen\dhuyvetterbeton.beton\werven\frmwijzigenwerf.resx
+++ucWerven.Designer.cs
+i:{2fc40076-dce1-466d-8136-cb1e31db5c9b}:c:\users\gilles d'huyvetter\desktop\software d'huyvetter beton\bestellingen\dhuyvetterbeton.beton\werven\ucwerven.designer.cs
+++ucWerven.resx
+i:{2fc40076-dce1-466d-8136-cb1e31db5c9b}:c:\users\gilles d'huyvetter\desktop\software d'huyvetter beton\bestellingen\dhuyvetterbeton.beton\werven\ucwerven.resx
+++FrmDetailBedrijf.Designer.cs
+i:{2fc40076-dce1-466d-8136-cb1e31db5c9b}:c:\users\gilles d'huyvetter\desktop\software d'huyvetter beton\bestellingen\dhuyvetterbeton.beton\klanten\tools\frmdetailbedrijf.designer.cs
+++FrmDetailBedrijf.resx
+i:{2fc40076-dce1-466d-8136-cb1e31db5c9b}:c:\users\gilles d'huyvetter\desktop\software d'huyvetter beton\bestellingen\dhuyvetterbeton.beton\klanten\tools\frmdetailbedrijf.resx
