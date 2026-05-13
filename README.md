@@ -386,4 +386,3 @@ Dit project werd volledig zelfstandig ontwikkeld door **Gilles D'huyvetter** als
 
 ---
 
-*Developed with ❤️ for D'huyvetter Beton*
