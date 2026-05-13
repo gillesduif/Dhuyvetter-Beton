@@ -1,4 +1,4 @@
-# Dhuyvetter Beton — Orderbeheer & Bedrijfsbeheerprogramma
+# Dhuyvetter Beton - Orderbeheer & Bedrijfsbeheerprogramma
 
 > Een volledig productierijpe Windows desktop applicatie ontwikkeld als schoolverlater voor **D'huyvetter Beton**, een betoncentrale. Het systeem vervangt de volledige administratieve en operationele workflow van het bedrijf: van bestellingen en facturatie tot personeelsplanning en SMS-communicatie.
 
